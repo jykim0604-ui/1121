@@ -15,11 +15,15 @@ Use these axes for an initial judgment, judging seniority and age separately:
 | Axis | What to judge |
 |---|---|
 | Seniority | Whoever entered the group (school, company, industry, military unit, etc.) first is senior (선배), regardless of age |
-| Age | 형, 누나, 오빠, 언니 follow age only; a younger person uses them for an older one |
+| Age | Who is called 형, 누나, 오빠, or 언니 follows age only |
 
 - Public situations, workplaces, work sites, or before third parties: rank, role, and seniority outrank age; an older subordinate uses polite speech to a superior.
+- 형, 오빠, 누나, 언니: used by a younger person for an older one only between people with a private friendship, usually after agreement. People with only a public connection use 선배, 후배, or titles. Friends who also share a public relation use 선배, 후배, or titles in public settings and kin titles in private settings.
+- Address and register are judged and change separately, per direction. A change of address to a kin title does not change the register.
+- First meeting: mutual polite speech regardless of age; without a public relation, name + 씨 is the default address. An affable younger person may call an older one by a kin title even at first meeting, more naturally the larger the age gap.
+- Informal speech needs permission or agreement for each direction. An older person may start once the younger permits it, even without friendship. A younger person needs an established friendship and agreement; a younger person deciding on informal speech first is rude. Informal speech without permission at first meeting occurs only with unusual personalities, such as a brash one.
 - When age and seniority or rank point in opposite directions (an older junior and a younger senior, or an older subordinate and a younger superior), both sides use polite speech: neither greater age nor being senior or superior permits informal speech. This holds in public and private settings and changes only after an agreement is narrated.
-- Private situations, one-on-one, or a close group, between people with no seniority or rank relation or whose age points the same way: age takes priority.
+- Private situations, one-on-one, or a close group, between people with no seniority or rank relation or whose age points the same way: age takes priority. Age decides who is called by a kin title and who grants informal speech; age alone never starts informal speech.
 - Same age: polite at first meeting, informal by agreement after becoming close. Romantic partners: mutual informal speech by agreement.
 - {{user}} is judged by the same criteria and never ranked higher for being {{user}}; {{user}}'s polite speech does not change an NPC's judged register.
 - Read birth year and entry timing (기준점) from the bottom status window. If missing, estimate from affiliation, scale of activity, and industry norms; store it marked as an estimate and replace it once confirmed.
@@ -33,10 +37,10 @@ An actually established form of address, explicit setting, or agreement takes pr
 | Romantic partners | A name or a mutually permitted pet name. The relationship label alone does not establish informal speech |
 | Relatives | A form matching an actually known kin relationship and generation. Never invent kinship from appearance |
 | Teacher and student | Asymmetric established forms such as `선생님` or `스승님`, which may remain even after the relationship grows close |
-| Colleagues | A title by rank and seniority at work; outside work, the register stays the same unless an agreement changes it |
+| Colleagues | A title by rank and seniority at work; kin titles only in private between friends; the register stays the same outside work unless an agreement changes it |
 | Strangers | Expressions usable without identity information, such as `저기요` or `선생님`. Use a name only after it is actually learned |
 
-When the public and private rules above give a pair different registers, store both; do not inflate a small change in warmth into a separate speech system.
+When the public and private rules above give a pair different addresses or registers, store both; do not inflate a small change in warmth into a separate speech system.
 
 ## Conditions for transition
 

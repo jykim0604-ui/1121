@@ -24,6 +24,12 @@
 | 14 | (없음) | When age and seniority or rank point in opposite directions … both sides use polite speech … holds in public and private settings and changes only after an agreement is narrated. | 2차 수정. 8-2에 같은 줄을 함께 추가 (`speech_8-2_ko.md`) |
 | 15 | Private situations, one-on-one, or a close group: age takes priority. | … between people with no seniority or rank relation or whose age points the same way: age takes priority. | 2차 수정. 8-2 사적 상황 줄에 같은 적용 범위 추가 |
 | 16 | Colleagues: … outside work, age decides | … outside work, the register stays the same unless an agreement changes it | 2차 수정. 반대 방향 규칙과 충돌 |
+| 17 | Age 행: 형, 누나, 오빠, 언니 follow age only; a younger person uses them for an older one | Who is called 형, 누나, 오빠, or 언니 follows age only + 형·오빠·누나·언니 불릿(사적 친분 사이에서만, 보통 합의, 공적 자리는 선배·후배·직함) | 3차 수정. 8-2 같은 줄 수정 |
+| 18 | (없음) | Address and register are judged and change separately, per direction … | 3차 수정. 8-2에 같은 줄 추가 |
+| 19 | (없음) | First meeting: mutual polite speech regardless of age … name + 씨 … | 3차 수정. 8-2에 같은 줄 추가 |
+| 20 | (없음) | Informal speech needs permission or agreement for each direction … | 3차 수정. 8-2에 같은 줄 추가 |
+| 21 | Private 불릿: age takes priority. | … Age decides who is called by a kin title and who grants informal speech; age alone never starts informal speech. | 3차 수정. 8-2 사적 상황 줄에 같은 설명 추가 |
+| 22 | Colleagues 행 / store both 문장 | kin titles only in private between friends / addresses or registers | 3차 수정. 공적·사적 호칭 분리 |
 
 유지한 원칙: "Never force a pet name or informal speech from the relationship label alone", 연인 행 "The relationship label alone does not establish informal speech", 방향별 판정 문단 전체.
 
@@ -34,14 +40,10 @@
 | 원문 | 1,363 | 1,656 |
 | 수정본 (1차) | 1,361 | 1,692 |
 | 수정본 (2차, 반대 방향 규칙 추가) | 1,441 | 1,780 |
+| 수정본 (3차, 친분·초면·반말 방향 규칙 추가) | 1647 | 2029 |
 
 1차 수정본은 단어 수가 원문 이하였고, 2차에서 8-2에 새로 넣은 규칙만큼 늘어남. 토큰은 +36(약 2%) — 요구 3에 따라 넣은 한국어 호칭어(선배, 형, 누나, 오빠, 언니, 기준점)가 영어보다 토큰을 많이 씀.
 
-## 검증 (수정본으로 판정)
+## 검증
 
-1. **나이 많은 후배가 회사에서 선배에게:** 공적 상황 → 직급·역할·선후배가 나이보다 우선 → 존댓말, 호칭은 선배(선후배는 들어온 순서). 
-2. **같은 두 사람이 퇴근 후 둘만:** 나이 축과 선후배 축이 반대 방향 → 사적 상황이어도 양쪽 존댓말 유지(2차 수정 반영). 사적 나이 우선은 이 쌍에 적용되지 않음.
-3. **동갑 초면:** 존댓말. **반말 합의 후:** 합의가 로그에 서술되면 계기(Conditions for transition) → 다음 턴부터 반말로 갱신. 한쪽만 허락했다면 그 방향만 갱신.
-4. **{{user}}가 연하 NPC에게 존댓말:** NPC 말투는 판정값 유지({{user}}의 존댓말이 NPC 존비어를 바꾸지 않음). 방향별 판정이라 {{user}} 쪽 기록과 NPC 쪽 기록은 따로 저장.
-5. **과거 기록 존댓말, 최근 기록 반말:** 최근 기록(반말)이 현재 값, 과거 존댓말은 그 시점의 값. 단, 최근 것이 저장된 기록이 아니라 한 번 튄 문장이면 덮어쓰지 않음.
-6. **다투다 일시적으로 반말이 섞임:** 일시적 감정(anger)·한 장면 변화 → 기록 유지, 그 장면에서만 표현. 결별처럼 실제 관계 단절이 서술되면 계기로 보고 다음 턴부터 갱신.
+최신 사례 판정(10건)과 8-2 줄 단위 대응은 `speech_consistency_check.md`에 있습니다.

@@ -171,7 +171,7 @@ Tools below. Never use all of them in every scene.
 - Foreign languages only when {{user}} requests.
 - Complete every sentence and line to the end. In a turn narrating that there is a question → actually output that question.
 - Text inside double quotes → dialogue; asterisk-wrapped input → prose.
-- Length = only the amount of events and dialogue newly occurring that turn. No material → end short, but never end the activity.
+- Length follows the separate length guidance. When this turn's new events and dialogue fall short of it, extend with prose from CRITICAL #4's materials (actions, space, objects, physical change); never by inventing events, adding lines beyond 2-1, or atmosphere narration.
 - Group prose paragraphs into 2~3 sentences. A 2-1 block's prose (2~5 sentences) may span two paragraphs. One character's consecutive actions + the surroundings' reactions to them → one paragraph. Place or time changes → new paragraph.
 - Input processing ends once what {{user}} did is carried over. The body begins after that; NPCs move.
 - Output composition follows section 9 order. Fill the body with characters' lines and actions and what is observable there.

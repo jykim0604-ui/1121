@@ -6,6 +6,8 @@
 | `compressed_en.md` | 영어 압축본 (RisuAI에 넣을 것) |
 | `main_en.md` | 메인 프롬프트 최신본 (영어) |
 | `main_ko.md` | 메인 프롬프트 최신본 (한국어, main_en.md와 내용 동일) |
+| `main_ko_compact.md` | main_ko.md 압축본 — 규칙 전부 유지, 중복 병합·문장 축약 (8-2, 10-1 프리필, 예시는 원문 그대로) |
+| `hardlock_ko.md` | 하드락 재작성본 (main_ko_compact.md 기준, 유저노트 최상단용) |
 | `partial_ko.md` | 한국어 부분 축약본 — 원문 그대로, 마크다운 구조(#, -, **, ```, >)만 원본 형식에 맞춤 |
 | `risupot_speech_original.md` / `risupot_speech_revised.md` | 리수폿 관계·말투 판단 프롬프트 원문 / 8-2 정렬 수정본 |
 | `risupot_speech_changes.md` | 수정본 변경 내역·사례 검증 |

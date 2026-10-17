@@ -5,6 +5,10 @@
 | `original_ko.md` | 원본 (한국어) |
 | `compressed_en.md` | 영어 압축본 (RisuAI에 넣을 것) |
 | `partial_ko.md` | 한국어 부분 축약본 — 원문 그대로, 마크다운 구조(#, -, **, ```, >)만 원본 형식에 맞춤 |
+| `risupot_speech_original.md` / `risupot_speech_revised.md` | 리수폿 관계·말투 판단 프롬프트 원문 / 8-2 정렬 수정본 |
+| `risupot_speech_changes.md` | 수정본 변경 내역·사례 검증 |
+| `speech_8-2_ko.md` | 반대 방향 규칙을 넣은 8-2 (메인 프롬프트에 반영할 것) |
+| `speech_consistency_check.md` | 8-2 ↔ 플러그인 일치 검증 |
 
 ## 한글 유지 범위
 - 8-2 호칭 및 존비어 본문 전체

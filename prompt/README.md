@@ -10,7 +10,8 @@
 | `main_v2_ko.md` | 단독용 v2 — 프리셋 내부 구조(원칙→역할→원리→고유 규칙→출력→응답 설정)로 재구성, 프리필 제거 |
 | `ultralight_ko.md` | 초경량 버전 — 외부 프리셋과 함께 쓰는 운영자 지시(팩션·정보 격리·인용·표기·대화 리듬·음악·호칭·상태창) |
 | `hardlock_lite_ko.md` | 경량화용 하드락 |
-| `headline_ko.md` | 헤드라인 별도 프롬프트 (매 턴 출력 + 날짜 기준 웹 검색 포함) |
+| `headline_ko.md` | 헤드라인 별도 프롬프트 (연예계 거시 동향, 장소 조건부, 검색 없음) |
+| `headline_search_ko.md` | 헤드라인 검색형 (매 턴 출력 + 날짜·장소 기준 웹 검색) — 보관용 |
 | `hardlock_ko.md` | 하드락 재작성본 (main_ko_compact.md 기준, 유저노트 최상단용) |
 | `partial_ko.md` | 한국어 부분 축약본 — 원문 그대로, 마크다운 구조(#, -, **, ```, >)만 원본 형식에 맞춤 |
 | `risupot_speech_original.md` / `risupot_speech_revised.md` | 리수폿 관계·말투 판단 프롬프트 원문 / 8-2 정렬 수정본 |

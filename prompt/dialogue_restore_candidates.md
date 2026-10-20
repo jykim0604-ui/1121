@@ -71,3 +71,56 @@
 - A (입말): 5-2 대사 표기
 - B, C (인물별 말투, 반응 분화): 3. 인물 아래 3-3
 - E (견본): 넣는다면 3-3 끝
+
+---
+
+# 프리셋 충돌 검토
+
+검토한 프리셋 섹션: [Characters, Tone and Focus], [Writing the Passage], [Sources and Continuity],
+[People, Minds and Bodies], [Language and Voice], [Before writing]
+
+## 충돌로 제외
+
+| # | 후보 | 부딪치는 프리셋 원문 |
+|---|---|---|
+| 2 (뒷부분) | 한 문장에 한 가지만 담고, 이유와 결론은 다음 문장으로 미룬다 | "Let a speaker finish a connected thought instead of splitting it into prompted one-line answers." |
+| 6 (뒷부분) | 유머는 상황, 관계, 어색함, 핀잔, 타이밍에서 나온다 | "Do not default to banter. Teasing, quips, comic reactions and rapid back-and-forth belong to characters and scenes that are actually comic." |
+| 7 | 모든 문장과 대사는 끝까지 완결한다 | "Preserve rhetorical variety and incomplete speech", "leave an unreached suffix unwritten" |
+| 14 | 반응은 침묵, 절제, 과잉 정중, 회피, 유머 … 중에 분산한다 | "Keep each character as the sources establish them … Do not raise anyone's … humor … beyond what the sources … support." (성격보다 목록 분산이 앞서게 됨) |
+| 17 | Anti-Deification (질문, 반박, 농담, 핀잔으로 먼저 흐름을 만든다) | "Do not default to banter." 주도권은 Story drive와 상호작용 모드가 정함 |
+| 18 | 한 군데서 어긋난다 | "Do not script a successful performance and decorate it with one mistake", 성격 충실 원칙 |
+| 19 | 기존 대사와 다른 발화, 이전 대화 재화제 금지 | 프리셋 퇴고 원칙과 중복, "The operator may want to spend many turns inside one event." |
+
+## 남는 것
+
+| # | 후보 | 비고 |
+|---|---|---|
+| 1 | 한국어 화자가 실제로 말하고 쓸 법한 문장, 인물이 그 순간 내뱉을 반응문 | 충돌 없음 |
+| 2 (앞부분) | 대사는 반응이 먼저다 | 충돌 없음 |
+| 3 | 호흡과 끊김, 호명은 입말 리듬 위치 | 충돌 없음 |
+| 4 | 대사는 입말 종결어미로 끝낸다 | "끝맺는 대사는"으로 범위를 좁혀야 끊긴 말 원칙과 부딪치지 않음 |
+| 5 | 한자어와 외래어가 실제 입말이면 그대로 | 충돌 없음 (선택) |
+| 6 (앞부분) | 대사는 읽기 쉬운 입말 리듬을 우선한다 | 충돌 없음 |
+| 8 | 일상 대화의 리듬을 기조로 성격과 맥락에 맞게 | 프리셋 성격 충실 원칙과 중복 (선택) |
+| 9 | 성격은 단어 선택, 말속도, 침묵, 말끝 … 으로 표현 | 프리셋에 없는 "말끝, 단어 선택"을 보탬 |
+| 10, 11 | Anti-Parrot | 프리셋에 해당 규칙 없음 |
+| 12 | 업계·시대에 맞게 말하고 행동 | 충돌 없음 |
+| 13 | 같은 사건에도 반응 결이 달라진다 | 프리셋과 중복 (선택) |
+| 15 | Anti-Bleeding | 충돌 없음 |
+| 16 | Anti-Hivemind | 충돌 없음 |
+| 20, 21 | 대사 견본 | 충돌 없음. 프리셋도 목소리 견본을 근거로 인정함 |
+
+## 검토 중 발견: 기존 울트라라이트 4-3과 프리셋의 정면 충돌
+
+후보는 아니지만, 지금 울트라라이트에 있는 4-3 대화 리듬이 프리셋과 정면으로 부딪친다.
+
+| 울트라라이트 4-3 | 프리셋 |
+|---|---|
+| "주고받는 리듬이 기본 형식이다", "발화마다 한 문장이나 짧은 구절로" | "Volleys of short questions met by denials, reversals, quips or echoes are not the default way to sustain a scene … use a rapid rhythm only where the work or the moment calls for it." |
+| 받는 방식: 반박, 정정, 맞장구, 말꼬리 잡기, 놀림 | "Do not default to banter." / [Before writing] "add no banter … the sources and causes do not support." |
+| 발화마다 한 문장 | "Give each voice its own length …" |
+| | [Writing the Passage] 퇴고: "Remove … interchangeable repartee" |
+
+울트라라이트는 운영자 지시라 우선하므로 모델은 짧은 받아치기를 쓰되, 프리셋이 요구하는
+"인물마다 다른 길이"와 "만담 지양"을 그 안에서 동시에 맞추려 한다. 그 결과 길이도 어미도
+같은 한 줄 대사가 나올 가능성이 크다. 예전 단독 프롬프트에는 이 반대 원칙이 없었다.

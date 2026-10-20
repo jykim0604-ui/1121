@@ -6,9 +6,9 @@
 
 | 파일 | 역할 |
 |---|---|
-| s12_b0.md | B0. 현재 울트라라이트 1-1, 1-2, 2-1 원문 |
-| s12_refine.md | 1단계 REFINE 결과 (C1~C3) |
-| s12_compress.md | 2단계 COMPRESS 결과 (refine을 부모로) |
+| (삭제됨) | B0는 울트라라이트 원문 1-1, 1-2, 2-1 |
+| refine1.md | 1단계 REFINE 결과 (C1~C3) |
+| compress1.md | 2단계 COMPRESS 결과 (refine을 부모로) |
 
 ## 토큰
 

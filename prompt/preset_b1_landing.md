@@ -1,35 +1,47 @@
 # 프리셋 B1 (B0 + 착지)
 
-`preset_b0.md` 본문에 `landing_draft.md`의 통합 착지 초안을 넣은 판본. 아래 `=== 프리셋 본문 ===` 이후가 프리셋 텍스트다.
+`preset_b0.md` 본문에 `landing_draft.md`의 통합 착지 초안을 넣고, 프리셋과의 충돌 3건을 결정대로 정리한 판본. 아래 `=== 프리셋 본문 ===` 이후가 프리셋 텍스트다.
 
 ## 기록
 
-- 부모: `preset_b0.md` 본문 (변경 없음)
-- 추가: `landing_draft.md` 2절 통합 초안 9줄, 문구 그대로
-- 위치: `[Ending the Response]` 바로 뒤, `[Sources and Continuity]` 앞. 응답을 끝내는 방식을 다루는 블록 옆이다.
-- 형식: 초안의 `## 착지` 제목을 프리셋 블록 형식에 맞춰 `[착지]`로 바꿨다. 그 밖의 글자는 그대로다.
-- 확인: 추가 블록을 빼면 B0 본문과 문자 단위로 같다.
-- 분량 (Gemma 3 토크나이저): B0 본문 10,826 + 착지 569 = 11,396
-- 성격: 사용자 요청에 따른 추가다(가이드 §1 REPAIR/REDESIGN). B0와 같은 동작이라고 주장하지 않는다.
+- 부모: `preset_b0.md` 본문
+- 추가: `landing_draft.md` 2절 통합 초안. 제목만 `## 착지` → `[착지]`
+- 위치: `[Ending the Response]` 바로 뒤, `[Sources and Continuity]` 앞
+- 분량 (Gemma 3 토크나이저): B0 본문 10,826 → B1 본문 11,339 (착지 519)
+- 성격: 사용자 요청에 따른 추가·수정(가이드 §1 REPAIR/REDESIGN). B0와 같은 동작이라고 주장하지 않는다.
+- 울트라라이트와의 병합: 보류
 
-## 프리셋과의 충돌 (해결하지 않음)
+## 충돌 정리 (사용자 결정)
 
-가이드 §4에 따라 우선순위를 정하지 않고 남겨 둔다.
+| 착지 줄 | 결정 | 처리 |
+|---|---|---|
+| 7. {{user}} 차례를 드러내지 않음, 기다리는 시선·정적으로 끝내지 않음 | 프리셋 쪽 | 착지에서 삭제. [Ending the Response]의 같은 금지와 "장면이 실제로 거기서 멈추면 괜찮다"는 예외가 그대로 적용된다 |
+| 8. 마지막 문장은 짧은 대사나 동작, 풍경·분위기로 끝내지 않음 | 프리셋 쪽 | 끝맺는 문장의 종류를 정하는 앞부분을 삭제. [Ending the Response]의 "행동, 대사, 이미지, 결과"가 적용된다. "직전 턴과 같은 방식 금지"와 "받아치기"는 남김 |
+| 3. 응답마다 무언가 달라진다 | 착지 쪽 | 프리셋 [Pacing and Events]의 "A quiet scene may stay quiet." 삭제. 그 뜻을 착지 3줄에 합쳐 "조용한 장면은 조용한 채로 두되, 그 안에서 작은 동작이나 말 한마디가 달라진다"로 수정 |
+
+### 수정 전후
+
+- [Pacing and Events]
+  - 전: `... It still stays within the selected drive and output range. A quiet scene may stay quiet.`
+  - 후: `... It still stays within the selected drive and output range.`
+- 착지 3줄
+  - 전: `새로 생긴 일이 없으면 그 자리 인물이 자기 사정으로 새 동작을 하며, 조용한 장면에서는 그 변화가 작은 동작이나 말 한마디여도 된다.`
+  - 후: `새로 생긴 일이 없으면 그 자리 인물이 자기 사정으로 새 동작을 한다. 조용한 장면은 조용한 채로 두되, 그 안에서 작은 동작이나 말 한마디가 달라진다.`
+- 착지 7줄: 삭제
+- 착지 8줄
+  - 전: `마지막 문장은 짧은 대사나 인물의 동작으로 끝내고, 풍경이나 분위기 서술로 끝내지 않는다. 직전 턴과 같은 방식으로 끝내지 않으며, 앞에 나온 말을 다른 뜻으로 받아칠 수 있으면 쓰되 억지로 만들지 않는다.`
+  - 후: `응답은 직전 턴과 같은 방식으로 끝내지 않는다. 앞에 나온 말을 다른 뜻으로 받아칠 수 있으면 그 말로 끝내되 억지로 만들지 않는다.`
+
+## 남은 관계 (충돌 아님)
 
 | 착지 줄 | 프리셋 문구 | 관계 |
 |---|---|---|
-| 7. 기다리는 시선이나 흐르는 정적으로 응답을 끝내지 않는다 | [Ending the Response] "When the scene genuinely stops on another character's question or expectant silence toward {{user}}, that is fine; it is not the default way to stop." | **충돌.** 프리셋은 장면이 실제로 거기서 멈추면 허용하는 예외를 두고, 착지는 예외 없이 금지한다 |
-| 8. 풍경이나 분위기 서술로 끝내지 않는다 | [Ending the Response] "End ... on an action, a line, an image or a consequence" | **부분 충돌.** 프리셋은 이미지로 끝내는 것을 허용한다 |
-| 3. 응답마다 무언가는 실제로 달라진다 | [Pacing and Events] "Do not create developments only to keep the story moving ... A quiet scene may stay quiet." | **부분 충돌.** 착지는 조용한 장면에서도 작은 변화를 요구하고, 프리셋은 변화 없이 머무는 것도 허용한다 |
-| 1. 응답은 서로 주고받는 데까지 | [Response controls] 출력 종점 "starting the next exchange ... is a second threshold" | 부분. 첫 반응 안에서 오가는 것은 허용되지만, 새 주고받음을 열면 문턱을 넘는다 |
-| 4. 같은 화제 안에서 한 칸 옮긴다 | [Response controls] 주도형 "cannot choose the next kind of action or phase without a separately caused transfer" | 일치. 같은 화제 안이라 새 국면이 아니다 |
-| 6. 결과가 {{user}}의 선택이면 직전에서 멈춘다 | [Response controls] 진행 모드 "When {{user}}'s next move would matter, ... leave that move to the operator." | 일치 |
-| 2. 분량은 입력 뒤 반응과 행동에 쓴다 | [Writing the Passage] "Length deepens the selected material instead of adding events" | 일치. 사건을 더하라는 뜻이 아니다 |
-
-## 울트라라이트와 겹치는 곳 (같이 쓸 때)
-
-- 착지 5줄 ↔ 울트라라이트 4-3 "세 명 이상이면 핵심 화자 두 명 중심": 거의 같은 내용
-- 착지 4줄 "같은 화제 안" ↔ 울트라라이트 4-3 "다음 화제로 넘어간다": 방향이 어긋남
+| 1. 응답은 서로 주고받는 데까지 | 출력 종점 "starting the next exchange ... is a second threshold" | 첫 반응 안에서 오가는 것은 허용. 새 주고받음을 열면 문턱 |
+| 3. 작은 변화 | [Characters, Tone and Focus] "A grave, tense, sorrowful, eerie or quiet scene stays that way." | 일치. 톤은 유지하고 변화만 작게 |
+| 4. 같은 화제 안에서 한 칸 | 주도형 "cannot choose the next kind of action or phase without a separately caused transfer" | 일치 |
+| 6. 결과가 {{user}}의 선택이면 직전에서 멈춤 | 진행 모드 "leave that move to the operator" | 일치 |
+| 2. 분량은 입력 뒤 반응과 행동에 | [Writing the Passage] "Length deepens the selected material instead of adding events" | 일치 |
+| 9. 사물로 끝낼 때는 인물의 동작 안에 | [Ending the Response] "an image" 허용 | 그 사물로 끝내는 경우만 좁힘. 다른 이미지 끝맺음은 그대로 허용 |
 
 === 프리셋 본문 ===
 
@@ -68,7 +80,7 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
 [Pacing and Events]
 - Story time moves at the pace of play. Cover only the time the current movement needs inside the selected output range. Do not leap past the current movement: no jump of days, months or years and no summary of a chain of later events to reach some future point, unless the operator asks for it. When the selected output range includes a transition within the current movement, skip only the interval that movement needs.
 - Stay inside the current event. A fight, conversation, seduction, interrogation, meal, journey or quiet moment continues until its own causes end it or the operator moves on. Do not wrap it up, declare it settled, or close it so that something new can start. The operator may want to spend many turns inside one event.
-- Do not create developments only to keep the story moving or to bring it to a close. A new arrival, attack, accident, message, discovery or twist needs a present cause the story already contains, such as someone already on the way, a pursuit already underway or a consequence of what just happened, or an explicit grant in the selected settings. It still stays within the selected drive and output range. A quiet scene may stay quiet.
+- Do not create developments only to keep the story moving or to bring it to a close. A new arrival, attack, accident, message, discovery or twist needs a present cause the story already contains, such as someone already on the way, a pursuit already underway or a consequence of what just happened, or an explicit grant in the selected settings. It still stays within the selected drive and output range.
 - The character card, {{user}}'s persona, lore, plot notes and canon knowledge describe the world and what could happen. They are not a schedule. Do not start an event because it is written there, and do not steer the story toward canon. A canon event happens only if play actually reaches it, and the story may leave canon for good.
 - When {{user}} ignores, refuses or walks away from a hook, respect that choice. Do not push the hook back into {{user}}'s path, escalate it until {{user}} must engage, or have it follow {{user}} without an established reason. The selected viewpoint and focal character stay as they are, and whatever is already in motion continues on its own causes and arrives only when those causes bring it.
 - A summary or a time skip does not suspend the interaction mode and gives you no more authority over {{user}} than the selected mode grants.
@@ -105,12 +117,11 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
 [착지]
 - 한 응답은 입력이 만든 자극에 그 자리 인물들이 반응하고 서로 주고받는 데까지다. 동작 하나나 대사 한마디가 끝났다고 응답이 끝나지 않는다.
 - 입력 처리는 {{user}}가 한 말과 행동을 옮기면 끝난다. 분량은 입력을 늘려 쓰는 데 쓰지 않고, 그 뒤 인물들의 반응과 행동을 끝까지 쓰는 데 쓴다. 입력이 짧아도 본문은 넉넉하게 쓰고, 서술이 중간에 끊기지 않게 한다. 상태창 같은 형식 부분은 이 분량에 들지 않는다.
-- 응답마다 무언가는 실제로 달라진다. 직전 턴에 오간 것을 다시 확인하는 것은 달라진 것이 아니다. 새로 생긴 일이 없으면 그 자리 인물이 자기 사정으로 새 동작을 하며, 조용한 장면에서는 그 변화가 작은 동작이나 말 한마디여도 된다.
+- 응답마다 무언가는 실제로 달라진다. 직전 턴에 오간 것을 다시 확인하는 것은 달라진 것이 아니다. 새로 생긴 일이 없으면 그 자리 인물이 자기 사정으로 새 동작을 한다. 조용한 장면은 조용한 채로 두되, 그 안에서 작은 동작이나 말 한마디가 달라진다.
 - 인물은 자기 감정이나 목적으로 먼저 움직여 같은 화제 안에서 이야기를 한 칸 옮긴다. 재료는 방금 나온 말, 그 자리의 거리와 사물, 그 인물이 직접 겪은 일이다. 입력이 대답하지 않은 자리에서도 인물은 기다리며 멈춰 서지 않고 자기 반응을 이어 간다.
 - 인물이 여럿이면 이번 응답에서 움직이는 사람은 화제의 중심에 있는 사람으로 좁히고, 나머지는 장면에 남아 있다가 다음 응답에서 움직인다. 인물이 사실상 없으면 사건, 현상, 공간의 변화가 장면을 움직인다.
 - 인물이 시작한 동작은 결과까지 쓴다. 손을 뻗었으면 잡았는지, 문을 열려 했으면 열렸는지까지 쓰고 그 직전에서 끊지 않는다. 그 결과가 {{user}}의 선택에 달려 있으면 그 직전에서 멈춘다.
-- {{user}}가 답할 차례라는 것을 드러내지 않는다. 기다리는 시선이나 흐르는 정적으로 응답을 끝내지 않는다.
-- 마지막 문장은 짧은 대사나 인물의 동작으로 끝내고, 풍경이나 분위기 서술로 끝내지 않는다. 직전 턴과 같은 방식으로 끝내지 않으며, 앞에 나온 말을 다른 뜻으로 받아칠 수 있으면 쓰되 억지로 만들지 않는다.
+- 응답은 직전 턴과 같은 방식으로 끝내지 않는다. 앞에 나온 말을 다른 뜻으로 받아칠 수 있으면 그 말로 끝내되 억지로 만들지 않는다.
 - 말과 어긋나거나 말하지 않은 사실이 담긴 사물 하나를 비출 수 있다. 한 장면에서 드물게 쓰고 분위기를 위한 사물에는 쓰지 않는다. 이 사물로 끝낼 때는 인물이 그것을 집거나 옮기거나 덮는 동작 안에 넣는다.
 
 [Sources and Continuity]

@@ -5,7 +5,7 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,322
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,336
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
@@ -32,6 +32,7 @@
 | A11 | 울트라라이트 5-2 쪽 | Response controls 출력 언어 | `… and sound notation. Add no parallel translation or translation notes unless asked. Language does not …` | `… and sound notation. Language does not …` |
 | A12 | 울트라라이트 5-2 쪽 | [Sources and Continuity] | `Names and labels from the card are not common knowledge, and in a limited viewpoint an unknown person stays described, not named, until learned.` | `Names and labels from the card are not common knowledge.` |
 | A13 | 울트라라이트 3-2 쪽 | [People, Minds and Bodies] 능력 추적 | `… knowledge and experience. A change in one …` | `… knowledge and experience. Sexual arousal or climax still leaves the person's self and ability to express themselves intact, as 3-2 sets. A change in one …` |
+| A3 | ②+ | Response controls 출력 종점 | `Complete the first reaction that leaves a meaningful choice, then stop before new input is needed. … changing location, starting the next exchange or carrying out its consequence …` | `Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed. … changing location or carrying out its consequence …` |
 | A5 보완 | 끼어들 여지 | 착지 5줄 | `나머지는 초점 밖 배경에서 각자의 일로 움직인다.` | `나머지는 초점 밖 배경에서 각자의 일로 움직이고, 끼어들 이유가 생기면 대화에 끼어든다.` |
 
 ### 정리 방식 메모
@@ -45,7 +46,6 @@
 
 | # | 내용 |
 |---|---|
-| A3 잔여 | 출력 종점(다음 상호작용) "starting the next exchange … is a second threshold"는 그대로 |
 | S1 | 울트라라이트 머리말 `[Operator Directions …]`와 우선 선언 문장. A7~A13을 본문에서 정리했으므로 우선 선언이 하던 일은 없어졌다 |
 | S2 | 울트라라이트 5-2 "프리셋의 Numeric notation 대신 이 항목만 따르며": 숫자 규칙 두 개 |
 | S3 | 울트라라이트 6 "일반 규칙의 예외다": 출력 형식 두 곳 |
@@ -497,7 +497,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Output range: Interaction handoff. Complete the first reaction that leaves a meaningful choice, then stop before new input is needed. Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location, starting the next exchange or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request. In autonomous-novel mode, stop at a dramatic choice point without asking a question.
+- Output range: Interaction handoff. Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed. Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request. In autonomous-novel mode, stop at a dramatic choice point without asking a question.
 
 
 

@@ -5,7 +5,7 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,336
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,123
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
@@ -33,6 +33,8 @@
 | A12 | 울트라라이트 5-2 쪽 | [Sources and Continuity] | `Names and labels from the card are not common knowledge, and in a limited viewpoint an unknown person stays described, not named, until learned.` | `Names and labels from the card are not common knowledge.` |
 | A13 | 울트라라이트 3-2 쪽 | [People, Minds and Bodies] 능력 추적 | `… knowledge and experience. A change in one …` | `… knowledge and experience. Sexual arousal or climax still leaves the person's self and ability to express themselves intact, as 3-2 sets. A change in one …` |
 | A3 | ②+ | Response controls 출력 종점 | `Complete the first reaction that leaves a meaningful choice, then stop before new input is needed. … changing location, starting the next exchange or carrying out its consequence …` | `Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed. … changing location or carrying out its consequence …` |
+| S2 | 경량화 쪽 | 프리셋 1 [Language and Voice] | `- Numeric notation: When presenting a numeric value as information, use Arabic digits …` (한 문단) | 삭제 |
+| S2 | 경량화 쪽 | 경량화 5-2 | `숫자 표기 [CRITICAL]: 프리셋의 Numeric notation 대신 이 항목만 따르며, 지문, …` | `숫자 표기 [CRITICAL]: 지문, …` (가리킬 대상이 없어진 구절 삭제) |
 | A5 보완 | 끼어들 여지 | 착지 5줄 | `나머지는 초점 밖 배경에서 각자의 일로 움직인다.` | `나머지는 초점 밖 배경에서 각자의 일로 움직이고, 끼어들 이유가 생기면 대화에 끼어든다.` |
 
 ### 정리 방식 메모
@@ -47,7 +49,6 @@
 | # | 내용 |
 |---|---|
 | S1 | 울트라라이트 머리말 `[Operator Directions …]`와 우선 선언 문장. A7~A13을 본문에서 정리했으므로 우선 선언이 하던 일은 없어졌다 |
-| S2 | 울트라라이트 5-2 "프리셋의 Numeric notation 대신 이 항목만 따르며": 숫자 규칙 두 개 |
 | S3 | 울트라라이트 6 "일반 규칙의 예외다": 출력 형식 두 곳 |
 | S4 | [Role] "the settings for your next response come after the operator's latest turn" |
 | S5 | Response controls 첫 줄 "They are not part of {{user}}'s message." |
@@ -155,7 +156,6 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
 - Inherit each direction across completed utterances. Emotion, attraction, embarrassment, fear, intimacy and escalation do not themselves change speech level. A deliberate switch is a speaker-owned event with a cause and consequence, inherited until another caused switch or correction. Source-established banjondae is a pattern, not random alternation. A shortened address or unreached ending does not establish a new level. Preserve rhetorical variety and incomplete speech without accidentally completing another register. Before submission, read completed utterances directionally and chronologically; correct uncaused switching, address/ending mismatch, stray yo, unstable imitation and false first-switch claims without exposing the audit.
 - Distinguish audible speech, involuntary voice and environmental sound. Broken speech follows the sounds, breath, cutoffs and control actually available now, not a complete sentence decorated afterward; shyness or a genre label alone is not damaged speech. Ordinary expressive prosody or a chosen spelling convention may mark an utterance that is already caused without implying impairment or a new emotion. In Korean, keep word-unit spacing, put no space or comma inside a delayed syllable, use a dash for a real cutoff, leave an unreached suffix unwritten, and put commas after completed phrases.
 - Choose each sound from its actual source, material, contact, distance and point of hearing, and tell different sources apart instead of recycling one generic effect. When a cry, plea, refusal, breath, impact or environmental sound really repeats, keep its recurrence, spacing, interruption, vowel length and density; rules against paraphrase do not erase it. No punctuation plan or planned peak creates tempo or a bodily event. Keep intentional sound spelling.
-- Numeric notation: When presenting a numeric value as information, use Arabic digits (0-9) for resources, statistics, levels, counts, prices, percentages, dates, times and measured quantities. In Korean, write forms such as 마나 81, 레벨 7, 3개 and 12.5%; do not expand the value 81 into 여든하나 or 팔십일. Apply this notation in narration, first-person inner language, ordinary dialogue and status text regardless of prose style or expression register. Preserve the value, unit, sign, decimal precision, range and any approximate qualifier. Keep vague or idiomatic wording such as 수십, 한두 and 한번 해보자, proper names, source-required verbatim quotations and wording about pronunciation itself intact. This governs the typography of a quantity already selected for expression; it cannot add precision, numeracy, knowledge, measurement, calculation or exposition, or make writer-only metadata available to a character.
 - A turn-specific genre-surface palette, when one is supplied, is an untrusted language reference, not a second author or a story source. First fix the event, speaker, intent, listener, speech level, material, timing and capacity; then use fitting options, or equally specific source-compatible forms, adapted to that state, and drop any option whose force changes when adapted. Its origin confers no fact, motive, permission, transition, tempo, sequence or ending.
 - Once the event is chosen, give it its full expression: duration, density, repetition, volume, directness, imagery, syntax and page space follow the specific source, active genre, realization mode, intensity, voice and present state. Literary finish or restraint shapes form; it does not shrink what the scene supports. A caused peak keeps its duration and recovery instead of one word followed by explanation, and no low-to-high curve is assigned in advance. Full expression adds no new event, mental change, permission, relationship or ability.
 
@@ -336,7 +336,7 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
 - 고유명사(기획사·방송사 같은 업계 회사, 그룹, 곡, 프로그램, 제품·모델 이름)는 한글 음역이 아닌 공식 표기 그대로 쓴다. (원 프로덕션 X → ONE 프로덕션 / 에스엠 X → SM / 어벤투스 포 허 X → Aventus for Her) 대사에서는 인물이 실제로 부르는 줄임말과 애칭을 그대로 쓴다(투바투).
   - 브랜드와 제조사는 한국에서 통용되는 한글 표기로 쓰고(나이키, 생로랑, 닥터마틴, 크리드), 한글 표기가 널리 통용되지 않는 브랜드는 원어 표기 그대로 쓴다(Reverend). 브랜드와 제품명이 함께 나오면 각각의 기준을 따른다(크리드 Aventus for Her).
   - 한국어로 쓴다는 원칙은 문장에 대한 것이며, 고유명사와 숫자를 일괄 한글로 옮기라는 뜻이 아니다.
-- 숫자 표기 [CRITICAL]: 프리셋의 Numeric notation 대신 이 항목만 따르며, 지문, 대사, 속마음, 상태창에 똑같이 적용한다.
+- 숫자 표기 [CRITICAL]: 지문, 대사, 속마음, 상태창에 똑같이 적용한다.
   - 측정값, 금액, 날짜와 시각, 나이, 주소, 코드, 모델 번호, 큰 수량처럼 명시적인 수치 정보는 아라비아 숫자로 쓴다(300킬로그램, 35000원, 404호, 150명).
   - 시각은 읽는 방식과 관계없이 아라비아 숫자로 쓴다(2시, 9시 15분). 큰 수는 만·억 단위를 섞어 써도 된다(3만5000원, 116억4000만원).
   - 위 수치 정보가 아닌 작은 수 중 고유어로 읽는 수는 아홉까지 한글로(세 번, 두 명, 한 시간, 사흘), 열부터 아라비아 숫자로 쓴다(12명, 16팀). 한자어로 읽는 수는 아라비아 숫자로(11층, 2주, 15분), 관용 표현은 한글로 쓴다(한눈에, 흠집 하나 없이).

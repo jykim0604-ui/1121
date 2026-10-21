@@ -47,16 +47,13 @@
 
 ## 남은 항목
 
-| # | 내용 |
+| # | 상태 |
 |---|---|
-| S1 | 울트라라이트 머리말 `[Operator Directions …]`와 우선 선언 문장. A7~A13을 본문에서 정리했으므로 우선 선언이 하던 일은 없어졌다 |
-| S3 | 울트라라이트 6 "일반 규칙의 예외다": 출력 형식 두 곳 |
-| S4 | [Role] "the settings for your next response come after the operator's latest turn" |
-| S5 | Response controls 첫 줄 "They are not part of {{user}}'s message." |
-| S6 | Charter 권한 순서 |
-| S7 | [Sources and Continuity]의 writer note |
-| S9 | 중복 (중·고교 같은 학년 반말, 말투 방향별 유지, {{user}} 차례 표시 금지) |
-| C2~C3 | 빈 줄, 외부 의존 |
+| S1, S3, S4, S5, S6, S7 | 유지 (프리셋 구조로 먼저 테스트) |
+| S9 중복 | 유지. 압축 단계에서 처리 |
+| S2 재검수 | `b2_review.md` 참고 |
+| C2 빈 줄 | 압축 단계에서 처리 |
+| C3 외부 의존 | 기록만 (헤드라인 로어북, 태그 입력란) |
 
 === 프리셋 본문 ===
 

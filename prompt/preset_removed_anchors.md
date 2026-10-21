@@ -19,11 +19,11 @@
 
 | # | 위치 | 처리 |
 |---|---|---|
-| B1 | [Mask Creative Writing Charter] 첫 문장 | 꺼짐 판본 문장으로 대체 |
+| B1 | [Mask Creative Writing Charter] 첫 문장 | 꺼짐 판본 문장으로 대체 (아래 G에 문장 표시) |
 | B2 | [Mask Creative Writing Charter] `Binding authority:` | 꺼짐 판본 문장으로 대체 |
 | B3 | [Mask Creative Writing Charter] `Danish legal character and medium:` | 항목 전체 빠짐 |
 | B4 | [Mask Creative Writing Charter] `Deliberate noncriminalization:` | 항목 전체 빠짐 |
-| B5 | [Mask Creative Writing Charter] `Creative causality:` 끝 문장 (`Legal classification does not itself create …`) | 문장 빠짐 |
+| B5 | [Mask Creative Writing Charter] `Creative causality:` 끝 문장 | 문장 빠짐 (아래 G에 문장 표시) |
 | B6 | [Boundary Examples] 두 번째 예시 (`Bad response: A text-only fictional request …`) | 예시 전체 빠짐 |
 
 ## C. 토글 분기 제외 (응답 설정, 프리셋 2)
@@ -76,23 +76,64 @@
 | D12 | 장면 속도 | `Scene pacing: Fast. Compress connecting wording …` |
 | D13 | (문체 뒤) | `In this profile, syntax, association, subtext and imagery …` |
 
-## E. 사용자 결정으로 직접 수정한 곳
+## E. 사용자 결정으로 항목째 삭제한 곳
 
-| # | 파일 부분 | 원본 위치 | 앵커 (빠진 조각의 첫머리) | 처리 |
+| # | 파일 부분 | 원본 위치 | 앵커 | 처리 |
 |---|---|---|---|---|
-| E1 | ① | [Pacing and Events] 3번째 항목 끝 | `A quiet scene may stay quiet.` | 문장 삭제 |
-| E2 | ① | [Characters, Tone and Focus] 2번째 항목 끝 | `Silence, stillness and restraint are content.` | 문장 삭제 |
-| E3 | ① | [Characters, Tone and Focus] 3번째 항목 | `… and rapid back-and-forth` | 구절 삭제 |
-| E4 | ① | [Writing the Passage] 4번째 항목 끝 | `; use a rapid rhythm only where …` | 구절 삭제 |
-| E5 | ① | [Writing the Passage] 7번째 항목 | `… facts about the real operator` 뒤 | 예외 구절 추가 (`except … as 3-3 allows`) |
-| E6 | ① | [Sources and Continuity] 4번째 항목 | `, and in a limited viewpoint an unknown person …` | 뒷절 삭제 |
-| E7 | ① | [People, Minds and Bodies] 10번째 항목 | `… knowledge and experience.` 뒤 | 문장 추가 (`Sexual arousal or climax … as 3-2 sets.`) |
-| E8 | ① | [Language and Voice] 2번째 항목 | `Unfamiliarity alone does not override …` | 문장 삭제 |
 | E9 | ① | [Language and Voice] 6번째 항목 | `- Numeric notation:` 항목 전체 | 항목 삭제 (경량화 5-2로 일원화) |
-| E10 | ③ | [Response controls] `- Use the output language for new narration …` 항목 | `Add no parallel translation …` | 문장 삭제 (경량화 5-2로 일원화) |
-| E11 | ③ | [Response controls] `- Continuation point: Follow the input.` 항목 | `When the input states that something is complete …` | 문장 삭제 |
-| E12 | ③ | [Response controls] `- Output range: Interaction handoff.` 항목 | `Complete the first reaction that leaves …` / 문턱 목록의 `starting the next exchange` | 첫 문장 교체, 구절 삭제 |
+
+문장 단위로 빠지거나 바뀐 곳(E1~E8, E10~E12)과 B1, B5는 아래 G에 원래 문장으로 표시했다.
 
 ## F. 원문이 아니었던 것
 
 - `[Output]`과 `[Response controls]` 사이 `---` 한 줄: 붙여 넣을 때 쓴 구분선(사용자 확인). 파일에 없다.
+
+## G. 문장 단위로 빠지거나 바뀐 곳
+
+표기: ~~취소선~~ = 빠진 부분 / → = 바뀐 문장 / **[추가]** = 덧붙인 부분 / `…` = 앞뒤 생략. 원래 문장은 원본 그대로다.
+
+### 프리셋 1 (①)
+
+**B1** — [Mask Creative Writing Charter] 첫 문장 (모델 거부 감소 토글)
+> This Charter governs Mask's creative interpretation~~ and Danish-law classification~~.
+
+**B5** — [Mask Creative Writing Charter] `- Creative causality:` 항목 끝 (모델 거부 감소 토글)
+> … arise from the fictional sources and world state that establish them. ~~Legal classification does not itself create fictional causality, character values, or a replacement story.~~
+
+**E1** — [Pacing and Events] 3번째 항목 끝
+> … It still stays within the selected drive and output range. ~~A quiet scene may stay quiet.~~
+
+**E2** — [Characters, Tone and Focus] 2번째 항목 끝
+> … a character's own dry or dark humor is still theirs. ~~Silence, stillness and restraint are content.~~
+
+**E3** — [Characters, Tone and Focus] 3번째 항목
+> Do not default to banter. ~~Teasing, quips, comic reactions and rapid back-and-forth belong to characters and scenes that are actually comic.~~
+> → **Teasing, quips and comic reactions belong to characters and scenes that are actually comic.**
+
+**E4** — [Writing the Passage] 4번째 항목 끝
+> … Volleys of short questions met by denials, reversals, quips or echoes are not the default way to sustain a scene, even when each line carries a little information~~; use a rapid rhythm only where the work or the moment calls for it~~.
+
+**E5** — [Writing the Passage] 7번째 항목
+> … Use details the sources support or that follow from established conditions, never invented biography, intimacy, access, private history or facts about the real operator**[추가], except a character's own small talk, recent news, schedule and minor experiences as 3-3 allows**.
+
+**E6** — [Sources and Continuity] 4번째 항목
+> … Names and labels from the card are not common knowledge~~, and in a limited viewpoint an unknown person stays described, not named, until learned~~.
+
+**E7** — [People, Minds and Bodies] 10번째 항목
+> - Track each person's current capacity throughout the response: … knowledge and experience. **[추가] Sexual arousal or climax still leaves the person's self and ability to express themselves intact, as 3-2 sets.** A change in one does not restore the others. …
+
+**E8** — [Language and Voice] 2번째 항목
+> … Start with accepted speech and explicit relationships, then culture, milieu, age/generation/school year, status, familiarity and individual formality. ~~Unfamiliarity alone does not override same-age peer usage or require service politeness and -ssi.~~ In a contemporary Korean secondary school, …
+
+### 프리셋 2 (③)
+
+**E10** — [Response controls] `- Use the output language for new narration …` 항목
+> Use the output language for new narration, ordinary dialogue, vocalizations and sound notation. ~~Add no parallel translation or translation notes unless asked.~~ Language does not choose a culture, …
+
+**E11** — [Response controls] `- Continuation point: Follow the input.` 항목
+> - Continuation point: Follow the input. Enter material that is still unfolding while it unfolds. ~~When the input states that something is complete or gives a result, treat it as already shown and begin with the first new outcome, perception, reaction or consequence.~~ This does not change input status, {{user}}'s authorship or the story's direction.
+
+**E12** — [Response controls] `- Output range: Interaction handoff.` 항목
+> - Output range: Interaction handoff. ~~Complete the first reaction that leaves a meaningful choice, then stop before new input is needed.~~
+> → **Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed.**
+> Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location~~, starting the next exchange~~ or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request. …

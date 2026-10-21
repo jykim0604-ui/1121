@@ -153,3 +153,6 @@ S1 관련 참고: A10, A13에서 프리셋 문장에 붙인 예외가 경량화 
 | F2 | 착지 6줄 끝 ↔ 프리셋 진행 모드 | 착지 "{{user}}가 시작한 동작은 입력에 적힌 만큼만 쓰고 결과는 열어 둔다" / 프리셋 "you may add only a strongly implied, low-commitment micro-action or an immediate involuntary or sensory reaction of {{user}}'s". 착지가 이 허용(고개를 살짝 돌림, 움찔함 같은 미세 반응)까지 막는 것으로 읽힐 수 있다 | ① 그대로 (미세 반응도 금지) ② 착지 문장에 "프리셋이 허용하는 미세한 반응은 예외"를 뜻하는 구절 추가 |
 | F3 | 출력 종점 ②+ ↔ 진행 모드 | 진행 모드 "When {{user}}'s next move would matter, advance the other characters and the world instead and leave that move to the operator." 출력 종점은 그 지점에서 멈추라고 한다. 원래 문구(멈춤)부터 있던 관계이고 "다른 인물을 진행시키다가 {{user}} 차례에서 멈춘다"로 함께 읽힌다 | 테스트 관찰 항목 (수정 불요) |
 | F4 | S1, S4, S5 유지분 | 경량화 머리말의 "프리셋", [Role]의 "설정은 입력 뒤", Response controls 첫 줄은 프리셋 구조 테스트를 위해 남겼다 | 하나의 시스템 프롬프트로 옮길 때 다시 확인 |
+
+| F1 | 프리셋 원문 `Add no parallel translation or translation notes unless asked.` 그대로 복원 (B0 원문과 문장 단위로 같음) |
+| F2 | 착지 6줄 끝을 `{{user}}가 시작한 동작에서 입력에 적히지 않은 결과는 열어 둔다.`로 수정. 프리셋 진행 모드의 미세 반응 허용이 그대로 적용됨 |

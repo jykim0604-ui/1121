@@ -6,7 +6,7 @@
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,642 |
 | ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` | 8,715 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,847 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,851 |
 
 ## 붙여 넣기 전 확인
 
@@ -307,7 +307,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Composition: Balanced. Let the scene choose the weight of dialogue, action, sensation, atmosphere and inner language. Balance is not an equal share or a repeating order of channels; keep the one that makes the moment live, and let another add meaning or deliberate rhythm.
+- Composition: Description-led. Develop distinct setting, observation, sensation, atmosphere, imagery and inner life that the viewpoint and profile permit. Do not convert every utterance into explanatory summary or list neutral connecting movements. This grants no inner access that viewpoint, distance, authorship or disclosure withholds.
 
 
 

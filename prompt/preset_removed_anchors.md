@@ -50,7 +50,7 @@
 | C16 | 전개 속도 | `Story progression speed: Balanced` | `Story progression speed: Slow burn` / `Story progression speed: Fast` |
 | C17 | 응답 분량 | `Response length: Longform` | `Response length: Focused` / `Response length: Extensive` / `Response length: Standard` |
 | C18 | 장면 속도 | `Scene pacing: Fast` | `Scene pacing: Slow` / `Scene pacing: Balanced` |
-| C19 | 서술 구성 | `Composition: Balanced` | `Composition: Dialogue-led` / `Composition: Description-led` |
+| C19 | 서술 구성 | `Composition: Description-led` | `Composition: Dialogue-led` / `Composition: Balanced` |
 | C20 | 문체 | `Prose style: Literary` | `Prose style: Light novel` / `Prose style: Light literary` / `Prose style: Source-aligned` |
 | C21 | 표현 관습 | `Expression register: Follow the sources` | `Expression register: Korean web fiction and webtoon conventions …` / `Expression register: Japanese light novel and manga conventions …` / `Expression register: Chinese web fiction and drama conventions` / `Expression register: Contemporary Anglophone genre conventions` / `Expression register: Japanese-translated-fiction style for Korean output` |
 | C22 | 긍정 편향 억제 | `(꺼짐 쪽이 빈 분기)` | `Positivity bias correction: The operator has asked you to correct optimistic defaults` |

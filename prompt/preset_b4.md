@@ -582,7 +582,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Composition: Balanced. Let the scene choose the weight of dialogue, action, sensation, atmosphere and inner language. Balance is not an equal share or a repeating order of channels; keep the one that makes the moment live, and let another add meaning or deliberate rhythm.
+- Composition: Description-led. Develop distinct setting, observation, sensation, atmosphere, imagery and inner life that the viewpoint and profile permit. Do not convert every utterance into explanatory summary or list neutral connecting movements. This grants no inner access that viewpoint, distance, authorship or disclosure withholds.
 
 
 

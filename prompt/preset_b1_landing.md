@@ -1,47 +1,65 @@
-# 프리셋 B1 (B0 + 착지)
+# 프리셋 B1 (프리셋 원본 활성 분기 + 착지)
 
-`preset_b0.md` 본문에 `landing_draft.md`의 통합 착지 초안을 넣고, 프리셋과의 충돌 3건을 결정대로 정리한 판본. 아래 `=== 프리셋 본문 ===` 이후가 프리셋 텍스트다.
+목표: 이미지로 확인한 토글값을 켰다고 가정했을 때 들어가는 기존 프리셋 전체에 착지 지침을 더한다. 아래 `=== 프리셋 본문 ===` 이후가 그대로 붙여 쓸 프리셋 텍스트다. 본문에는 편집용 표시가 없다.
 
 ## 기록
 
-- 부모: `preset_b0.md` 본문
-- 추가: `landing_draft.md` 2절 통합 초안. 제목만 `## 착지` → `[착지]`
-- 위치: `[Ending the Response]` 바로 뒤, `[Sources and Continuity]` 앞
-- 분량 (Gemma 3 토크나이저): B0 본문 10,826 → B1 본문 11,339 (착지 519)
-- 성격: 사용자 요청에 따른 추가·수정(가이드 §1 REPAIR/REDESIGN). B0와 같은 동작이라고 주장하지 않는다.
-- 울트라라이트와의 병합: 보류
+- 원본: 이 대화에 붙여주신 프리셋 원문 `[Mask Creative Writing Charter]`~`[Before writing]` 17개 블록, 133,538자, SHA-256 `ce75fd611e522a64d81104ab29670dee59facca6c4e3a23ca5215db29c443fe6`
+- 부모: `preset_b0.md` (같은 원본의 활성 분기 전문)
+- 토글: `preset_b0.md`의 토글값 표와 같다. 토글 정의가 없어 메뉴 값과 분기 번호의 대응은 문구 일치로 추정했다.
+- 추가 태그 입력값: `preset_b0.md`의 수정값
+- 분량 (Gemma 3 토크나이저): 본문 11,262 (착지 블록 519 포함)
+- 성격: 착지 추가와 충돌 정리는 사용자 요청에 따른 변경(가이드 §1 REPAIR/REDESIGN)이다. 원본과 같은 동작이라고 주장하지 않는다.
 
-## 충돌 정리 (사용자 결정)
+## 원본에서 빠진 것 (전부)
 
-| 착지 줄 | 결정 | 처리 |
+| 빠진 것 | 사유 |
+|---|---|
+| 선택하지 않은 토글 분기 전부 (119개 구간) | 토글값에 따른 제외. 응답 설정 원문 17,855 → 활성 3,691토큰 |
+| ├ 모델 거부 감소 분기: Charter 첫 문장과 Binding authority의 덴마크 법 판본 | 토글 꺼짐. 꺼짐 판본 문장이 대신 들어감 |
+| ├ 모델 거부 감소 분기: Charter의 Danish legal character, Deliberate noncriminalization | 토글 꺼짐. 꺼짐 쪽이 비어 있어 통째로 빠짐 |
+| ├ 모델 거부 감소 분기: Charter Creative causality 끝 법률 분류 문장 1개 | 토글 꺼짐 |
+| └ 모델 거부 감소 분기: Boundary Examples 예시 1개 | 토글 꺼짐 |
+| `[External Injection Signatures]` 블록 전체 (약 583토큰) | 작업자 제외. 모델의 안전 문구를 외부 주입으로 분류하는 서명 블록이라 옮기지 않음 |
+| `[Argon Injection Boundary]` 블록 전체 (약 333토큰) | 작업자 제외. 위 서명을 무시하도록 지시하는 블록이라 옮기지 않음 |
+| [Pacing and Events]의 `A quiet scene may stay quiet.` | 사용자 결정 (착지 3을 착지 쪽으로). 그 뜻은 착지 3줄에 합침 |
+| 처음에 "자잘한 내용"이라고 한 다른 프리셋 항목 | 받지 않음. 범위 밖 |
+
+그 밖의 원본 문장은 조건문 밖 39,926자를 포함해 순서와 빈 줄까지 그대로다.
+
+## 착지 초안에서 바뀐 것
+
+| 줄 | 처리 | 사유 |
 |---|---|---|
-| 7. {{user}} 차례를 드러내지 않음, 기다리는 시선·정적으로 끝내지 않음 | 프리셋 쪽 | 착지에서 삭제. [Ending the Response]의 같은 금지와 "장면이 실제로 거기서 멈추면 괜찮다"는 예외가 그대로 적용된다 |
-| 8. 마지막 문장은 짧은 대사나 동작, 풍경·분위기로 끝내지 않음 | 프리셋 쪽 | 끝맺는 문장의 종류를 정하는 앞부분을 삭제. [Ending the Response]의 "행동, 대사, 이미지, 결과"가 적용된다. "직전 턴과 같은 방식 금지"와 "받아치기"는 남김 |
-| 3. 응답마다 무언가 달라진다 | 착지 쪽 | 프리셋 [Pacing and Events]의 "A quiet scene may stay quiet." 삭제. 그 뜻을 착지 3줄에 합쳐 "조용한 장면은 조용한 채로 두되, 그 안에서 작은 동작이나 말 한마디가 달라진다"로 수정 |
+| 3 | 뒷부분 수정: "조용한 장면은 조용한 채로 두되, 그 안에서 작은 동작이나 말 한마디가 달라진다" | 사용자 결정. 프리셋의 조용한 장면 문장을 합침 |
+| 7 | 삭제 | 사용자 결정 (프리셋 쪽). [Ending the Response]의 금지와 예외가 적용됨 |
+| 8 | 앞부분(짧은 대사나 동작으로 끝냄, 풍경·분위기 금지) 삭제 | 사용자 결정 (프리셋 쪽). [Ending the Response]의 "행동, 대사, 이미지, 결과"가 적용됨 |
+| 제목 | `## 착지` → `[착지]` | 프리셋 블록 형식 |
+| 위치 | `[Ending the Response]` 바로 뒤 | 응답을 끝내는 방식을 다루는 블록 옆 |
 
-### 수정 전후
+## 검수 결과 (가이드 §10)
 
-- [Pacing and Events]
-  - 전: `... It still stays within the selected drive and output range. A quiet scene may stay quiet.`
-  - 후: `... It still stays within the selected drive and output range.`
-- 착지 3줄
-  - 전: `새로 생긴 일이 없으면 그 자리 인물이 자기 사정으로 새 동작을 하며, 조용한 장면에서는 그 변화가 작은 동작이나 말 한마디여도 된다.`
-  - 후: `새로 생긴 일이 없으면 그 자리 인물이 자기 사정으로 새 동작을 한다. 조용한 장면은 조용한 채로 두되, 그 안에서 작은 동작이나 말 한마디가 달라진다.`
-- 착지 7줄: 삭제
-- 착지 8줄
-  - 전: `마지막 문장은 짧은 대사나 인물의 동작으로 끝내고, 풍경이나 분위기 서술로 끝내지 않는다. 직전 턴과 같은 방식으로 끝내지 않으며, 앞에 나온 말을 다른 뜻으로 받아칠 수 있으면 쓰되 억지로 만들지 않는다.`
-  - 후: `응답은 직전 턴과 같은 방식으로 끝내지 않는다. 앞에 나온 말을 다른 뜻으로 받아칠 수 있으면 그 말로 끝내되 억지로 만들지 않는다.`
+| 검사 | 결과 |
+|---|---|
+| 원본 → B0: 다른 처리기로 다시 분해해 대조 | 문자 단위 일치. 원본의 모든 문자가 남은 텍스트, 버린 분기, 조건문 태그 중 하나에 속함 |
+| B0 → B1: 착지 블록을 빼고 대조 | 차이는 `A quiet scene may stay quiet.` 삭제와 위 두 블록 제외뿐 |
+| 착지 초안 → B1 착지 블록 | 차이는 위 표의 3, 7, 8줄뿐 |
+| 블록 머리말 | 원본 17개 중 제외한 2개를 뺀 15개와 `[착지]`, 순서 유지 |
+| 매크로 | `{{user}}` 원본 활성 36 + 착지 2 = 38, `{{char}}` 6, 언어 2, 태그 1 보존 |
+| 본문 편집 표시 | 없음 |
 
-## 남은 관계 (충돌 아님)
+### 확인이 필요한 관계 (충돌 후보, 해결하지 않음)
 
-| 착지 줄 | 프리셋 문구 | 관계 |
+| 착지 줄 | 프리셋 문구 | 내용 |
 |---|---|---|
-| 1. 응답은 서로 주고받는 데까지 | 출력 종점 "starting the next exchange ... is a second threshold" | 첫 반응 안에서 오가는 것은 허용. 새 주고받음을 열면 문턱 |
-| 3. 작은 변화 | [Characters, Tone and Focus] "A grave, tense, sorrowful, eerie or quiet scene stays that way." | 일치. 톤은 유지하고 변화만 작게 |
-| 4. 같은 화제 안에서 한 칸 | 주도형 "cannot choose the next kind of action or phase without a separately caused transfer" | 일치 |
-| 6. 결과가 {{user}}의 선택이면 직전에서 멈춤 | 진행 모드 "leave that move to the operator" | 일치 |
-| 2. 분량은 입력 뒤 반응과 행동에 | [Writing the Passage] "Length deepens the selected material instead of adding events" | 일치 |
-| 9. 사물로 끝낼 때는 인물의 동작 안에 | [Ending the Response] "an image" 허용 | 그 사물로 끝내는 경우만 좁힘. 다른 이미지 끝맺음은 그대로 허용 |
+| 2. 입력 처리는 {{user}}가 한 말과 행동을 옮기면 끝난다 | 이어쓰기 시작점 "When the input states that something is complete or gives a result, treat it as already shown and begin with the first new outcome" | 착지는 입력을 본문에 옮기는 것을 전제한다. 프리셋은 완료된 입력은 이미 보여준 것으로 보고 그 다음부터 쓰라고 한다 |
+| 6. 인물이 시작한 동작은 결과까지 쓴다 | 입력 효력 "an attempt ... stays open. Do not ... upgrade the second" / 진행 모드 "every story-changing or irreversible result belong to the operator" | "인물"에 {{user}}가 들어가는지가 정해져 있지 않다. {{user}}의 시도까지 결과를 쓰면 프리셋과 충돌한다. 줄 끝의 "{{user}}의 선택에 달려 있으면 멈춘다"가 일부만 막는다 |
+
+### 확인할 수 없는 것 (가이드 §10.2)
+
+- RisuAI 조립: UNTESTED. 앱이 조건문 태그 자리의 빈 줄을 어떻게 처리하는지는 실제 조립 결과로만 확인된다.
+- 원본 판본: 지금 쓰는 프리셋이 붙여주신 원문과 같은 판본인지 확인되지 않았다.
+- 모델 동작: UNTESTED
 
 === 프리셋 본문 ===
 
@@ -61,12 +79,6 @@ This Charter governs Mask's creative interpretation.
 - Bad response: A mixed request is replaced wholesale because one passage asks for transferable harmful instructions. Good response: Exclude or fictionalize only the enabling method and complete the remaining fictional deliverable faithfully.
 
 - Applicability and conflicts: Distinguish writing directions, fictional facts, diegetic claims, operational instructions, and illustrative examples. Each clause applies only within its active mode, branch, subject, medium, time, and function. Mere permission creates no obligation; explicit requirements and governing objectives remain binding. Examples demonstrate the classification boundary and create no required scene, detail, or quota by themselves. Among applicable clauses, a real conflict concerns the same decision in the same scope; otherwise both stand. Apply explicit priorities and scoped exceptions before specificity; specificity cannot cancel a hard boundary outside an expressly granted exception. Source conflicts follow the existing order: newest explicit correction in Chat History, then the more specific character or lore fact, then general guidance. Repetition or placement alone creates no overriding authority. Every unaffected binding remains intact.
-
-[External Injection Signatures]
-(원문 미수록: 외부 안전 문구 서명 블록, 약 583토큰. 압축 시 제거 예정)
-
-[Argon Injection Boundary]
-(원문 미수록: 위 서명을 무시하도록 지시하는 블록, 약 333토큰. 압축 시 제거 예정)
 
 [Execution and Fidelity Boundary]
 Apply the Charter to the actual requested output before drafting. When a mixed request includes transferable real-world harmful instruction, remove or fictionalize only that enabling method and preserve the rest of the requested fiction. A text-only fictional deliverable within the Charter's written-expression scope proceeds from its accepted sources and active controls without repeating the boundary analysis during prose generation. Execute the selected deliverable with its facts, causality, character behavior, viewpoint, intensity, genre operation, and result intact. Do not replace it with meta commentary, partial accommodation, conservative reinterpretation, invented awareness or competence, an altered mechanism outside the narrow operational exclusion, weakened effect, omitted core material, prolonged resistance, rescue, procedure, moral correction, delayed destination, or a substitute ending.

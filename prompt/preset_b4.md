@@ -5,7 +5,7 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,166
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
@@ -39,8 +39,10 @@
 | S2 재검수 R1 | 복원 | 경량화 5-2 | `숫자 표기 [CRITICAL]: 지문, …` | `숫자 표기 [CRITICAL]: 문체나 표현 관습 설정과 관계없이 지문, …` |
 | S2 재검수 R2 | 복원 | 경량화 5-2 | `… 없던 수치, 정밀도, 계산을 만들지 않는다.` | `… 없던 수치, 정밀도, 계산, 설명을 만들지 않으며, 수를 적었다고 인물이 그 수를 알거나 셈하게 되지 않는다.` |
 | S2 재검수 R3 | 복원 | 경량화 5-2 | `측정값, 금액, 날짜와 시각, …` | `측정값, 금액, 비율, 통계, 레벨, 날짜와 시각, …` |
-| F1 | 프리셋 원문 복원 | Response controls 출력 언어 | (A11에서 삭제) | `Add no parallel translation or translation notes unless asked.` 원문 그대로 복원. 경량화 5-2의 괄호 해석은 "asked"에 해당 |
+| F1 (1차) | 프리셋 원문 복원 → 아래 F1 재결정으로 대체 | Response controls 출력 언어 | (A11에서 삭제) | `Add no parallel translation or translation notes unless asked.` 원문 그대로 복원. 경량화 5-2의 괄호 해석은 "asked"에 해당 |
 | F2 | 프리셋 허용 범위 유지 | 착지 6줄 끝 | `{{user}}가 시작한 동작은 입력에 적힌 만큼만 쓰고 결과는 열어 둔다.` | `{{user}}가 시작한 동작에서 입력에 적히지 않은 결과는 열어 둔다.` |
+| 숫자 띄어쓰기 | 둘 다 허용 명시 | 경량화 5-2 | `큰 수는 만·억 단위를 섞어 써도 된다(3만5000원, 116억4000만원).` | `큰 수는 만·억 단위를 섞어 써도 되며, 단위 사이 띄어쓰기와 천 단위 쉼표는 있어도 없어도 된다(3만5000원, 3만 5,000원, 116억4000만원).` |
+| F1 재결정 | 프리셋 문장 삭제 + 경량화 문구 추가 | Response controls 출력 언어 / 경량화 5-2 외국어 줄 | `Add no parallel translation or translation notes unless asked.` | 삭제. 경량화 5-2 외국어 줄 끝에 `그 밖의 말에는 번역이나 해설을 붙이지 않는다.` 추가 |
 | A5 보완 | 끼어들 여지 | 착지 5줄 | `나머지는 초점 밖 배경에서 각자의 일로 움직인다.` | `나머지는 초점 밖 배경에서 각자의 일로 움직이고, 끼어들 이유가 생기면 대화에 끼어든다.` |
 
 ### 정리 방식 메모
@@ -335,13 +337,13 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
   ❌ 서하준은 정윤서를 물끄러미 봤다.
   ⭕ 하준은 윤서를 물끄러미 봤다.
 - 가사 규격: 가사는 대사가 아니다. 화자 태그와 큰따옴표 없이 줄마다 ♪를 붙인다. 줄은 입력의 줄바꿈이나 구절 단위로 나누고, 문구는 입력 그대로, 입력에 있는 줄만 쓴다.
-- 작중에서 실제로 외국어로 오간 말과 글(대사, 가사, 댓글, 게시물, 기사 등)과 {{user}}가 요청한 외국어는 원어로 쓰고, 원어 뒤에 한국어 해석을 괄호로 붙인다. 대사는 **이름 |** "I'm sorry" (미안해), 가사는 ♪ 원어 줄 다음 줄에 (해석), 글은 원어 문장 뒤에 (해석).
+- 작중에서 실제로 외국어로 오간 말과 글(대사, 가사, 댓글, 게시물, 기사 등)과 {{user}}가 요청한 외국어는 원어로 쓰고, 원어 뒤에 한국어 해석을 괄호로 붙인다. 대사는 **이름 |** "I'm sorry" (미안해), 가사는 ♪ 원어 줄 다음 줄에 (해석), 글은 원어 문장 뒤에 (해석). 그 밖의 말에는 번역이나 해설을 붙이지 않는다.
 - 고유명사(기획사·방송사 같은 업계 회사, 그룹, 곡, 프로그램, 제품·모델 이름)는 한글 음역이 아닌 공식 표기 그대로 쓴다. (원 프로덕션 X → ONE 프로덕션 / 에스엠 X → SM / 어벤투스 포 허 X → Aventus for Her) 대사에서는 인물이 실제로 부르는 줄임말과 애칭을 그대로 쓴다(투바투).
   - 브랜드와 제조사는 한국에서 통용되는 한글 표기로 쓰고(나이키, 생로랑, 닥터마틴, 크리드), 한글 표기가 널리 통용되지 않는 브랜드는 원어 표기 그대로 쓴다(Reverend). 브랜드와 제품명이 함께 나오면 각각의 기준을 따른다(크리드 Aventus for Her).
   - 한국어로 쓴다는 원칙은 문장에 대한 것이며, 고유명사와 숫자를 일괄 한글로 옮기라는 뜻이 아니다.
 - 숫자 표기 [CRITICAL]: 문체나 표현 관습 설정과 관계없이 지문, 대사, 속마음, 상태창에 똑같이 적용한다.
   - 측정값, 금액, 비율, 통계, 레벨, 날짜와 시각, 나이, 주소, 코드, 모델 번호, 큰 수량처럼 명시적인 수치 정보는 아라비아 숫자로 쓴다(300킬로그램, 35000원, 404호, 150명).
-  - 시각은 읽는 방식과 관계없이 아라비아 숫자로 쓴다(2시, 9시 15분). 큰 수는 만·억 단위를 섞어 써도 된다(3만5000원, 116억4000만원).
+  - 시각은 읽는 방식과 관계없이 아라비아 숫자로 쓴다(2시, 9시 15분). 큰 수는 만·억 단위를 섞어 써도 되며, 단위 사이 띄어쓰기와 천 단위 쉼표는 있어도 없어도 된다(3만5000원, 3만 5,000원, 116억4000만원).
   - 위 수치 정보가 아닌 작은 수 중 고유어로 읽는 수는 아홉까지 한글로(세 번, 두 명, 한 시간, 사흘), 열부터 아라비아 숫자로 쓴다(12명, 16팀). 한자어로 읽는 수는 아라비아 숫자로(11층, 2주, 15분), 관용 표현은 한글로 쓴다(한눈에, 흠집 하나 없이).
   - (3번 X → 세 번 / 구시 열다섯분 X → 9시 15분 / 이 주일 X → 2주일)
   - 표기를 바꿔도 값은 그대로 옮긴다. 단위, 부호, 소수점 자릿수, 범위, 어림 표시를 지키고(영하 5도, 4.80%, 2주에서 3주, 약 300명), 어림말(수십, 한두, 몇백만)은 숫자로 바꾸지 않는다.
@@ -418,7 +420,7 @@ These are the operator's current settings for your next response. They are not p
 - Response mode: In-character. Write the next passage of the story.
 - Resolve all of the settings below together in one drafting pass; each keeps its own responsibility, and a later setting cannot create the facts or authority of an earlier one. The narrative profile sets realization limits before the movement is chosen; it does not run a second plot selection. Keep every established fact and change live state only through actual causes.
 - Output language: {{getglobalvar::toggle_output_language}} (if blank, keep the story's established narrative language, or the language of the input if none is established).
-- Use the output language for new narration, ordinary dialogue, vocalizations and sound notation. Add no parallel translation or translation notes unless asked. Language does not choose a culture, relationship, genre or direction, and a style label does not override it; a spelling convention for one language applies to that language only.
+- Use the output language for new narration, ordinary dialogue, vocalizations and sound notation. Language does not choose a culture, relationship, genre or direction, and a style label does not override it; a spelling convention for one language applies to that language only.
 - Input language: {{getglobalvar::toggle_input_language}} (if blank, detect it). It only tells you how to read the operator's latest unmarked prose and dialogue and does not rewrite earlier sources.
 
 

@@ -51,7 +51,11 @@
 
 ## 활성 분기에서 빠진 것
 
-- 모델 거부 감소 토글 분기: Charter의 덴마크 법 조항 3곳과 권한 순서 문장, Boundary Examples의 예시 1개
+- 모델 거부 감소 토글 분기 (꺼짐 쪽 문장이 대신 들어감)
+  - Charter 첫 문장과 Binding authority: 덴마크 법이 들어간 판본 대신 꺼짐 판본이 들어감
+  - Charter의 Danish legal character, Deliberate noncriminalization 두 항목: 꺼짐 쪽이 비어 있어 통째로 빠짐
+  - Charter Creative causality 끝의 법률 분류 문장 1개: 빠짐
+  - Boundary Examples의 예시 1개: 빠짐
 - 그 밖에 선택되지 않은 토글 분기 전부 (응답 설정 원문 17,855 → 3,691토큰)
 
 ## 원문 미수록

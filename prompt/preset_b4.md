@@ -5,13 +5,13 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,123
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,121
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
 ## 구조
 
-프리셋 1(`[Mask Creative Writing Charter]`~`[Output]`) → `[착지]` → 경량화(`[Operator Directions — 이 작품의 고정 지시]`~6 출력 형식) → `---` → 프리셋 2(`[Response controls]`, `[Before writing]`)
+프리셋 1(`[Mask Creative Writing Charter]`~`[Output]`) → `[착지]` → 경량화(`[Operator Directions — 이 작품의 고정 지시]`~6 출력 형식) → 프리셋 2(`[Response controls]`, `[Before writing]`)
 
 - `[착지]`는 B1~B3에서 `[Ending the Response]` 뒤에 있었다. 이 판에서 프리셋 1 끝으로 옮겼다. 문장은 바뀌지 않았고, `[Ending the Response]`와 `[Sources and Continuity]` 사이 빈 줄은 B0와 같게 되돌렸다.
 - S8(블록 배열)은 이 구조로 확정.
@@ -33,6 +33,7 @@
 | A12 | 울트라라이트 5-2 쪽 | [Sources and Continuity] | `Names and labels from the card are not common knowledge, and in a limited viewpoint an unknown person stays described, not named, until learned.` | `Names and labels from the card are not common knowledge.` |
 | A13 | 울트라라이트 3-2 쪽 | [People, Minds and Bodies] 능력 추적 | `… knowledge and experience. A change in one …` | `… knowledge and experience. Sexual arousal or climax still leaves the person's self and ability to express themselves intact, as 3-2 sets. A change in one …` |
 | A3 | ②+ | Response controls 출력 종점 | `Complete the first reaction that leaves a meaningful choice, then stop before new input is needed. … changing location, starting the next exchange or carrying out its consequence …` | `Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed. … changing location or carrying out its consequence …` |
+| C1 | 삭제 | 경량화와 `[Response controls]` 사이 | `---` 한 줄 | 삭제 (프리셋 원본에 없는 붙여 넣기 구분선으로 확인) |
 | S2 | 경량화 쪽 | 프리셋 1 [Language and Voice] | `- Numeric notation: When presenting a numeric value as information, use Arabic digits …` (한 문단) | 삭제 |
 | S2 | 경량화 쪽 | 경량화 5-2 | `숫자 표기 [CRITICAL]: 프리셋의 Numeric notation 대신 이 항목만 따르며, 지문, …` | `숫자 표기 [CRITICAL]: 지문, …` (가리킬 대상이 없어진 구절 삭제) |
 | A5 보완 | 끼어들 여지 | 착지 5줄 | `나머지는 초점 밖 배경에서 각자의 일로 움직인다.` | `나머지는 초점 밖 배경에서 각자의 일로 움직이고, 끼어들 이유가 생기면 대화에 끼어든다.` |
@@ -55,7 +56,7 @@
 | S6 | Charter 권한 순서 |
 | S7 | [Sources and Continuity]의 writer note |
 | S9 | 중복 (중·고교 같은 학년 반말, 말투 방향별 유지, {{user}} 차례 표시 금지) |
-| C1~C3 | `---` 줄, 빈 줄, 외부 의존 |
+| C2~C3 | 빈 줄, 외부 의존 |
 
 === 프리셋 본문 ===
 
@@ -407,8 +408,6 @@ T#n
 > - 손편지 봉투 — 미전달
 >
 > 💗 **하준-윤서:** 25주차 / 6개월 만의 대면 재회 / 발렌타인데이
-
----
 
 [Response controls]
 These are the operator's current settings for your next response. They are not part of {{user}}'s message.

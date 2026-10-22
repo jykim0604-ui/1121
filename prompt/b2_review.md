@@ -459,3 +459,19 @@ U(복원 안 됨) 없음. 결과물에만 있는 것(규칙 3의 띄어쓰기·�
 - 절 번호 참조 점검: 1-1, 2-1, 3-1, 3-3, 4-4, 5-1, 5-2, 6-2 모두 실제 절을 가리킴. 프리셋 쪽 as 3-2 sets, as 3-3 allows 유효.
 - 남은 복문: 두 절이 한 규칙을 이루는 짧은 문장, 운영자 작성 3-1 문장. 유지.
 - 토큰: 9,114(G2 후) → 9,541.
+
+---
+
+## G5. Gemini 피드백 반영: 4-3 짧은 구간, 5-1 요지 중계, 물결표 줄 삭제 (한글본·영문본·B4)
+
+1. 4-3 첫 줄: "구간을 둔다" → "둘 수 있다". "구간 안의 한마디는 한 문장이나 짧은 구절이어도 된다. 이 구간은 프리셋이 경계하는 짧은 응수의 연쇄에 해당하지 않는다." 추가. (영문: may include / A line within the stretch may be a single sentence or a short phrase. This stretch is not the chain of short volleys the preset cautions against.)
+   - 충돌 근거: 프리셋 ① "Let a speaker finish a connected thought instead of splitting it into prompted one-line answers", "Volleys of short questions … are not the default way to sustain a scene".
+   - 면제는 구간 안으로 한정. 구간 밖에서는 프리셋의 경계가 그대로 걸린다. 길이는 허용만 하고 강제하지 않는다(경량화 때 길이 고정을 푼 결정과 맞음). 필수 조항이 선택이 되어 대사 쏠림 압력도 줄어든다.
+2. 5-1 둘째 줄: "인용하지 않은 대사는 요지만 짧게 옮기고, 대사마다 따로 중계하지 않는다." 추가. 인용 범위(첫 대사의 첫 문장)는 유지.
+   - 가사(5-1 셋째 줄 "빠짐없이")와 4-4 입력 음악 내용은 별도 규칙이라 영향 없음. 4-5 "입력을 부풀리지 않는다"와 같은 방향.
+   - 관찰 O6: 요지로 줄이면서 질문인지 진술인지 같은 발화의 성격이 흐려지는지(프리셋 Input status "Keep each statement's assertion and mode").
+3. 5-2 물결표 줄 삭제(운영자 결정: 충돌 여지가 있으면 취소선 렌더링을 감수하고 없앤다).
+   - 함께 사라진 기능: "범위와 늘임은 말로 쓴다". 범위(2~3주)와 늘임(네~)에 물결표가 쓰일 수 있음.
+   - 숫자 표기의 "2주에서 3주" 예시는 값 보존 예시로 남는다.
+- 대조: 한글본과 영문본의 5장, 3-1, 대사 견본 일치. 물결표 문구는 두 파일 모두 없음.
+- 토큰(본문 기준): 한글본 9,295, 영문본 8,733.

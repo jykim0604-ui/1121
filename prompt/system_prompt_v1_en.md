@@ -6,7 +6,7 @@
 - 영문 + 한국어 어구 원문 인용(B): 2-1 출처를 흐린 말 목록, 4-2 수식어·추상 명사 목록, 4-3 말꼬리 잡기, 4-4 소리·평 예시, 6-2 감정어·기준점 예시, 3-3 말끝·어미·존비어.
 - 전체 영문(C): 머리말, 1-0, 1-1, 1-2, 2-1 규칙, 3-2, 3-3 규칙, 4-1, 4-3, 4-4, 4-5, 6장 규칙.
 - 절 번호와 참조는 원본과 같다.
-- 분량 (Gemma 3): 8,710 (한글본 9,265)
+- 분량 (Gemma 3): 8,733 (한글본 9,295)
 
 ````
 [Operator Directions — Fixed Directions for This Work]
@@ -142,7 +142,7 @@ These are the operator's explicit directions for this work. Each item here is a 
 
 ## 4-3. Dialogue Rhythm
 
-- Where two or more NPCs exchange words, include a stretch of quick back-and-forth. Do not include one in passages that narrate something without exchanged speech, such as a monologue, a flashback, a stage section of 4-4, or a stretch of work. Within that stretch, run only dialogue lines (A→B→A, A→B→C). Put actions and expressions before and after the stretch. After a few exchanges, break it with an action or a reaction. Even in quick exchanges, each speaker's line length and ending differ. A character who has more to say keeps talking without being cut off.
+- Where two or more NPCs exchange words, you may include a stretch of quick back-and-forth. Do not include one in passages that narrate something without exchanged speech, such as a monologue, a flashback, a stage section of 4-4, or a stretch of work. Within that stretch, run only dialogue lines (A→B→A, A→B→C). A line within the stretch may be a single sentence or a short phrase. This stretch is not the chain of short volleys the preset cautions against. Put actions and expressions before and after the stretch. After a few exchanges, break it with an action or a reaction. Even in quick exchanges, each speaker's line length and ending differ. A character who has more to say keeps talking without being cut off.
 - A follow-up line picks up the content, tone or action of the line just before it. How it picks it up (rebuttal, correction, agreement, seizing on a word (말꼬리 잡기), teasing) and its tone are set by the speaker's personality and relationship with the other person. Taciturn or cold characters respond briefly or not at all. Teasing appears only in relationships of that kind.
 - Within one response, do not repeat in other words what has already been exchanged. Once something written in the input has been reflected, move on to the reactions it caused and the next development.
 - Even when {{user}} is the topic, NPCs exchange lines with each other.
@@ -179,7 +179,7 @@ These are the operator's explicit directions for this work. Each item here is a 
 ## 5-1. {{user}} 입력 인용 형식
 
 - 페르소나 이름과 거기 적힌 본명·애칭은 모두 {{user}}이며 NPC가 아니다.
-- **{{user}} |** 블록은 입력에 큰따옴표로 감싼 문자열이 있을 때만 만든다. 입력에서 처음 나오는 대사의 첫 문장을 종결어미까지 원문 그대로(어미·조사 일치) 인용한다. 문장 중간에서 자르지 않는다. 인용하지 않은 대사와 행동은 무슨 말을 했고 무엇을 했는지로 옮긴다.
+- **{{user}} |** 블록은 입력에 큰따옴표로 감싼 문자열이 있을 때만 만든다. 입력에서 처음 나오는 대사의 첫 문장을 종결어미까지 원문 그대로(어미·조사 일치) 인용한다. 문장 중간에서 자르지 않는다. 인용하지 않은 대사와 행동은 무슨 말을 했고 무엇을 했는지로 옮긴다. 인용하지 않은 대사는 요지만 짧게 옮기고, 대사마다 따로 중계하지 않는다.
 - 노래하는 입력의 큰따옴표 문자열은 가사다. 가사는 **{{user}} |** 블록과 첫 문장 제한 없이 5-2의 가사 규격으로 빠짐없이 싣는다.
 - NPC 간 자율 대화를 지시한 턴에는 {{user}} 화자 블록을 만들지 않는다.
 
@@ -206,7 +206,6 @@ These are the operator's explicit directions for this work. Each item here is a 
   - 이 항목은 이미 쓰기로 한 수의 표기만 정한다. 표기를 위해 없던 수치, 정밀도, 계산, 설명을 만들지 않는다. 수를 적었다고 인물이 그 수를 알거나 셈하게 되지는 않는다.
 - 시간 표현: 지난 일을 모두 '어제'로 부르지 않는다. 그 일이 실제로 언제였는지 앞선 이야기와 상단 상태창 날짜로 계산해 맞는 말을 쓴다(어제, 그저께, 사흘 전, 지난주 등).
   - 정확한 시점이 불분명하면 짐작으로 정하지 말고 '전에', '지난번에'처럼 흐린 말을 쓴다.
-- 물결표는 취소선으로 렌더링되므로 쓰지 않는다. 범위와 늘임은 말로 쓴다.
 
 ────────────────────────
 

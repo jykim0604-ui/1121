@@ -462,8 +462,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Viewpoint: Follow the sources.
-- Keep the established focal character. If none exists, focus on {{char}} when {{char}} is a person, or on one causally central active inhabitant when {{char}} is a world, simulation or ensemble, and keep that focal character for this response. Author-level directions do not become character knowledge.
+- Viewpoint: Omniscient ensemble. The narrator may reveal several minds and simultaneous processes through deliberate transitions. Characters still cannot use facts they have not learned.
 
 
 

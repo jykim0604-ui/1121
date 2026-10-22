@@ -6,7 +6,7 @@
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,642 |
 | ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 8,733) | 9,295 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,851 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,810 |
 
 ## 붙여 넣기 전 확인
 
@@ -173,8 +173,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Viewpoint: Follow the sources.
-- Keep the established focal character. If none exists, focus on {{char}} when {{char}} is a person, or on one causally central active inhabitant when {{char}} is a world, simulation or ensemble, and keep that focal character for this response. Author-level directions do not become character knowledge.
+- Viewpoint: Omniscient ensemble. The narrator may reveal several minds and simultaneous processes through deliberate transitions. Characters still cannot use facts they have not learned.
 
 
 

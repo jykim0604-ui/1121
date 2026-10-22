@@ -36,7 +36,7 @@
 | C2 | 입력 효력 | `Input status: Follow the input's wording` | `Input status: Confirmed event` / `Input status: Attempt` |
 | C3 | 진행 모드 | `Interaction mode: Collaborative RP` | `Interaction mode: Turn-based RP` / `Interaction mode: Autonomous novel` |
 | C4 | 이어쓰기 시작점 | `Continuation point: Follow the input` | `Continuation point: During input` / `Continuation point: After input` |
-| C5 | 서술 시점 | `Viewpoint: Follow the sources` | `Viewpoint: {{user}}-limited` / `Viewpoint: Scene-character-limited` / `Viewpoint: External camera` / `Viewpoint: Omniscient ensemble` |
+| C5 | 서술 시점 | `Viewpoint: Omniscient ensemble` | `Viewpoint: {{user}}-limited` / `Viewpoint: Scene-character-limited` / `Viewpoint: External camera` / `Viewpoint: Follow the sources` |
 | C6 | 서술 인칭 | `Narrator person: Follow the sources` | `Narrator person: First person` / `Narrator person: Third person` |
 | C7 | 서술 인칭 (2번째 조건문) | `First-person voice: …` 항목 | 3인칭일 때의 빈 분기 |
 | C8 | 정보 공개 범위 | `Disclosure: Spoiler-protected` | `Disclosure: Focal character's private access` / `Disclosure: Concealed, with discoverable clues` / `Disclosure: Follow the sources` |

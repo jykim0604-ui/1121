@@ -632,3 +632,27 @@ U(복원 안 됨) 없음. 결과물에만 있는 것(규칙 3의 띄어쓰기·�
 - 페이싱 예외 복원: "{{user}}의 입력이 여러 단계를 담고 있으면 입력을 따르고, NPC끼리의 자율 장면에는 이 단계 제한을 두지 않는다." (입력 반영 원칙과의 충돌 해소. 자율 장면 해제는 운영자 결정: 자율 장면까지 지시하지 않음)
 - 프리셋 2 문체 경계(test_paste ③, B4): "Restrained … not less direct detail, sound density …" 문장 뒤에 "In sexual scenes, characters' speech, vocalization and sound follow the operator directions (3-2, 4-2) rather than this sentence." 범위는 말·발성·소리만. 직접성과 감정의 힘은 그대로.
 - 토큰: 한글본·영문본·프리셋 2는 test_paste 표 참조.
+
+---
+
+## G13. 3-2 신음 강도·페이싱을 압축 전 기준으로 복원, 프리셋 2는 겹치는 부분만 지우고 3-2 앵커
+
+원인: G11·G12의 3-2 강도 줄과 단계 문장은 압축 전 7-3 신음 단계화·7-2 페이싱을 추상 요약한 것이라, 강도별 모양과 "단계"의 정의를 잃었다. 프리셋 2는 성인 블록(밀도를 감각·신체 변화로 정의), 레지스터 경계(adult vocal surface, repeated sound), 문체 경계(sound density), Scene pacing Fast(decisive action early)가 같은 영역을 반대 방향으로 맡고 있었다. 운영자 예시문 증상(첫 대사부터 최대 강도, 인물이 달라도 같은 신음, 완성된 문장에 신음 장식, 감각 형용사 지문)이 여기서 나온다.
+
+방향(운영자 결정): 기준은 압축 전 시스템 프롬프트의 NSFW 지침. 세 층은 각자 작동하며, 프리셋 2가 혼자 맡는 지침은 남기고 겹치는 부분만 지운 뒤 3-2 앵커를 남긴다. 숫자와 구체 행위 명시는 쓰지 않고, 열린 표현으로 쓴다.
+
+반영:
+- 시스템 3-2(한글본·영문본·paste·B4)
+  - 조립 재료 줄 끝: "같은 인물이라도 장면마다 다르게 조합한다."(원문 복원, 신음 줄과 중복 정리)
+  - 신음 강도 줄: 기승전결과 인물에 따라 달라짐, 조건 설명이지 그대로 옮기거나 틀처럼 따라 쓰지 않음, 弱·中·强은 강도만 정함, 소리·말·빈도는 인물마다, 强에 이르지 않는 인물도 있음 + 弱·中·强 모양(숫자 없음). 원문 7-3의 "조건 설명이며 그대로 인용하지 않는다", "단계는 강도만 정한다"를 같은 구조로 살림.
+  - 의성어: "실제로 쓰이는 한국어 의성어만 쓴다"("드물게"는 운영자가 필요 시 추가).
+  - 페이싱 줄 신설(기존 단계 문장 대체): 기승전결 흐름, 단계마다 턴을 나눔, 한 응답에 몰지 않음, 각 단계 내용은 장면과 인물이 정함, 입력 먼저 소화, 자율 장면은 제한 없음.
+- 프리셋 2(test_paste ③, B4)
+  - 성인 블록: "with concrete specificity", "and sound" 삭제. 앵커 "Characters' speech, vocalization, the pacing of the act and how density and intensity are carried follow the operator directions (3-2), and modifiers follow 4-2."
+  - Expression register boundary: "and adult vocal surface", "repeated sound," 삭제 + 앵커.
+  - Prose style boundary: "sound density," 삭제, 기존 예외 문장을 앵커 "In sexual scenes, characters' speech and vocalization follow the operator directions (3-2)."로 통일.
+  - Scene pacing: Fast 문장은 유지(프리셋 2 단독 기능) + 앵커 "In sexual scenes, the pacing of the act follows the operator directions (3-2)."
+
+남은 충돌: 프리셋 1의 "no low-to-high curve is assigned in advance", "give it its full expression… repetition, volume", "No punctuation plan or planned peak…"이 3-2 기승전결 페이싱·弱中强과 방향이 엇갈린다. Charter 순서상 운영자 지시가 위라 결과는 3-2가 이기지만, `preset1_hold.md` P1-1에서 같은 기준으로 맞춘다.
+
+토큰: 한글본 10,357, 영문본 9,723, 프리셋 2 3,961. 행동 검증 UNTESTED.

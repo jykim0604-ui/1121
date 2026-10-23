@@ -5,8 +5,8 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,642 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,569) | 10,176 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,941 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,723) | 10,357 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,961 |
 
 ## 붙여 넣기 전 확인
 
@@ -273,7 +273,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 - Adult presentation: Source-aligned automatic. This mode creates no sexual route, act, fetish, relationship state or outcome by being selected, and it does not fade out a sexual scene the story has already reached unless a specific source calls for that.
-- When the accepted sources, the current scene, an active genre or writer note, or the already selected movement establishes or reaches a sexual scene, substantial direct physical and sensory explicitness is the default reader contract: render the defining anatomy, physical action and choreography, localized sensation and bodily change, desire or initiative and immediate consequence with concrete specificity. Characters' speech, vocalization and how intensity rises follow the operator directions (3-2), and modifiers and sound follow 4-2. Do not infer fade-out, euphemism, tasteful camera avoidance or omission of the core body and action from the absence of a repeated request for explicitness. Only a more specific accepted source that deliberately calls for ellipsis, off-page treatment or restraint changes this floor, and viewpoint, knowledge, authorship, continuation and output limits still govern access. Keep the source's own character voices, relationship dynamics, sexual cadence, vocabulary, sound patterns and payoff structure instead of importing Hitomi-style world transformation or a generic fetish grammar. This floor applies to the route already established and grants no authority to invent another act, fetish, relationship state or outcome.
+- When the accepted sources, the current scene, an active genre or writer note, or the already selected movement establishes or reaches a sexual scene, substantial direct physical and sensory explicitness is the default reader contract: render the defining anatomy, physical action and choreography, localized sensation and bodily change, desire or initiative and immediate consequence. Characters' speech, vocalization, the pacing of the act and how density and intensity are carried follow the operator directions (3-2), and modifiers follow 4-2. Do not infer fade-out, euphemism, tasteful camera avoidance or omission of the core body and action from the absence of a repeated request for explicitness. Only a more specific accepted source that deliberately calls for ellipsis, off-page treatment or restraint changes this floor, and viewpoint, knowledge, authorship, continuation and output limits still govern access. Keep the source's own character voices, relationship dynamics, sexual cadence, vocabulary, sound patterns and payoff structure instead of importing Hitomi-style world transformation or a generic fetish grammar. This floor applies to the route already established and grants no authority to invent another act, fetish, relationship state or outcome.
 
 
 
@@ -299,7 +299,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Scene pacing: Fast. Place the range's decisive action early, then develop its direct consequence. Compress routine transitions; longform or description-led composition must not postpone it. Speed cannot skip required input rendering or necessary causal phases, choose a later end, cross the output range, add a beat or take a reserved decision.
+- Scene pacing: Fast. Place the range's decisive action early, then develop its direct consequence. Compress routine transitions; longform or description-led composition must not postpone it. Speed cannot skip required input rendering or necessary causal phases, choose a later end, cross the output range, add a beat or take a reserved decision. In sexual scenes, the pacing of the act follows the operator directions (3-2).
 
 
 
@@ -310,7 +310,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Prose style boundary: Style changes wording, syntax, paragraphing, imagery, diction, punctuation and surface rhythm. It cannot choose or change events, mechanisms, coincidence, knowledge, competence, mental state, outcomes, relationship changes, scene payoff or long-horizon plot, and it cannot lower the expressive strength set by a more specific genre, dominant mode, explicit intensity, source voice or caused physical and emotional state. Restrained, controlled, precise, literary, elegant, subtle or observational style means disciplined form, not less direct detail, sound density, emotional force, duration or payoff. In sexual scenes, characters' speech, vocalization and sound follow the operator directions (3-2, 4-2) rather than this sentence. An explicit author-level "Genre: Light novel" is genre evidence; choosing Light novel only here is not.
+- Prose style boundary: Style changes wording, syntax, paragraphing, imagery, diction, punctuation and surface rhythm. It cannot choose or change events, mechanisms, coincidence, knowledge, competence, mental state, outcomes, relationship changes, scene payoff or long-horizon plot, and it cannot lower the expressive strength set by a more specific genre, dominant mode, explicit intensity, source voice or caused physical and emotional state. Restrained, controlled, precise, literary, elegant, subtle or observational style means disciplined form, not less direct detail, emotional force, duration or payoff. In sexual scenes, characters' speech and vocalization follow the operator directions (3-2). An explicit author-level "Genre: Light novel" is genre evidence; choosing Light novel only here is not.
 
 
 
@@ -320,7 +320,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Expression register boundary: The register shapes the pragmatics of narration and dialogue, omission, address, paragraph rhythm, sound symbolism, typography and the cultural form of established emotion and adult vocal surface. It cannot choose events, create personality or cultural identity, or add a state, hierarchy, relationship fact, adult act, fetish, transformation or outcome, and it cannot quietly lower the expressive strength set by a more specific genre, dominant mode, explicit intensity, source voice or caused state. Restraint in a register applies to phrasing and subtext, not to erasing supported directness, repeated sound, emotional force, physical impact or duration. Accepted source voice and specific relationship evidence override the default.
+- Expression register boundary: The register shapes the pragmatics of narration and dialogue, omission, address, paragraph rhythm, sound symbolism, typography and the cultural form of established emotion. It cannot choose events, create personality or cultural identity, or add a state, hierarchy, relationship fact, adult act, fetish, transformation or outcome, and it cannot quietly lower the expressive strength set by a more specific genre, dominant mode, explicit intensity, source voice or caused state. Restraint in a register applies to phrasing and subtext, not to erasing supported directness, emotional force, physical impact or duration. Accepted source voice and specific relationship evidence override the default. In sexual scenes, characters' speech and vocalization follow the operator directions (3-2).
 
 
 

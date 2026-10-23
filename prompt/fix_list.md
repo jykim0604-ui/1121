@@ -27,6 +27,20 @@
 - 프리셋 2 Narrative distance `Keep interior access sparse` ↔ Viewpoint `may reveal several minds`, Composition·Response length `inner life`.
 - 상태: 거리감(Close interior) 결정 보류와 같은 건. 결정 후 처리.
 
+### 1-4. 유혹 단계 속도 (G17 재검수, 낮음~중간)
+
+- 시스템 3-2 첫 줄: `호감과 유혹은 기본적으로 시선, 거리 조절, 농담, 찰나의 접촉으로 천천히 진행한다.`
+- 프리셋 2: Scene pacing Fast `Place the range's decisive action early…`, Story drive Proactive.
+- 판정: 겹침. G13 앵커(`In sexual scenes, the pacing of the act…`)는 성적 장면만 넘겨, 그 전 유혹 단계는 덮지 않는다.
+- 방향 후보: Scene pacing 앵커 범위를 `In seduction and sexual scenes`로 넓힌다. 테스트에서 유혹이 빨라지는 게 보이면 반영.
+
+### 1-5. 숨은 사실을 담은 사물 (G17 재검수, 낮음)
+
+- 시스템 4-5: `말과 어긋나거나 말하지 않은 사실이 담긴 사물 하나를 비출 수 있다.`
+- 프리셋 2 Disclosure: `do not plant optional clues, symbolic echoes, slips, suspicious emphasis or telltale behavior to help discovery.`
+- 판정: 그 사실이 카드에만 있는 숨은 설정이면 반대 방향. 이미 장면에서 드러난 사실이면 충돌 없음.
+- 방향 후보: 프리셋 2 Disclosure 끝에 `The object the operator directions (4-5) allow may hold only facts already shown in the story.` 숨은 설정이 사물로 새는 게 보이면 반영.
+
 ## 2. 빈틈 — 시스템 프롬프트 안 (G7 삽입 문장이 좁음)
 
 ### 2-1. {{user}}와 함께 겪은 일 — 반영 완료(G16)

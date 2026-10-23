@@ -6,10 +6,11 @@
 |---|---|
 | `test_paste.md` | 붙여 넣기용. ① 프리셋 1, ③ 프리셋 2 본문과 분량 표 |
 | `system_prompt_v1.md` | ② 시스템 프롬프트 한글본 |
+| `system_prompt_v1_ko_paste.txt` | ② 한글본 붙여 넣기 전용 |
 | `system_prompt_v1_en.md` / `system_prompt_v1_en_paste.txt` | ② 영문본 / 붙여 넣기 전용 |
 | `headline_ko_v2.md` | 헤드라인 별도 칸 (실제 역사 범위 2026.09.30) |
 | `preset_b4.md` | ①②③ 합본 참조본 (본문은 위 파일과 동기화) |
-| `b2_review.md` | 변경 기록 G1~G16, 원인·결정·관찰 |
+| `b2_review.md` | 변경 기록 G1~G17, 원인·결정·관찰 |
 | `fix_list.md` | 통합 수정 목록 (남은 항목·테스트·보류) |
 | `preset2_system_list.md` / `preset1_hold.md` | NSFW 기준 대조 목록 / 프리셋 1 보류 목록 (모두 반영 완료) |
 

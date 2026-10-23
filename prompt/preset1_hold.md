@@ -1,170 +1,35 @@
-# 영문본·프리셋 2 재검수 — 결정 목록
+# 프리셋 1 관련 보류 목록
 
-대상: `system_prompt_v1_en_paste.txt`(= `system_prompt_v1_en.md`), `test_paste.md` ③ 프리셋 2. 한국어 원본 `system_prompt_v1.md`와 참조본 `preset_b4.md`는 반영 시 함께 동기화한다.
+프리셋 2 작업 직후 처리한다. 기준은 시스템 프롬프트이며, 프리셋 1에서 겹치는 부분만 수정하거나 삭제한다. 시스템 프롬프트에는 문장을 더하지 않는다.
 
-영문 행 번호는 `system_prompt_v1_en_paste.txt` 기준이다. 이 파일은 목록 정리만 한다. 아래 수정은 아직 어느 파일에도 반영하지 않았다.
+행 번호는 `test_paste.md` ① 프리셋 1 블록 안의 순번이다.
 
-## 상태 요약
+## P1-1. 소리·발성·강도 — 3-2와 충돌
 
-| 항목 | 내용 | 결정 |
-|---|---|---|
-| A1 | 성인 장면 발성·소리: 문체 경계에만 예외, 표현 레지스터 경계·프리셋 1과 충돌 | 최우선 보류 (프리셋 1 작업) |
-| A2 | 4-2 "보이거나 셀 수 있는 값"이 감각값을 막음 | 철회 (현행 유지) |
-| A3 | 3-1 "이미 써 온 호칭 이어 쓰기"가 과거 오류를 고정할 수 있음 | 현행 유지 |
-| A4 | 3-2 "처음부터 높지 않고"에 입력 예외가 없음 | 반영 → B1 복원안의 페이싱 줄에 합침 |
-| B1 | 3-2 대사 속 신음의 빈도·강도 (금지 아님) | 방향 전환: 압축 전 7-1·7-2·7-3 원문 복원 (결정 대기) |
-| B2 | 프리셋 2 수식어 앵커가 대사까지 덮음 | 반영 (①안, 지문 한정) |
-| B3 | 2-1 {{user}} 관계 문장이 "관계"만 덮음 | 반영 |
-| B4 | 2-1 다른 인물의 공개 활동 인지 | 반영 |
-| B5 | 설정 괄호에 캐릭터 설명 추가 | 미반영 (캐릭터 설명 칸 미사용) |
-| C1 | 합의 없이 천편일률적으로 존댓말을 쓰는 문제 | 반영 (초안 문구 확정) |
-| C2–C8 | 충돌 없음 확인 항목 | 유지 |
+| 프리셋 1 문장 | 부딪히는 시스템 프롬프트 |
+|---|---|
+| 102행 `Once the event is chosen, give it its full expression: duration, density, repetition, volume, directness, imagery, syntax and page space…` / `no low-to-high curve is assigned in advance` | 3-2 발성 강도 줄("처음부터 높지 않고", "끝까지 크게 오르지 않는 인물도 있다"), 단계 제한 |
+| 100행 `When a cry, plea, refusal, breath, impact or environmental sound really repeats, keep its recurrence, spacing, interruption, vowel length and density` / `Keep intentional sound spelling.` | 3-2 말끝 늘이기·감탄부호 반복 제한, 의성어 제한 |
 
-## 최우선 보류 — 프리셋 1을 건드리는 항목
+- 관찰된 증상: 성적 장면 대사마다 신음, 첫 대사부터 최고 강도, 말끝 모음 늘이기, 인물이 달라도 같은 소리(운영자 예시문).
+- 짝 항목: 프리셋 2의 Expression register boundary("adult vocal surface", "repeated sound… duration")와 Prose style boundary("sound density" 및 성적 장면 예외 문장). 프리셋 2 쪽은 프리셋 2 작업에서 먼저 처리한다.
+- 현재 처리: 헤더와 Charter 순서상 시스템 프롬프트가 이기지만, 반대 방향 지시를 매 응답 저울질한다.
 
-프리셋 2 수정 직후 바로 작업한다. 목록은 그때까지 여기 유지한다.
+## P1-2. 한국어 존비어 고정 — 3-1과 충돌
 
-### A1. 성인 장면의 발성·소리·강도 우선순위
+| 프리셋 1 문장 | 부딪히는 시스템 프롬프트 |
+|---|---|
+| 97행 `Start with accepted speech and explicit relationships, then culture, milieu, age/generation/school year, status, familiarity and individual formality.` | 3-1 계산 요소와 순서(설정 → 관계 판정 → 나이·들어온 시기·직급·친밀도·공적/사적) |
+| 98행 `Inherit each direction across completed utterances. Emotion, attraction, embarrassment, fear, intimacy and escalation do not themselves change speech level. A deliberate switch is a speaker-owned event with a cause and consequence…` | 3-1 첫 등장 관계 판정, 합의와 허락 줄(이미 지내 온 사이면 합의가 있는 것으로 봄) |
 
-- 충돌 지점
-  - 프리셋 2 Prose style boundary: 성적 장면 예외 문장이 있음 ("In sexual scenes, characters' speech, vocalization and sound follow the operator directions (3-2, 4-2) rather than this sentence.").
-  - 프리셋 2 Expression register boundary: 같은 효력의 문장("cannot quietly lower the expressive strength… repeated sound, emotional force… duration")에 예외 없음.
-  - 프리셋 1: "Once the event is chosen, give it its full expression: duration, density, repetition, volume…", "no low-to-high curve is assigned in advance" — 3-2 "처음부터 높지 않고"와 정면 충돌.
-  - 프리셋 1: "When a cry, plea, refusal, breath, impact or environmental sound really repeats, keep its recurrence, spacing, interruption, vowel length and density", "Keep intentional sound spelling" — 3-2 신음·말끝 늘이기 제한과 마찰.
-  - 프리셋 2 성인 블록 "modifiers and sound follow 4-2": 4-2에는 소리 규칙이 없음. 신음·의성어 규칙은 3-2에 있음.
-  - B1 복원안 반영 시 추가: 프리셋 1 "no low-to-high curve is assigned in advance"와 7-2 페이싱(기→승→전→결 단계별 배분), 7-3 신음 단계가 정면 충돌. 프리셋 1 "keep … vowel length"는 [强] 규격과는 맞음.
-- 현재 처리: 헤더 우선순위로 시스템 프롬프트가 이기지만, 매 응답 판정을 추론하게 됨.
-- 검토했던 안 (프리셋 2만 수정)
-  - 성인 블록: `Characters' speech, vocalization, sound and how intensity rises follow the operator directions (3-2), and modifiers follow 4-2; in sexual scenes these take precedence over the prose style and expression register settings.`
-  - Prose style boundary의 성적 장면 문장 삭제.
-- 보류 이유: 충돌의 뿌리가 프리셋 1 문장이라 프리셋 1 작업과 함께 정한다.
+- 관찰된 증상: 합의 없이 천편일률적으로 존댓말. 그러지 않아야 할 인물까지 모두 같은 양상.
+- 진단: 98행은 말투 전환을 "말하는 사람이 일으키는 사건"으로만 인정한다. 3-1이 관계로 반말을 정해도, 프리셋 1은 전환 장면이 없으면 기존(대개 존댓말) 상태를 물려받게 한다. 3-1 합의 줄의 증거 요건과 겹쳐 존댓말로 굳는다.
+- 시스템 프롬프트 쪽 짝 항목(3-1 합의 줄)은 프리셋 2 작업 보고의 "커버 못할 위험군"에 있다.
 
-## 반영 확정
+## P1-3. 짧은 응수 — 4-3과 겹침 (낮음)
 
-### B2. 프리셋 2 수식어 앵커 지문 한정
+| 프리셋 1 문장 | 시스템 프롬프트 |
+|---|---|
+| 55행 `Volleys of short questions met by denials, reversals, quips or echoes are not the default way to sustain a scene…` | 4-3 짧은 티키타카 구간("This stretch is not the chain of short volleys the preset cautions against.") |
 
-- 근거: 4-2 본문의 범위("Style applies to narration")와 맞춘다. 운영자 예시문의 대사 속 수식어("예쁘게 우는", "카리스마 넘치더니", "이상하게 만지니까")는 실제 입말이라 막을 대상이 아니고, 문제가 된 수식어는 모두 지문에 있다. 대사 속 신음은 4-2가 아니라 3-2(B1)가 맡는다.
-- 프리셋 2 [Before writing] 앵커 (A2 철회로 "seen or counted" 유지)
-  - 현행: `- Before nouns and verbs keep only modifiers whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.`
-  - 수정: `- In narration, keep only modifiers before nouns and verbs whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.`
-
-### A4. 3-2 강도 — 입력이 정한 강도는 입력을 따른다
-
-- 결정은 유지하되, 반영 위치는 B1 복원안의 페이싱 줄이다. 원문 "{{user}}의 입력이 복수 단계를 포함하면 입력 소화를 우선한다"에 "강도"를 더한다. B1이 복원안으로 확정되지 않으면 아래 원래 문구로 반영한다.
-  - 한국어 3-2 105행: `{{user}}의 입력이 여러 단계를 담고 있으면` → `{{user}}의 입력이 강도나 여러 단계를 정하면`
-  - 영문 3-2 93행: `If {{user}}'s input contains several stages` → `If {{user}}'s input sets the intensity or several stages`
-
-### B3. 2-1 {{user}} 관계 — 함께 겪은 일까지
-
-- 한국어 2-1 (`system_prompt_v1.md` 66행, `preset_b4.md` 239행)
-  - 현행: `NPC는 자신이 {{user}}와 함께 겪어 온 관계를 처음부터 안다.`
-  - 수정: `NPC는 자신이 {{user}}와 함께 겪어 온 관계와 그 안에서 보고 겪은 일은 처음부터 안다.`
-- 영문 2-1 (54행)
-  - 현행: `An NPC knows from the start the relationship they themselves have shared with {{user}}.`
-  - 수정: `An NPC knows from the start the relationship they themselves have shared with {{user}} and what they saw and went through in it.`
-
-### B4. 2-1 다른 인물의 공개 활동
-
-{{user}}에게만 있던 "공개된 활동" 예외를 다른 인물에게도 연다. 3-1 "말하는 사람이 아는 들어온 순서"가 과하게 걸리지 않게 한다.
-
-- 한국어 2-1 기록 줄 끝에 한 문장 추가 (`system_prompt_v1.md` 64행, `preset_b4.md` 237행)
-  - 추가: `다른 인물의 공개된 활동은 그 인물의 업계와 관심에 따라 알 만한 만큼 안다.`
-- 영문 2-1 기록 줄 끝 (52행)
-  - 추가: `Characters know other people's public activities as far as their own industry and interests would let them.`
-
-### C1. 합의 없이 천편일률적으로 존댓말을 쓰는 문제 — 방향 수정
-
-- 관찰 (사용자): 합의 없이 전부 존댓말로 굳는 양상이 훨씬 심각하다. 그러지 않아야 할 인물들까지 모두 이렇게 나온다.
-- 이전 판단 정정: 첫 검수에서 "추정한 친분으로 반말을 여는 쪽이 더 위험하다"며 유지를 권했으나, 실제로는 반대 방향 실패가 주된 문제다.
-- 원인 (문장 구조)
-  - 3-1에서 반말로 가는 길은 모두 관문을 거친다: 합의 줄(69행)은 앞선 이야기나 설정이 반말 사이로 "보여 줄" 때만 합의를 인정하고, 75행 초면 존댓말, 76행 반말은 허락·합의 필요, 77행 반대 축 상호 존댓말, 78행 "나이만으로 반말이 시작되지 않는다·동갑은 초면 존댓말".
-  - 반대로 존댓말은 근거 없이도 성립한다. 근거가 모자라면 모든 판정이 존댓말로 떨어진다.
-  - 65행(첫 등장 관계)은 "이미 아는 사이인지, 얼마나 가까운지"를 정하게 하지만, 그렇게 정한 관계는 69행의 합의 근거에 들지 않는다. 그래서 작중에서 몇 년을 알고 지낸 사이로 정해져도 존비어 계산에서는 초면처럼 처리된다.
-  - 1-2는 "흔한 기본값을 고르지 않는다"고 하지만, 3-1 안에서는 존댓말이 사실상 기본값이다.
-- 수정 방향
-  - 이전 안: 65행대로 정한 관계를 합의 근거에 넣는다. → 친분이 "보여야" 반말이 열리는 구조는 그대로라 근거 부족 시 존댓말로 떨어지는 문제가 남는다.
-  - 수정 방향: 이미 알고 지내 온 쌍은 합의를 "찾는" 대신, 지금 실제로 쓰고 있을 존비어 자체를 관계 사실로 정한다. 그 값에 필요한 합의는 이미 있는 것으로 본다. 근거 부족을 이유로 존댓말을 기본값으로 고르지 않는다.
-  - 유지하는 안전장치: 이번 장면에서 친해 보인다는 것만으로는 합의가 아니다(기존 문장), 77행 반대 축, 70행 공적 상황 판정, 75행 초면 규칙은 실제로 처음 만난 쌍에만 적용.
-- 확정 문구 — 한국어 3-1 합의 줄 (`system_prompt_v1.md` 69행, `preset_b4.md` 254행). 3-1은 영문본에도 한국어 원문으로 들어가므로 같은 문구.
-  - 현행: `합의와 허락: 이 항목에서 반말과 사적 호칭에 필요한 합의와 허락은, 합의하거나 허락하는 장면이 본문에 서술됐을 때만 성립하는 것이 아니다. 앞선 이야기나 설정(로어북·페르소나)이 그 쌍을 이미 반말이나 사적 호칭으로 지내 온 사이로 보여 주면 합의와 허락이 있는 것으로 본다. 반말이나 사적 호칭을 이미 써 온 기록, 그렇게 지낼 만한 친분이 앞선 이야기에 서술된 경우가 여기에 든다. 이번 장면에서 친해 보인다는 것만으로는 합의나 허락이 아니다.`
-  - 수정: `합의와 허락: 이 항목에서 반말과 사적 호칭에 필요한 합의와 허락은, 합의하거나 허락하는 장면이 본문에 서술됐을 때만 성립하는 것이 아니다. 작중 세계에서 이미 알고 지내 온 쌍(앞선 이야기, 설정(로어북·페르소나), 앞 항목대로 정한 관계)은 계산 요소와 함께 지낸 기간으로 지금 실제로 쓰고 있을 호칭과 존비어를 1-2대로 가장 있을 법하게 정하고, 그 값에 필요한 합의와 허락은 이미 있는 것으로 본다. 근거가 모자란다는 이유로 존댓말을 기본값으로 고르지 않는다. 이번 장면에서 친해 보인다는 것만으로는 합의나 허락이 아니다.`
-- 확인할 점
-  - 반말이 과하게 열리는 반대 실패가 생기는지 테스트로 본다. 관찰 대상: 공적 자리의 반말, 연하가 먼저 반말하는 경우, 반대 축 쌍.
-  - 65행 끝 문장("호칭과 존비어는 그 관계를 바탕으로 아래 기준으로 계산한다")은 손대지 않는다. 반영 후 재검수에서 겹침이 문제가 되면 그때 본다.
-  - 프리셋 2 [Before writing]에 존비어 앵커를 둘지는 테스트 결과를 보고 정한다.
-
-## 재검토안 — 결정 대기
-
-### B1. 대사 속 신음의 빈도·강도 — 압축 전 원문 복원
-
-- 사용자 의도: 큰따옴표 대사 안에 "아앙" 같은 신음이 부적절하게 남발되는 것을 막는다. 금지가 아니라 빈도와 강약의 문제다.
-- 방향 전환 (사용자 지적): 압축 전 프롬프트에는 정상 출력이 나오던 지침이 모두 있었다. 새 금지·지시 문장을 하나하나 만들 이유가 없다. 철회한 안: ②안(소리 종류만 정함), 예시문 기준 재검토안("장식이 아니다", "대사마다 붙지 않는다" 등 새 문장 추가).
-- 압축 전 7장과 현행 3-2 대조
-
-| 압축 전 원문 | 현행 3-2 | 상태 |
-|---|---|---|
-| 7-1 `신음의 강도는 7-3의 음절 규격으로만 표기한다.` | 없음 | 손실 |
-| 7-2 다중 발화 (발화 길이와 방식은 성격이 정함) | "성격이 정하는 만큼 말한다" 줄 | 유지 ("최소 2회"는 빠짐) |
-| 7-2 의성어 `제한적으로` | `드물게` | 유지 (표현만 다름) |
-| 7-2 페이싱 (기→승→전→결 단계별 배분, 자율 씬 완화, 입력 우선) | "한 응답에 여러 단계를 몰아 쓰지 않는다" + 예외 | 단계 정의 손실. 현행 "단계"가 무엇의 단계인지 없음 |
-| 7-3 신음의 단계화 ([弱]·[中]·[强] 규격, 인물별 차이, [强]에 이르지 않는 인물) | "처음부터 높지 않고…끝까지 크게 오르지 않는 인물도 있다…말끝을 늘이거나 감탄부호를 반복하는 것은…" | 규격 손실. 추상 요약만 남음 |
-| 7-3 조립 재료 | 103행 | 유지 |
-| 7-3 의사표현 유지, 주도권과 거리감, 종료 후 회복 | 3-2 해당 줄 | 유지 |
-
-- 진단: 정상 출력을 만들던 것은 각 강도에서 신음이 어떤 모양인지 정한 [弱]·[中]·[强] 규격과, 그 단계를 턴에 나눠 싣는 페이싱이다. 현행은 이를 "처음부터 높지 않고", "실제로 그럴 때만" 같은 추상 문장으로 바꿨다. 모델은 낮은 강도의 모양을 받지 못해 장르 기본값(첫 대사부터 최고 강도, 완성된 문장 앞뒤에 신음 덩어리, 모든 인물이 같은 소리)으로 간다. 예시문의 대사는 세 규격 어디에도 맞지 않는다. 문장이 끝까지 이어지면서 [强]의 모음 반복과 감탄부호 반복이 첫 대사부터 붙어 있다.
-- 복원안: 현행 104행과 105행을 원문으로 바꾼다. 새 문장은 만들지 않는다. A4의 "강도"만 페이싱 예외에 더한다.
-  - 103행: 끝 문장 `섞이는 말과 빈도는 인물마다 다르고, 같은 인물도 장면마다 다르다.` → 원문 조립 재료 끝 문장 `같은 인물이라도 장면마다 다르게 조합한다.` (인물별 빈도 차이는 복원 블록의 첫 항목이 맡으므로 겹침 제거)
-  - 104행 전체를 원문 7-3 블록과 7-1 문장으로 바꾼다.
-    ```
-    - 신음의 단계화: 본문에는 대사만 출력한다. 아래는 조건 설명이며 그대로 인용하지 않는다. 단계는 강도만 정한다. 무슨 말이 섞이는지, 얼마나 자주 나오는지는 인물마다 다르며, [强]에 이르지 않는 인물도 있다. 신음의 강도는 이 규격으로만 표기한다.
-      - [弱] 음절 1~2개, 문장 없음, 말줄임표로 끊김. 자음 반복 없음.
-      - [中] 음절 3~6개에 짧은 요구나 제지가 섞임. 문장이 시작되다 끊긴다.
-      - [强] 음절 7개 이상, 모음 반복 표기와 감탄부호 반복, 문장이 끝까지 이어지지 않음. 그 인물의 성격이 허용하는 범위의 능동적 행동, 요구, 더티토크가 섞인다.
-    ```
-  - 105행
-    - 현행: `강도는 수식어가 아니라 접촉, 동작, 속도 같은 구체적 사실로 드러낸다. 의성어는 실제로 쓰이는 한국어 의성어만 드물게 쓴다. 한 응답에 여러 단계를 몰아 쓰지 않는다. {{user}}의 입력이 여러 단계를 담고 있으면 입력을 따르고, NPC끼리의 자율 장면에는 이 단계 제한을 두지 않는다.`
-    - 수정: `강도는 수식어가 아니라 접촉, 동작, 속도 같은 구체적 사실로 드러낸다. 의성어는 실제로 쓰이는 한국어 의성어만 제한적으로 쓴다. 페이싱: 기(전희)→승(삽입)→전(절정 전)→결(사정)을 단계별 1~2턴씩 배분한다. NPC 자율 장면에서는 페이싱 제한만 완화한다. {{user}}의 입력이 강도나 복수 단계를 정하면 입력 소화를 우선한다.`
-    - "강도는 수식어가 아니라…" 문장은 원문 7장에 없지만 G11에서 4-2 쪽 문제로 넣은 것이라 그대로 둔다.
-  - 영문본
-    - 신음 단계화 블록은 한국어 음절·표기 규격이라 3-1처럼 한국어 원문 그대로 넣는다.
-    - 103행 대응(91행) 끝 문장: `The same character combines them differently from scene to scene.`
-    - 105행 대응(93행): `Show intensity through concrete facts such as contact, movement and pace, not through modifiers. Use only Korean onomatopoeia that people actually use, and sparingly. Pacing: spread 기 (foreplay) → 승 (penetration) → 전 (before climax) → 결 (ejaculation) over 1–2 turns per stage. In NPC-autonomous scenes, only the pacing limit is relaxed. If {{user}}'s input sets the intensity or covers several stages, process the input first.`
-- 숫자: 복원하면 음절 수(1~2, 3~6, 7 이상)와 턴 수(1~2턴)가 돌아온다. G11에서 "숫자 기준은 쓰지 않음"으로 뺐던 부분이다. 다만 이 숫자는 할당량이 아니라 각 강도의 모양을 정하는 정의이고, 정상 출력을 만들던 바로 그 부분이다. 원문 그대로 복원을 권장한다.
-- 프리셋 충돌: 페이싱과 신음 단계는 프리셋 1 "no low-to-high curve is assigned in advance"와 정면으로 부딪힌다. A1(프리셋 1 작업)에 추가해 두었다. 그 전까지는 헤더 우선순위로 시스템 프롬프트가 이긴다.
-- 테스트 관찰: 신음이 대사마다 붙는지, 첫 대사부터 [强]인지, 두 인물의 소리가 같은지, 규격 이름([弱] 등)이 본문에 새는지.
-
-## 현행 유지
-
-### A3. 3-1 "이미 써 온 호칭과 존비어는 이어 쓴다"
-
-- 결정: 현행 유지. 앞선 이야기에 잘못된 표현이 남지 않도록 사용자가 직접 바로잡고 있다.
-- 수정안이 더 안전한가에 대한 피드백: 아니다. 유지가 낫다.
-  - 이 줄의 목적은 이미 쓴 쌍의 재계산을 건너뛰게 하는 것이다. "두 축에 어긋나지 않는 한"을 붙이면 매 턴 모든 쌍을 다시 검산하게 되어, 계산 부담과 추론 시간이 늘고 줄의 목적이 사라진다.
-  - 얻는 안전성은 앞선 이야기에 오류가 남아 있을 때뿐인데, 지금 운용에서는 그 경우가 거의 없다.
-  - 남는 위험은 장기기억 요약(HypaMinus 등)이 잘못된 호칭을 기록하는 경우다. 3-1 66행(가장 최근 기록이 현재 값)과 오류 발생 시 사용자 정정으로 처리된다.
-  - 재검토 조건: 앞선 이야기에 남은 오류가 다음 턴으로 이어지는 일이 관찰되면 그때 다시 본다.
-
-### B5. 설정 괄호에 캐릭터 설명 추가
-
-- 결정: 미반영. 캐릭터 설명 칸에 인물 데이터를 넣지 않는다.
-
-### C2–C8. 충돌 없음 확인
-
-- C2. 전지적 시점과 2-1 정보 격리: 프리셋 문장("Characters still cannot use facts they have not learned")과 2-1 귀속 줄이 막는다. Observational restraint의 "sparse"도 "may reveal"과 함께 성립한다.
-- C3. 4-3 티키타카 구간과 프리셋 1 volley 경계: 4-3에 명시적 예외가 있다.
-- C4. 5-1 "요지만"과 프리셋 Input status: 단언과 미완료라는 양태는 유지되므로 충돌하지 않는다. 4-4는 5-1 제한에서 따로 빠져 있다.
-- C5. 헤드라인 위치: 6의 출력 순서와 "this order" 예외 문장이 헤드라인까지 덮으므로 프리셋 1의 제목 금지와 충돌하지 않는다.
-- C6. 헤더 G7(설정 우선)과 3-1 [CRITICAL], 프리셋 출처 순서: 세 곳의 방향이 같다.
-- C7. 물결표 삭제: 범위는 5-2 숫자 규칙("2주에서 3주")이 처리한다.
-- C8. Description-led의 "atmosphere"와 4-2 추상명사 금지: 약한 마찰은 있으나 4-2의 "근거 있는 이미지만"과 헤더 우선순위로 정리된다. 수정하지 않는다.
-
-## 반영 순서 (작업 시작 시)
-
-1. B1 복원안 확정
-2. 프리셋 2 수정: B2 앵커
-3. 한국어 시스템 프롬프트: B1(+A4), B3, B4, C1
-4. 영문본과 paste 파일 동기화 (3-1과 3-2 신음 단계화 블록은 한국어 원문 그대로)
-5. `preset_b4.md` 본문 동기화 (변경 기록 표의 인용문은 건드리지 않음)
-6. 토큰 재계산 후 `test_paste.md` 표 갱신
-7. 가이드 기준 재검수
-8. 이어서 프리셋 1 작업: A1
+- 현재 4-3이 예외를 명시해 충돌은 해소돼 있다. 프리셋 1 쪽 문장을 정리하면 4-3의 예외 문장도 덜어낼 수 있다.

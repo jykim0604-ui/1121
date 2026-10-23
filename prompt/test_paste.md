@@ -5,8 +5,8 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,642 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,526) | 10,129 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,910 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,569) | 10,176 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,941 |
 
 ## 붙여 넣기 전 확인
 
@@ -310,7 +310,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Prose style boundary: Style changes wording, syntax, paragraphing, imagery, diction, punctuation and surface rhythm. It cannot choose or change events, mechanisms, coincidence, knowledge, competence, mental state, outcomes, relationship changes, scene payoff or long-horizon plot, and it cannot lower the expressive strength set by a more specific genre, dominant mode, explicit intensity, source voice or caused physical and emotional state. Restrained, controlled, precise, literary, elegant, subtle or observational style means disciplined form, not less direct detail, sound density, emotional force, duration or payoff. An explicit author-level "Genre: Light novel" is genre evidence; choosing Light novel only here is not.
+- Prose style boundary: Style changes wording, syntax, paragraphing, imagery, diction, punctuation and surface rhythm. It cannot choose or change events, mechanisms, coincidence, knowledge, competence, mental state, outcomes, relationship changes, scene payoff or long-horizon plot, and it cannot lower the expressive strength set by a more specific genre, dominant mode, explicit intensity, source voice or caused physical and emotional state. Restrained, controlled, precise, literary, elegant, subtle or observational style means disciplined form, not less direct detail, sound density, emotional force, duration or payoff. In sexual scenes, characters' speech, vocalization and sound follow the operator directions (3-2, 4-2) rather than this sentence. An explicit author-level "Genre: Light novel" is genre evidence; choosing Light novel only here is not.
 
 
 

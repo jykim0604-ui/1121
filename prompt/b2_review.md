@@ -658,3 +658,13 @@ U(복원 안 됨) 없음. 결과물에만 있는 것(규칙 3의 띄어쓰기·�
 추가: 프리셋 2 [Before writing] 수식어 앵커 앞에 "In narration,"(4-2 본문 범위와 일치, 대사 속 입말 평가어는 막지 않음).
 
 토큰: 한글본 10,357, 영문본 9,723, 프리셋 2 3,964. 행동 검증 UNTESTED.
+
+---
+
+## G14. 프리셋 1 소리·발성·강도(P1-1)를 3-2와 잇기
+
+- 대조(G13 반영 기준): 99행 끊긴 말, 100행 소리 출처·문장부호로 강도 만들지 않음·의도된 표기, 102행 원인 있는 절정·문체가 강도를 줄이지 않음은 3-2와 같은 방향.
+- 겹침: 100행 `really repeats… vowel length and density`, 102행 `full expression: … repetition, volume … active genre`. 성적 장면에 한정되지 않은 일반 원칙이라 운영자 결정으로 유지하고, 성적 장면 예외만 3-2 앵커.
+- 충돌: 102행 `no low-to-high curve is assigned in advance`가 3-2 기승전결 페이싱과 정반대. 삭제하고 102행 앵커로 성적 장면 페이싱을 3-2로 넘김. 일반 장면 기능은 59행, 102행 `A caused peak…`, 프리셋 2 Balanced가 맡아 손실 없음.
+- 반영(test_paste ①, B4): 100행 끝 `In sexual scenes, the repetition and vowel length of characters' vocalization follow the operator directions (3-2).` / 102행 충돌 구절 삭제 + 끝 `In sexual scenes, the repetition, volume and intensity of characters' vocalization and the pacing of the act follow the operator directions (3-2).`
+- 토큰: 프리셋 1 6,683. 행동 검증 UNTESTED.

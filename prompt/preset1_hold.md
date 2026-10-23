@@ -4,7 +4,7 @@
 
 행 번호는 `test_paste.md` ① 프리셋 1 블록 안의 순번이다.
 
-## P1-1. 소리·발성·강도 — 3-2와 겹침 (G13 반영 후 재정리)
+## P1-1. 소리·발성·강도 — 3-2와 겹침 (G14 반영 완료)
 
 기준 상태: 시스템 3-2에 弱·中·强 신음 강도, 기승전결 페이싱, "의성어는 실제로 쓰이는 한국어 의성어만 쓴다" 반영. 프리셋 2는 성인 블록·문체 경계·레지스터 경계·Scene pacing에서 겹치는 부분을 지우고 3-2 앵커, 수식어 앵커는 지문 한정(In narration).
 
@@ -20,7 +20,11 @@
 
 - 관찰된 증상과의 연결: 첫 대사부터 최고 강도는 충돌 줄, 대사마다 늘어진 신음은 겹침 두 줄과 맞닿는다.
 - 현재 처리: Charter 순서상 운영자 지시(시스템 프롬프트)가 위라 결과는 3-2를 따르지만, 모델은 매 응답 두 방향을 저울질한다.
-- 수정 방향(프리셋 2와 같은 원칙): 세 문장 모두 프리셋 1이 모든 장면에 대해 맡는 일반 원칙이라 삭제하지 않는다. 성적 장면에서 겹치는 범위만 3-2로 넘기는 앵커를 둔다. 문구는 프리셋 1 작업 때 정한다.
+- 반영 완료(G14)
+  - 겹침 두 줄(100행 반복음, 102행 full expression): 성적 장면에 한정되지 않은 일반 원칙이라 중복이어도 그대로 유지. 성적 장면 예외만 앵커로 추가.
+    - 100행 끝: `In sexual scenes, the repetition and vowel length of characters' vocalization follow the operator directions (3-2).`
+    - 102행 끝: `In sexual scenes, the repetition, volume and intensity of characters' vocalization and the pacing of the act follow the operator directions (3-2).`
+  - 충돌(102행 `no low-to-high curve is assigned in advance`): 삭제. 일반 기능(정해진 상승 곡선을 씌우지 않음)은 59행(강조는 장면이 쌓은 무게를 따름), 102행 `A caused peak…`, 프리셋 2 Balanced가 맡는다. 성적 장면은 위 102행 앵커가 3-2로 넘긴다.
 
 ## P1-2. 한국어 존비어 고정 — 3-1과 충돌
 

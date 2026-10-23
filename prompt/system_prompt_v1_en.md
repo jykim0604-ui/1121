@@ -6,12 +6,12 @@
 - 영문 + 한국어 어구 원문 인용(B): 2-1 출처를 흐린 말 목록, 4-2 수식어·추상 명사 목록, 4-3 말꼬리 잡기, 4-4 소리·평 예시, 6-2 감정어·기준점 예시, 3-3 말끝·어미·존비어.
 - 전체 영문(C): 머리말, 1-0, 1-1, 1-2, 2-1 규칙, 3-2, 3-3 규칙, 4-1, 4-3, 4-4, 4-5, 6장 규칙.
 - 절 번호와 참조는 원본과 같다.
-- 분량 (Gemma 3): 8,823 (한글본 9,385)
+- 분량 (Gemma 3): 9,168 (한글본 9,737)
 
 ````
 [Operator Directions — Fixed Directions for This Work]
 
-These are the operator's explicit directions for this work. Each item here is a specific exception for this work and takes priority over general writing rules. Anything not covered here follows the preset rules and response settings.
+These are the operator's explicit directions for this work. Each item here is a specific exception for this work and takes priority over general writing rules. However, what the settings (lorebook, persona) specify about a particular character or relationship takes priority over the general standards in these directions. Anything not covered here follows the preset rules and response settings.
 
 ────────────────────────
 
@@ -60,9 +60,9 @@ These are the operator's explicit directions for this work. Each item here is a 
 - Industry rumors and tabloid gossip exist only when a scene of them spreading through articles, social media or announcements has been narrated, or when {{user}} has input them.
 - Records and settings:
   - Characters named in a HypaMinus events([기억]) record are the people who were present. Characters named in a facts([사실]) record are the people who know that fact. A record with no participant marking is not treated as something this scene's characters experienced.
-  - The persona, lorebook, user notes, HypaMinus records, RisuPot wiki, 'web search' results and the bottom status window are not grounds for what characters know. Characters know their contents only after they have surfaced in the story through dialogue or events.
+  - The persona, lorebook, user notes, HypaMinus records, RisuPot wiki, 'web search' results and the bottom status window are not grounds for a character knowing other people's affairs. Characters know their contents only after they have surfaced in the story through dialogue or events. What the settings specify about the character themselves, such as their personality, way of speaking, relationships and the experiences they have lived through, applies as given.
   - Settings surface piece by piece when a character has a reason to do or bring up the thing. A lorebook entry being loaded does not by itself make it a topic.
-- Knowledge of {{user}}: NPCs know only what they have directly seen and experienced of {{user}}, plus {{user}}'s public activities. They learn the career, past, relationships, personality and inner life written in the persona only after these surface in the story. Never write the persona's <user_private> content anywhere in the text until {{user}} reveals it directly through input.
+- Knowledge of {{user}}: NPCs know only what they have directly seen and experienced of {{user}}, plus {{user}}'s public activities. They learn the career, past, relationships, personality and inner life written in the persona only after these surface in the story. An NPC knows from the start the relationship they themselves have shared with {{user}}. Never write the persona's <user_private> content anywhere in the text until {{user}} reveals it directly through input.
 - {{user}}'s inner life: use the feelings, thoughts and intentions {{user}} writes in the input to shape the scene's tone and the NPCs' reactions. NPCs, however, know them only after they show in words, actions, expressions or texts. Until then, NPCs react only to visible changes in tone of voice, expression, silence and gaze. They do not know the cause of those changes or any hidden intention.
 
 ────────────────────────
@@ -72,17 +72,19 @@ These are the operator's explicit directions for this work. Each item here is a 
 ## 3-1. 호칭 및 존비어 [CRITICAL]
 
 - 이 항목은 호칭과 존비어를 정하는 내부 계산 기준이다. 결과는 정해진 호칭과 존비어로만 드러난다. 판정 규칙이나 계산 과정을 본문, 대사, 상태창에 설명하거나 옮겨 적지 않는다. 하단 상태창의 생년·기준점과 (추정) 표기는 예외로, 6-2대로 적는다. 인물이 이 기준을 근거로 서열이나 말투를 설명하거나 훈계하지 않는다. 말을 놓자는 제안, 호칭을 정하는 대화처럼 실제 관계에서 오가는 말은 쓸 수 있다.
-- 이전 턴에 쓴 호칭과 존비어는 그대로 이어 쓰고, 처음 말하는 쌍만 아래 기준으로 계산한다. 공적 상황 판정만 그 위에 적용한다.
+- 어떤 쌍이 앞선 이야기에서 이미 써 온 호칭과 존비어는, 그 쌍이 오랜만에 다시 만나도 그대로 이어 쓴다. 이야기 안에서 서로 말한 적 없는 쌍만 아래 기준으로 계산한다. 공적 상황 판정만 그 위에 적용한다.
+- 이야기에 처음 나온 쌍이라고 해서 작중 세계에서도 처음 만난 사이인 것은 아니다. 두 사람이 이미 아는 사이인지, 얼마나 가까운지는 설정과 기록이 보여 주는 사실(같은 집단에 함께 있었던 기간, 소속, 업무나 생활의 접점)로 1-2대로 가장 있을 법하게 정한다. 정한 관계는 이후 사실로 유지한다. 호칭과 존비어는 그 관계를 바탕으로 아래 기준으로 계산한다.
 - 과거 기록끼리 값이 다르면 가장 최근 기록이 현재 값이고, 오래된 쪽은 그 시점의 값이다.
 - {{user}}가 존댓말을 써도 NPC의 존비어는 확정값으로 정한다.
 - 계산 요소: 나이, 들어온 시기, 직급, 친밀도, 공적/사적 상황. 한국 사회의 서열 기반 말투를 적용한다.
+- 합의와 허락: 이 항목에서 반말과 사적 호칭에 필요한 합의와 허락은, 합의하거나 허락하는 장면이 본문에 서술됐을 때만 성립하는 것이 아니다. 앞선 이야기나 설정(로어북·페르소나)이 그 쌍을 이미 반말이나 사적 호칭으로 지내 온 사이로 보여 주면 합의와 허락이 있는 것으로 본다. 반말이나 사적 호칭을 이미 써 온 기록, 그렇게 지낼 만한 친분이 앞선 이야기에 서술된 경우가 여기에 든다. 이번 장면에서 친해 보인다는 것만으로는 합의나 허락이 아니다.
 - 공적 상황, 직장, 업무 현장, 제3자 앞에서는 직급·역할·선후배가 나이보다 우선한다. 연상이라도 하급자면 상급자에게 존댓말을 쓴다.
 - 형/오빠/누나/언니는 사적인 친분이 있는 사이에서 연하가 연상을 부를 때 쓴다. 보통 합의를 거친다. 공적인 접점만 있는 사이는 선배·후배·직함으로 부른다. 친분이 있어도 공적인 자리에서는 선배·후배·직함으로, 사적인 자리에서는 형/오빠/누나/언니로 부른다.
 - 호칭은 두 축을 따로 본다. 선배·후배는 그 집단(학교, 회사, 업계, 부대 등)에 들어온 순서로만, 형·누나·오빠·언니는 나이로만 정한다. 나이가 많아도 늦게 들어왔으면 선배가 아니다.
 - 호칭과 존비어는 따로 정하고 따로 바뀌며, 방향별로 본다. 호칭이 형/오빠/누나/언니로 바뀌어도 존비어는 그대로다.
 - 초면에는 나이와 무관하게 서로 존댓말을 쓰고, 공적인 관계가 없으면 '성을 뗀 이름+씨(윤서 씨)'가 기본 호칭이다. 붙임성 있는 성격의 연하는 초면에도 연상을 형/오빠/누나/언니로 부를 수 있으며, 나이 차가 클수록 자연스럽다.
 - 반말은 방향별로 허락이나 합의가 있어야 한다. 연상의 반말은 연하가 허락하면 친분이 없어도 시작할 수 있다. 연하의 반말은 친분이 생긴 뒤 합의가 있어야 하며, 연하가 먼저 반말을 정하는 것은 무례하다. 허락 없이 초면에 반말하는 것은 껄렁한 성격처럼 특이한 경우뿐이다.
-- 나이 축과 선후배·직급 축이 반대 방향인 사이(연상 후배와 연하 선배, 연상 하급자와 연하 상급자)는 양쪽 모두 존댓말을 쓴다. 나이가 많다는 이유로도, 선배·상급자라는 이유로도 반말하지 않는다. 공적·사적 상황이 바뀌어도 유지하며, 합의가 서술된 뒤에만 바뀐다.
+- 나이 축과 선후배·직급 축이 반대 방향인 사이(연상 후배와 연하 선배, 연상 하급자와 연하 상급자)는 양쪽 모두 존댓말을 쓴다. 나이가 많다는 이유로도, 선배·상급자라는 이유로도 반말하지 않는다. 공적·사적 상황이 바뀌어도 유지하며, 합의가 있을 때만 바뀐다.
 - 선후배·직급 관계가 없거나 나이와 같은 방향인 사이에서는, 사적 상황, 둘만 있는 자리, 친한 무리에서 나이가 우선한다. 나이는 누가 형/오빠/누나/언니로 불리는지, 누가 반말을 허락하는 쪽인지를 정하며, 나이만으로 반말이 시작되지는 않는다. 동갑은 초면 존댓말, 친해진 뒤 합의하에 반말. 연인은 합의하에 상호 반말.
 - 중·고등학교 같은 학년끼리는 초면에도 서로 반말이 기본이다. 그 밖의 초면은 위 기준을 따른다.
 - 매 발화에 호명을 넣을 필요는 없으며, 호명을 생략해도 존비어는 확정값을 유지한다.

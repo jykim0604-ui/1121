@@ -4,17 +4,23 @@
 
 행 번호는 `test_paste.md` ① 프리셋 1 블록 안의 순번이다.
 
-## P1-1. 소리·발성·강도 — 3-2와 충돌
+## P1-1. 소리·발성·강도 — 3-2와 겹침 (G13 반영 후 재정리)
 
-| 프리셋 1 문장 | 부딪히는 시스템 프롬프트 |
-|---|---|
-| 102행 `Once the event is chosen, give it its full expression: duration, density, repetition, volume, directness, imagery, syntax and page space…` / `no low-to-high curve is assigned in advance` | 3-2 발성 강도 줄("처음부터 높지 않고", "끝까지 크게 오르지 않는 인물도 있다"), 단계 제한 |
-| 100행 `When a cry, plea, refusal, breath, impact or environmental sound really repeats, keep its recurrence, spacing, interruption, vowel length and density` / `Keep intentional sound spelling.` | 3-2 말끝 늘이기·감탄부호 반복 제한, 의성어 제한 |
+기준 상태: 시스템 3-2에 弱·中·强 신음 강도, 기승전결 페이싱, "의성어는 실제로 쓰이는 한국어 의성어만 쓴다" 반영. 프리셋 2는 성인 블록·문체 경계·레지스터 경계·Scene pacing에서 겹치는 부분을 지우고 3-2 앵커, 수식어 앵커는 지문 한정(In narration).
 
-- 관찰된 증상: 성적 장면 대사마다 신음, 첫 대사부터 최고 강도, 말끝 모음 늘이기, 인물이 달라도 같은 소리(운영자 예시문).
-- 짝 항목: 프리셋 2의 Expression register boundary("adult vocal surface", "repeated sound… duration")와 Prose style boundary("sound density" 및 성적 장면 예외 문장). 프리셋 2 쪽은 프리셋 2 작업에서 먼저 처리한다.
-- 현재 처리: 헤더와 Charter 순서상 시스템 프롬프트가 이기지만, 반대 방향 지시를 매 응답 저울질한다.
-- 수정 기준: 압축 전 7-2 페이싱·7-3 신음 단계화. 시스템 프롬프트·프리셋 2 쪽은 `preset2_system_list.md` 1·2번과 같은 기준으로 맞춘다.
+| 프리셋 1 문장 | 3-2와의 관계 | 판정 |
+|---|---|---|
+| 99행 끊긴 말은 지금 가능한 소리·호흡·제어만큼, 완성된 문장을 나중에 꾸미지 않음 / 한국어 끊김 표기 | 中·强 "문장이 시작되다 끊긴다", "끝까지 이어지지 않는다"와 같은 방향 | 이어짐 |
+| 100행 소리는 실제 출처·재질·접촉·거리로 고르고, 같은 효과음을 돌려 쓰지 않음 | 3-2 "강도는 구체적 사실로", "실제로 쓰이는 한국어 의성어만"과 같은 방향 | 이어짐 |
+| 100행 `No punctuation plan or planned peak creates tempo or a bodily event.` / `Keep intentional sound spelling.` | 문장부호로 강도를 만들지 않음. 3-2 弱·中·强은 이미 정해진 강도의 모양이라 같은 방향 | 이어짐 |
+| 102행 `A caused peak keeps its duration and recovery…`, `Literary finish or restraint shapes form; it does not shrink what the scene supports.` | 强의 지속과 회복, 문체가 강도를 줄이지 않음. 프리셋 2 경계와 같은 방향 | 이어짐 |
+| 100행 `When a cry, plea… really repeats, keep its recurrence, spacing, interruption, vowel length and density` | 성적 장면에서 신음의 반복·모음 늘이기는 3-2 弱·中·强이 정한다(弱은 되풀이 없음, 强은 모음 되풀이). 같은 대상을 두 층이 맡음 | 겹침 |
+| 102행 `give it its full expression: duration, density, repetition, volume… follow the specific source, active genre…` | 성적 장면의 반복·음량은 3-2가 맡는다. "active genre"가 장르 최대치로 끌어당길 수 있음 | 겹침 |
+| 102행 `no low-to-high curve is assigned in advance` | 3-2 "기승전결의 흐름으로 진행", "신음의 강도는 장면의 기승전결에 따라 달라진다"와 정반대 | 충돌 |
+
+- 관찰된 증상과의 연결: 첫 대사부터 최고 강도는 충돌 줄, 대사마다 늘어진 신음은 겹침 두 줄과 맞닿는다.
+- 현재 처리: Charter 순서상 운영자 지시(시스템 프롬프트)가 위라 결과는 3-2를 따르지만, 모델은 매 응답 두 방향을 저울질한다.
+- 수정 방향(프리셋 2와 같은 원칙): 세 문장 모두 프리셋 1이 모든 장면에 대해 맡는 일반 원칙이라 삭제하지 않는다. 성적 장면에서 겹치는 범위만 3-2로 넘기는 앵커를 둔다. 문구는 프리셋 1 작업 때 정한다.
 
 ## P1-2. 한국어 존비어 고정 — 3-1과 충돌
 

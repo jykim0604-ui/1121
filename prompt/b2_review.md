@@ -655,4 +655,6 @@ U(복원 안 됨) 없음. 결과물에만 있는 것(규칙 3의 띄어쓰기·�
 
 남은 충돌: 프리셋 1의 "no low-to-high curve is assigned in advance", "give it its full expression… repetition, volume", "No punctuation plan or planned peak…"이 3-2 기승전결 페이싱·弱中强과 방향이 엇갈린다. Charter 순서상 운영자 지시가 위라 결과는 3-2가 이기지만, `preset1_hold.md` P1-1에서 같은 기준으로 맞춘다.
 
-토큰: 한글본 10,357, 영문본 9,723, 프리셋 2 3,961. 행동 검증 UNTESTED.
+추가: 프리셋 2 [Before writing] 수식어 앵커 앞에 "In narration,"(4-2 본문 범위와 일치, 대사 속 입말 평가어는 막지 않음).
+
+토큰: 한글본 10,357, 영문본 9,723, 프리셋 2 3,964. 행동 검증 UNTESTED.

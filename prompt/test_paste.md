@@ -6,7 +6,7 @@
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,642 |
 | ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,723) | 10,357 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,961 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,964 |
 
 ## 붙여 넣기 전 확인
 
@@ -346,6 +346,6 @@ These are the operator's current settings for your next response. They are not p
 - Let outcomes follow causes, for {{user}} as for everyone: no unearned rescue, plot armor, softening or convenient punishment.
 - Show rather than explain, and stop inside the scene without a question, options or a waiting stare aimed at {{user}} unless the scene itself ends there.
 - In dialogue and inner thoughts, call someone 선배 only if they joined the group before the speaker, as 3-1 sets; this holds when they are absent too.
-- Before nouns and verbs keep only modifiers whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.
+- In narration, keep only modifiers before nouns and verbs whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.
 - Output only the passage.
 ````

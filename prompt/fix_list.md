@@ -2,11 +2,11 @@
 
 원칙: 프리셋 1, 시스템 프롬프트, 프리셋 2는 각자 작동한다. 어느 한 층이 혼자 맡는 지침은 남긴다. 겹치는 일반 지침은 두고 예외만 앵커로 넘긴다. 정면 충돌은 지우고 앵커로 넘긴다. 새 지침을 늘리지 않는다.
 
-완료: NSFW 발성·강도·페이싱·밀도(G13), 수식어 앵커 지문 한정(G13), 프리셋 1 소리·표현(G14), 프리셋 1 존비어·짧은 응수(G15). 세부는 `b2_review.md`, `preset2_system_list.md`, `preset1_hold.md`.
+완료: NSFW 발성·강도·페이싱·밀도(G13), 수식어 앵커 지문 한정(G13), 프리셋 1 소리·표현(G14), 프리셋 1 존비어·짧은 응수(G15), 이 목록의 1-1·1-2·2-1·2-2(G16). 세부는 `b2_review.md`, `preset2_system_list.md`, `preset1_hold.md`.
 
-## 1. 충돌 — 프리셋 2 ↔ 시스템 프롬프트 (미처리)
+## 1. 충돌 — 프리셋 2 ↔ 시스템 프롬프트
 
-### 1-1. Output range의 두 번째 문턱 ↔ 4-5 행동의 결과
+### 1-1. Output range의 두 번째 문턱 ↔ 4-5 행동의 결과 — 반영 완료(G16)
 
 - 프리셋 2: `Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request.`
 - 시스템 4-5: `{{user}}가 아닌 인물이 시작한 동작은 결과까지 쓴다. 손을 뻗었으면 잡았는지, 문을 열려 했으면 열렸는지까지 쓰고 그 직전에서 끊지 않는다.`
@@ -14,7 +14,7 @@
 - 방향: 프리셋 2 문장은 유지하고 끝에 앵커. `An action a character other than {{user}} has already started is carried to its result as the operator directions (4-5) set.`
 - 중요도: 중간~높음.
 
-### 1-2. Interaction mode의 {{user}} 작은 반응 허용 ↔ 4-5 1:1
+### 1-2. Interaction mode의 {{user}} 작은 반응 허용 ↔ 4-5 1:1 — 반영 완료(G16)
 
 - 프리셋 2: `For continuity you may add only a strongly implied, low-commitment micro-action or an immediate involuntary or sensory reaction of {{user}}'s…`
 - 시스템 4-5: `{{user}}와 NPC 한 명뿐인 장면: … 그 사이 {{user}}가 대답하거나 되받는 말과 행동은 쓰지 않는다.`
@@ -29,16 +29,16 @@
 
 ## 2. 빈틈 — 시스템 프롬프트 안 (G7 삽입 문장이 좁음)
 
-### 2-1. {{user}}와 함께 겪은 일
+### 2-1. {{user}}와 함께 겪은 일 — 반영 완료(G16)
 
-- 현행 2-1: `NPC는 자신이 {{user}}와 함께 겪어 온 관계를 처음부터 안다.`
+- 이전 2-1: `NPC는 자신이 {{user}}와 함께 겪어 온 관계를 처음부터 안다.`
 - 빈틈: 바로 앞 문장(페르소나의 경력, 과거, 성격은 드러난 뒤에 안다) 때문에, 소꿉친구 같은 NPC가 함께 겪은 과거와 그 안에서 본 성격을 모르는 척할 수 있다.
 - 방향: 삽입 문장만 고침. `함께 겪어 온 관계` → `함께 겪어 온 관계와 일`. 영문 `the relationship they themselves have shared with {{user}}` → `the relationship and experiences they themselves have shared with {{user}}`.
 - 중요도: 중간(설정에 함께 지낸 과거가 있는 NPC에서 발생).
 
-### 2-2. 다른 인물의 공개 정보
+### 2-2. 다른 인물의 공개 정보 — 반영 완료(G16)
 
-- 현행 2-1 기록 줄: `…하단 상태창은 인물이 남의 일을 아는 근거가 아니다.`
+- 이전 2-1 기록 줄: `…하단 상태창은 인물이 남의 일을 아는 근거가 아니다.`
 - 빈틈: "남의 일"이 데뷔·소속 같은 공개 정보까지 막는다. 3-1 `선배·후배는 말하는 사람이 아는 들어온 순서로만 쓴다`와 맞물려, 업계 사람이 다 아는 데뷔 순서도 모르는 것으로 처리될 수 있다. 공개 활동 예외는 {{user}}에게만 있다.
 - 방향: 삽입 낱말만 고침. `남의 일` → `남의 사적인 일`. 영문 `other people's affairs` → `other people's private affairs`.
 - 중요도: 낮음~중간(관찰되면 우선).

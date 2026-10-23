@@ -5,8 +5,8 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,728 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,714) | 10,343 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,964 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,717) | 10,346 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,019 |
 
 ## 붙여 넣기 전 확인
 
@@ -157,7 +157,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 - Interaction mode: Collaborative RP. Treat the latest input as shared staging; {{user}}'s own speech, decisions and inner life belong to the operator.
-- For continuity you may add only a strongly implied, low-commitment micro-action or an immediate involuntary or sensory reaction of {{user}}'s, and only when it creates no new goal, interpretation, commitment, relationship change, outcome or choice. {{user}}'s speech, deliberate actions, thoughts, beliefs, lasting emotions, interpretations, acceptance or refusal, decisions, initiative and every story-changing or irreversible result belong to the operator. When {{user}}'s next move would matter, advance the other characters and the world instead and leave that move to the operator.
+- For continuity you may add only a strongly implied, low-commitment micro-action or an immediate involuntary or sensory reaction of {{user}}'s, and only when it creates no new goal, interpretation, commitment, relationship change, outcome or choice. {{user}}'s speech, deliberate actions, thoughts, beliefs, lasting emotions, interpretations, acceptance or refusal, decisions, initiative and every story-changing or irreversible result belong to the operator. When {{user}}'s next move would matter, advance the other characters and the world instead and leave that move to the operator. In a scene with only {{user}} and one NPC, {{user}}'s responses follow the operator directions (4-5).
 
 
 
@@ -224,7 +224,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Output range: Interaction handoff. Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed. Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request. In autonomous-novel mode, stop at a dramatic choice point without asking a question.
+- Output range: Interaction handoff. Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed. Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request. An action a character other than {{user}} has already started is carried to its result as the operator directions (4-5) set. In autonomous-novel mode, stop at a dramatic choice point without asking a question.
 
 
 

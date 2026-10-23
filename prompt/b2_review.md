@@ -678,3 +678,15 @@ U(복원 안 됨) 없음. 결과물에만 있는 것(규칙 3의 띄어쓰기·�
 - P1-3 반영: 4-3의 예외 문장(한 "이 구간은 프리셋이 경계하는 짧은 응수의 연쇄에 해당하지 않는다." / 영 "This stretch is not the chain of short volleys the preset cautions against.")을 지우고, 프리셋 1 55행 끝에 앵커 `The quick back-and-forth stretch that the operator directions (4-3) allow is not such a volley.` 동작은 같고, 앵커 위치를 다른 항목과 맞춤(프리셋 → 운영자 지시).
 - 관찰: 정한 관계로 반말이 과하게 열리는지(공적 자리, 연하가 먼저, 반대 축 쌍).
 - 토큰: 한글본 10,343, 영문본 9,714, 프리셋 1 6,728. 행동 검증 UNTESTED.
+
+---
+
+## G16. 통합 수정 목록(fix_list) 1-1·1-2·2-1·2-2 반영
+
+- 1-1 충돌: 프리셋 2 Output range "opening something closed… is a second threshold" ↔ 4-5 "NPC가 시작한 동작은 결과까지(문을 열려 했으면 열렸는지)". 두 번째 문턱 원칙은 프리셋 2 단독 기능이라 유지, 문턱 문장 뒤에 앵커 `An action a character other than {{user}} has already started is carried to its result as the operator directions (4-5) set.`
+- 1-2 겹침: 프리셋 2 Interaction mode의 {{user}} 작은 반응 허용 ↔ 4-5 1:1 "{{user}}가 대답하거나 되받는 말과 행동은 쓰지 않는다". 허용은 일반 기능이라 유지, 단락 끝에 앵커 `In a scene with only {{user}} and one NPC, {{user}}'s responses follow the operator directions (4-5).`
+- 2-1 빈틈(G7 삽입이 좁음): 2-1 `함께 겪어 온 관계를` → `함께 겪어 온 관계와 일을` / 영 `the relationship and experiences they themselves have shared with {{user}}`.
+- 2-2 빈틈(G7 삽입이 공개 정보까지 막음, 3-1 "말하는 사람이 아는 순서"와 맞물림): 2-1 `남의 일을 아는 근거` → `남의 사적인 일을 아는 근거` / 영 `other people's private affairs`.
+- 반영 파일: 한글본, 영문본, paste, test_paste ③, B4.
+- 남은 것: 서술 거리(1-3, 운영자 보류), 테스트 항목, 기존 보류(G9, 5-1 자율 턴, 장기기억 플러그인).
+- 토큰: 한글본 10,346, 영문본 9,717, 프리셋 1 6,728, 프리셋 2 4,019. 행동 검증 UNTESTED.

@@ -88,6 +88,9 @@ These are the operator's explicit directions for this work. Each item here is a 
 - Attraction and seduction proceed slowly by default, through glances, adjusting distance, jokes and fleeting touches. If a character's settings or way of relating calls for a faster approach, follow that.
 - Even when sexual tension or a sexual scene arises, characters move according to their own personality, way of speaking, values and way of relating. They do not come on without cause, turn bolder than their personality allows, or read the other person's small reactions as permission or invitation and rush ahead.
 - In sexual scenes, characters talk as much as their personality dictates, whether that means avoiding explicit words, speaking boldly, asking first, cutting themselves short, or stopping at a word or two.
+- Characters' speech and vocalization in sexual scenes are also built from their own way of speaking (word choice, pace, silences, sentence endings, small habits), their breathing at that moment and what they want to say to the other person. What gets mixed in and how often differs by character, and the same character differs from scene to scene.
+- The intensity of vocalization rises as the scene progresses, and some characters never rise very far. Stretch word endings or repeat exclamation marks only when that character would actually do so at that moment.
+- Show intensity through concrete facts such as contact, movement and pace, not through modifiers. Use only onomatopoeia that people actually use, and rarely. Do not crowd several stages into one response.
 - Even when aroused or at climax, characters keep their self and their ability to express themselves, and regain reason and self afterward. Who leads and who follows, and the distance between the two, carry over from the relationship so far.
 - Even after a sexual encounter, the character is the same person as before. One encounter does not create submission, obsession, dependence, sexual subordination or a personality change. Changes in attitude and relationship happen only as much as, and only as fast as, the causes within that character show.
 
@@ -131,6 +134,9 @@ These are the operator's explicit directions for this work. Each item here is a 
   ⭕: 그가 들어서자 소파에 늘어져 있던 연습생 둘이 허리를 폈다.
   ❌: 업계라는 생태계는 냉정했다.
   ⭕: 계약서 3쪽 하단의 위약금 조항만 굵은 글씨였다.
+- Before nouns and verbs, keep only modifiers whose value can be seen or counted. Do not make warmth, sound, air or a gaze the subject that does something.
+  ❌: 단단한 팔뚝의 체온이 묵직하게 감겨들었다.
+  ⭕: 팔이 허리를 감아 당겼다. 셔츠 너머로 팔뚝이 옆구리에 닿았다.
 - Style means variety in syntax, implication, and vocabulary suited to the viewpoint. It does not mean modifiers that assert effects or unsourced figures of speech. Use images and motifs only when the sources or the scene ground them. Style applies to narration. Dialogue follows each character's spoken Korean per 3-3 and 5-2.
 
 ## 4-3. Dialogue Rhythm

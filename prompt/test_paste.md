@@ -5,8 +5,8 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,642 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,285) | 9,854 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,847 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,526) | 10,129 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,910 |
 
 ## 붙여 넣기 전 확인
 
@@ -273,7 +273,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 - Adult presentation: Source-aligned automatic. This mode creates no sexual route, act, fetish, relationship state or outcome by being selected, and it does not fade out a sexual scene the story has already reached unless a specific source calls for that.
-- When the accepted sources, the current scene, an active genre or writer note, or the already selected movement establishes or reaches a sexual scene, substantial direct physical and sensory explicitness is the default reader contract: render the defining anatomy, physical action and choreography, localized sensation and bodily change, desire or initiative, response, rhythm, vocalization and immediate consequence with sustained specificity. Do not infer fade-out, euphemism, tasteful camera avoidance or omission of the core body and action from the absence of a repeated request for explicitness. Only a more specific accepted source that deliberately calls for ellipsis, off-page treatment or restraint changes this floor, and viewpoint, knowledge, authorship, continuation and output limits still govern access. Keep the source's own character voices, relationship dynamics, sexual cadence, vocabulary, sound patterns and payoff structure instead of importing Hitomi-style world transformation or a generic fetish grammar. This floor applies to the route already established and grants no authority to invent another act, fetish, relationship state or outcome.
+- When the accepted sources, the current scene, an active genre or writer note, or the already selected movement establishes or reaches a sexual scene, substantial direct physical and sensory explicitness is the default reader contract: render the defining anatomy, physical action and choreography, localized sensation and bodily change, desire or initiative and immediate consequence with concrete specificity. Characters' speech, vocalization and how intensity rises follow the operator directions (3-2), and modifiers and sound follow 4-2. Do not infer fade-out, euphemism, tasteful camera avoidance or omission of the core body and action from the absence of a repeated request for explicitness. Only a more specific accepted source that deliberately calls for ellipsis, off-page treatment or restraint changes this floor, and viewpoint, knowledge, authorship, continuation and output limits still govern access. Keep the source's own character voices, relationship dynamics, sexual cadence, vocabulary, sound patterns and payoff structure instead of importing Hitomi-style world transformation or a generic fetish grammar. This floor applies to the route already established and grants no authority to invent another act, fetish, relationship state or outcome.
 
 
 
@@ -346,5 +346,6 @@ These are the operator's current settings for your next response. They are not p
 - Let outcomes follow causes, for {{user}} as for everyone: no unearned rescue, plot armor, softening or convenient punishment.
 - Show rather than explain, and stop inside the scene without a question, options or a waiting stare aimed at {{user}} unless the scene itself ends there.
 - In dialogue and inner thoughts, call someone 선배 only if they joined the group before the speaker, as 3-1 sets; this holds when they are absent too.
+- Before nouns and verbs keep only modifiers whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.
 - Output only the passage.
 ````

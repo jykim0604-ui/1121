@@ -14,6 +14,7 @@
 - 관찰된 증상: 성적 장면 대사마다 신음, 첫 대사부터 최고 강도, 말끝 모음 늘이기, 인물이 달라도 같은 소리(운영자 예시문).
 - 짝 항목: 프리셋 2의 Expression register boundary("adult vocal surface", "repeated sound… duration")와 Prose style boundary("sound density" 및 성적 장면 예외 문장). 프리셋 2 쪽은 프리셋 2 작업에서 먼저 처리한다.
 - 현재 처리: 헤더와 Charter 순서상 시스템 프롬프트가 이기지만, 반대 방향 지시를 매 응답 저울질한다.
+- 수정 기준: 압축 전 7-2 페이싱·7-3 신음 단계화. 시스템 프롬프트·프리셋 2 쪽은 `preset2_system_list.md` 1·2번과 같은 기준으로 맞춘다.
 
 ## P1-2. 한국어 존비어 고정 — 3-1과 충돌
 

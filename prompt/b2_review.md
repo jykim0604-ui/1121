@@ -668,3 +668,13 @@ U(복원 안 됨) 없음. 결과물에만 있는 것(규칙 3의 띄어쓰기·�
 - 충돌: 102행 `no low-to-high curve is assigned in advance`가 3-2 기승전결 페이싱과 정반대. 삭제하고 102행 앵커로 성적 장면 페이싱을 3-2로 넘김. 일반 장면 기능은 59행, 102행 `A caused peak…`, 프리셋 2 Balanced가 맡아 손실 없음.
 - 반영(test_paste ①, B4): 100행 끝 `In sexual scenes, the repetition and vowel length of characters' vocalization follow the operator directions (3-2).` / 102행 충돌 구절 삭제 + 끝 `In sexual scenes, the repetition, volume and intensity of characters' vocalization and the pacing of the act follow the operator directions (3-2).`
 - 토큰: 프리셋 1 6,683. 행동 검증 UNTESTED.
+
+---
+
+## G15. 프리셋 1 존비어(P1-2)·짧은 응수(P1-3)를 시스템 프롬프트와 잇기
+
+- P1-2 원인: 첫 묶음 단계에서 프리셋 1 97행("Start with accepted speech and explicit relationships…")과 3-1 합의 줄("앞선 이야기나 설정이 보여 주면")이 모두 명시 근거만 인정해, 3-1 첫 등장 줄로 정한 관계가 빠지고 존댓말 기본값으로 묶인다. 98행("전환은 원인 있는 사건")이 그 값을 이어 가 고정된다. 98행 자체는 3-1과 같은 방향.
+- P1-2 반영: 97행 끝 앵커 `In this work, address and speech level between characters are set by the operator directions (3-1).`(test_paste ①, B4). 3-1 합의 줄 근거 `앞선 이야기나 설정(로어북·페르소나)이` → `앞선 이야기, 설정(로어북·페르소나), 앞 항목대로 정한 관계가`(한글본·영문본·paste·B4).
+- P1-3 반영: 4-3의 예외 문장(한 "이 구간은 프리셋이 경계하는 짧은 응수의 연쇄에 해당하지 않는다." / 영 "This stretch is not the chain of short volleys the preset cautions against.")을 지우고, 프리셋 1 55행 끝에 앵커 `The quick back-and-forth stretch that the operator directions (4-3) allow is not such a volley.` 동작은 같고, 앵커 위치를 다른 항목과 맞춤(프리셋 → 운영자 지시).
+- 관찰: 정한 관계로 반말이 과하게 열리는지(공적 자리, 연하가 먼저, 반대 축 쌍).
+- 토큰: 한글본 10,343, 영문본 9,714, 프리셋 1 6,728. 행동 검증 UNTESTED.

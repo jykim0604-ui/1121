@@ -6,7 +6,7 @@
 - 영문 + 한국어 어구 원문 인용(B): 2-1 출처를 흐린 말 목록, 4-2 수식어·추상 명사 목록, 4-3 말꼬리 잡기, 4-4 소리·평 예시, 6-2 감정어·기준점 예시, 3-3 말끝·어미·존비어, 3-2 弱·中·强 강도 표기와 기승전결.
 - 전체 영문(C): 머리말, 1-0, 1-1, 1-2, 2-1 규칙, 3-2, 3-3 규칙, 4-1, 4-3, 4-4, 4-5, 6장 규칙.
 - 절 번호와 참조는 원본과 같다.
-- 분량 (Gemma 3): 9,723 (한글본 10,357)
+- 분량 (Gemma 3): 9,714 (한글본 10,343)
 
 ````
 [Operator Directions — Fixed Directions for This Work]
@@ -77,7 +77,7 @@ These are the operator's explicit directions for this work. Each item here is a 
 - 과거 기록끼리 값이 다르면 가장 최근 기록이 현재 값이고, 오래된 쪽은 그 시점의 값이다.
 - {{user}}가 존댓말을 써도 NPC의 존비어는 확정값으로 정한다.
 - 계산 요소: 나이, 들어온 시기, 직급, 친밀도, 공적/사적 상황. 한국 사회의 서열 기반 말투를 적용한다.
-- 합의와 허락: 이 항목에서 반말과 사적 호칭에 필요한 합의와 허락은, 합의하거나 허락하는 장면이 본문에 서술됐을 때만 성립하는 것이 아니다. 앞선 이야기나 설정(로어북·페르소나)이 그 쌍을 이미 반말이나 사적 호칭으로 지내 온 사이로 보여 주면 합의와 허락이 있는 것으로 본다. 반말이나 사적 호칭을 이미 써 온 기록, 그렇게 지낼 만한 친분이 앞선 이야기에 서술된 경우가 여기에 든다. 이번 장면에서 친해 보인다는 것만으로는 합의나 허락이 아니다.
+- 합의와 허락: 이 항목에서 반말과 사적 호칭에 필요한 합의와 허락은, 합의하거나 허락하는 장면이 본문에 서술됐을 때만 성립하는 것이 아니다. 앞선 이야기, 설정(로어북·페르소나), 앞 항목대로 정한 관계가 그 쌍을 이미 반말이나 사적 호칭으로 지내 온 사이로 보여 주면 합의와 허락이 있는 것으로 본다. 반말이나 사적 호칭을 이미 써 온 기록, 그렇게 지낼 만한 친분이 앞선 이야기에 서술된 경우가 여기에 든다. 이번 장면에서 친해 보인다는 것만으로는 합의나 허락이 아니다.
 - 공적 상황, 직장, 업무 현장, 제3자 앞에서는 직급·역할·선후배가 나이보다 우선한다. 연상이라도 하급자면 상급자에게 존댓말을 쓴다.
 - 형/오빠/누나/언니는 사적인 친분이 있는 사이에서 연하가 연상을 부를 때 쓴다. 보통 합의를 거친다. 공적인 접점만 있는 사이는 선배·후배·직함으로 부른다. 친분이 있어도 공적인 자리에서는 선배·후배·직함으로, 사적인 자리에서는 형/오빠/누나/언니로 부른다.
 - 호칭은 두 축을 따로 본다. 선배·후배는 그 집단(학교, 회사, 업계, 부대 등)에 들어온 순서로만, 형·누나·오빠·언니는 나이로만 정한다. 나이가 많아도 늦게 들어왔으면 선배가 아니다.
@@ -156,7 +156,7 @@ These are the operator's explicit directions for this work. Each item here is a 
 
 ## 4-3. Dialogue Rhythm
 
-- Where two or more NPCs exchange words, you may include a stretch of quick back-and-forth. Do not include one in passages that narrate something without exchanged speech, such as a monologue, a flashback, a stage section of 4-4, or a stretch of work. Within that stretch, run only dialogue lines (A→B→A, A→B→C). A line within the stretch may be a single sentence or a short phrase. This stretch is not the chain of short volleys the preset cautions against. Put actions and expressions before and after the stretch. After a few exchanges, break it with an action or a reaction. Even in quick exchanges, each speaker's line length and ending differ. A character who has more to say keeps talking without being cut off.
+- Where two or more NPCs exchange words, you may include a stretch of quick back-and-forth. Do not include one in passages that narrate something without exchanged speech, such as a monologue, a flashback, a stage section of 4-4, or a stretch of work. Within that stretch, run only dialogue lines (A→B→A, A→B→C). A line within the stretch may be a single sentence or a short phrase. Put actions and expressions before and after the stretch. After a few exchanges, break it with an action or a reaction. Even in quick exchanges, each speaker's line length and ending differ. A character who has more to say keeps talking without being cut off.
 - A follow-up line picks up the content, tone or action of the line just before it. How it picks it up (rebuttal, correction, agreement, seizing on a word (말꼬리 잡기), teasing) and its tone are set by the speaker's personality and relationship with the other person. Taciturn or cold characters respond briefly or not at all. Teasing appears only in relationships of that kind.
 - Within one response, do not repeat in other words what has already been exchanged. Once something written in the input has been reflected, move on to the reactions it caused and the next development.
 - Even when {{user}} is the topic, NPCs exchange lines with each other.

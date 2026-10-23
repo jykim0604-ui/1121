@@ -9,11 +9,11 @@
 | 항목 | 내용 | 결정 |
 |---|---|---|
 | A1 | 성인 장면 발성·소리: 문체 경계에만 예외, 표현 레지스터 경계·프리셋 1과 충돌 | 최우선 보류 (프리셋 1 작업) |
-| A2 | 4-2 "보이거나 셀 수 있는 값"이 감각값을 막음 | 예시문 재확인 → 철회 권장 (결정 대기) |
+| A2 | 4-2 "보이거나 셀 수 있는 값"이 감각값을 막음 | 철회 (현행 유지) |
 | A3 | 3-1 "이미 써 온 호칭 이어 쓰기"가 과거 오류를 고정할 수 있음 | 현행 유지 |
-| A4 | 3-2 "처음부터 높지 않고"에 입력 예외가 없음 | 반영 |
-| B1 | 3-2 대사 속 신음의 빈도·강도 (금지 아님) | 예시문 기준 재검토안 결정 대기 (②안 철회) |
-| B2 | 프리셋 2 수식어 앵커가 대사까지 덮음 | 반영 (①안, 지문 한정, 예시문 재확인) |
+| A4 | 3-2 "처음부터 높지 않고"에 입력 예외가 없음 | 반영 → B1 복원안의 페이싱 줄에 합침 |
+| B1 | 3-2 대사 속 신음의 빈도·강도 (금지 아님) | 방향 전환: 압축 전 7-1·7-2·7-3 원문 복원 (결정 대기) |
+| B2 | 프리셋 2 수식어 앵커가 대사까지 덮음 | 반영 (①안, 지문 한정) |
 | B3 | 2-1 {{user}} 관계 문장이 "관계"만 덮음 | 반영 |
 | B4 | 2-1 다른 인물의 공개 활동 인지 | 반영 |
 | B5 | 설정 괄호에 캐릭터 설명 추가 | 미반영 (캐릭터 설명 칸 미사용) |
@@ -31,7 +31,8 @@
   - 프리셋 2 Expression register boundary: 같은 효력의 문장("cannot quietly lower the expressive strength… repeated sound, emotional force… duration")에 예외 없음.
   - 프리셋 1: "Once the event is chosen, give it its full expression: duration, density, repetition, volume…", "no low-to-high curve is assigned in advance" — 3-2 "처음부터 높지 않고"와 정면 충돌.
   - 프리셋 1: "When a cry, plea, refusal, breath, impact or environmental sound really repeats, keep its recurrence, spacing, interruption, vowel length and density", "Keep intentional sound spelling" — 3-2 신음·말끝 늘이기 제한과 마찰.
-  - 프리셋 2 성인 블록 "modifiers and sound follow 4-2": 4-2에는 소리 규칙이 없음. B1 반영 후 신음 규칙은 3-2에 있고, 지문 의성어 제한은 없어짐.
+  - 프리셋 2 성인 블록 "modifiers and sound follow 4-2": 4-2에는 소리 규칙이 없음. 신음·의성어 규칙은 3-2에 있음.
+  - B1 복원안 반영 시 추가: 프리셋 1 "no low-to-high curve is assigned in advance"와 7-2 페이싱(기→승→전→결 단계별 배분), 7-3 신음 단계가 정면 충돌. 프리셋 1 "keep … vowel length"는 [强] 규격과는 맞음.
 - 현재 처리: 헤더 우선순위로 시스템 프롬프트가 이기지만, 매 응답 판정을 추론하게 됨.
 - 검토했던 안 (프리셋 2만 수정)
   - 성인 블록: `Characters' speech, vocalization, sound and how intensity rises follow the operator directions (3-2), and modifiers follow 4-2; in sexual scenes these take precedence over the prose style and expression register settings.`
@@ -40,38 +41,18 @@
 
 ## 반영 확정
 
-### B2 (+A2). 프리셋 2 수식어 앵커 지문 한정 / A2는 철회 권장
+### B2. 프리셋 2 수식어 앵커 지문 한정
 
-B2 재검수(운영자 예시문 원문 확인): 대사 속 수식어는 "예쁘게 우는", "카리스마 넘치더니", "이상하게 만지니까"처럼 실제 입말이라 막을 대상이 아니다. 문제가 된 수식어는 모두 지문에 있다. 대사 속 신음은 4-2가 아니라 3-2(B1)가 맡는다. 지문 한정 ①안 유지.
-
-A2 재검토(예시문 원문 확인, 철회 권장 — 결정 대기):
-- 예시 지문의 상투 수식어는 "묵직한 피스톤질", "질척한 파열음", "뜨거운 주름", "매끄러운 곡선", "다정한 몸짓"이다. "질척한"(들림), "뜨거운"(닿음), "매끄러운"(닿음·보임), "묵직한"(닿는 무게로 읽힘)은 모두 감각으로 관측되는 값이라고 주장할 수 있다. "관측되거나"로 넓히면 G11에서 막으려던 표현이 다시 통과한다.
-- 처음 제기한 충돌(감각 묘사가 막힌다)은 과장이었다. 현행 문구는 감각을 막는 것이 아니라 감각을 수식어로 붙이는 것을 막는다. 4-2 ⭕ 예시("셔츠 너머로 팔뚝이 옆구리에 닿았다")처럼 감각은 접촉·젖음·움직임 같은 사실로 쓰면 되고, 성인 블록의 "localized sensation"도 그 방식으로 충족된다.
-- 6-2와의 용어 차이("관측되거나")는 상태창 필드 규칙이라 대상이 다르다. 맞출 필요가 없다.
-- 철회 시: 4-2 한·영 본문은 현행 유지. 앵커는 B2만 반영해 `- In narration, keep only modifiers before nouns and verbs whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.`
-- 아래는 철회 전 A2 원안(기록용).
-
-6-2와 같은 말로 맞추고, 온도·촉감·소리 같은 감각값을 살린다. 원래 예시의 "묵직하게"(인상)는 여전히 걸러진다. 앵커는 4-2 본문의 범위("Style applies to narration")와 맞춰 지문으로 한정한다. 대사 속 평가어("묘하네" 류)는 5-2 입말 항목이 다룬다.
-
-- 한국어 4-2 (`system_prompt_v1.md` 149행, `preset_b4.md` 322행)
-  - 현행: `명사 앞 수식과 동사 앞 부사는 보이거나 셀 수 있는 값만 남긴다.`
-  - 수정: `명사 앞 수식과 동사 앞 부사는 관측되거나 셀 수 있는 값만 남긴다.`
-- 영문 4-2 (`system_prompt_v1_en.md`/paste 137행)
-  - 현행: `Before nouns and verbs, keep only modifiers whose value can be seen or counted.`
-  - 수정: `Before nouns and verbs, keep only modifiers whose value can be observed or counted.`
-- 프리셋 2 [Before writing] 앵커
+- 근거: 4-2 본문의 범위("Style applies to narration")와 맞춘다. 운영자 예시문의 대사 속 수식어("예쁘게 우는", "카리스마 넘치더니", "이상하게 만지니까")는 실제 입말이라 막을 대상이 아니고, 문제가 된 수식어는 모두 지문에 있다. 대사 속 신음은 4-2가 아니라 3-2(B1)가 맡는다.
+- 프리셋 2 [Before writing] 앵커 (A2 철회로 "seen or counted" 유지)
   - 현행: `- Before nouns and verbs keep only modifiers whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.`
-  - 수정: `- In narration, keep only modifiers before nouns and verbs whose value can be observed or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.`
+  - 수정: `- In narration, keep only modifiers before nouns and verbs whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.`
 
 ### A4. 3-2 강도 — 입력이 정한 강도는 입력을 따른다
 
-- 자율 장면 해제는 지금처럼 단계 제한에만 둔다. 같은 줄의 의성어 문장은 B1 결정에 따른다.
-- 한국어 3-2 (`system_prompt_v1.md` 105행, `preset_b4.md` 278행)
-  - 현행: `{{user}}의 입력이 여러 단계를 담고 있으면 입력을 따르고, NPC끼리의 자율 장면에는 이 단계 제한을 두지 않는다.`
-  - 수정: `{{user}}의 입력이 강도나 여러 단계를 정하면 입력을 따르고, NPC끼리의 자율 장면에는 이 단계 제한을 두지 않는다.`
-- 영문 3-2 (93행)
-  - 현행: `If {{user}}'s input contains several stages, follow the input, and scenes of NPCs acting on their own among themselves are not under this stage limit.`
-  - 수정: `If {{user}}'s input sets the intensity or several stages, follow the input, and scenes of NPCs acting on their own among themselves are not under this stage limit.`
+- 결정은 유지하되, 반영 위치는 B1 복원안의 페이싱 줄이다. 원문 "{{user}}의 입력이 복수 단계를 포함하면 입력 소화를 우선한다"에 "강도"를 더한다. B1이 복원안으로 확정되지 않으면 아래 원래 문구로 반영한다.
+  - 한국어 3-2 105행: `{{user}}의 입력이 여러 단계를 담고 있으면` → `{{user}}의 입력이 강도나 여러 단계를 정하면`
+  - 영문 3-2 93행: `If {{user}}'s input contains several stages` → `If {{user}}'s input sets the intensity or several stages`
 
 ### B3. 2-1 {{user}} 관계 — 함께 겪은 일까지
 
@@ -114,45 +95,43 @@ A2 재검토(예시문 원문 확인, 철회 권장 — 결정 대기):
 
 ## 재검토안 — 결정 대기
 
-### B1. 대사 속 신음의 빈도·강도
+### B1. 대사 속 신음의 빈도·강도 — 압축 전 원문 복원
 
 - 사용자 의도: 큰따옴표 대사 안에 "아앙" 같은 신음이 부적절하게 남발되는 것을 막는다. 금지가 아니라 빈도와 강약의 문제다.
-- ②안 철회 이유: `신음 같은 발성은 실제로 쓰이는 한국어 소리로만 쓴다`는 소리의 종류만 정한다. "아앙"은 실제로 쓰이는 소리라 이 문장을 통과하고, 빈도와 강도에는 아무 작용이 없다.
-- 예시문 원문 확인 (두 장면, 성격이 다른 두 인물. G11·G12 3-2 문장이 들어가기 전 출력)
-  1. 빈도: 여성 인물의 대사 전부에 신음이 들어 있다. 신음 없는 대사가 하나도 없다.
-  2. 배치: 완성된 문장의 앞과 뒤에 신음 덩어리를 붙인다. 긴 자랑("직캠…1000만 뷰야")이나 도발도 문장은 온전하고 앞뒤에만 신음이 붙는다. 한 대사에 신음 덩어리가 두세 개씩 들어간다. 프리셋 1에도 "Broken speech follows the sounds, breath, cutoffs and control actually available now, not a complete sentence decorated afterward"가 있지만 지켜지지 않았다.
-  3. 강도: 첫 대사부터 최고 강도("아앙!")다.
-  4. 늘임: 신음("아아앙")과 일반 단어의 말끝("거지이", "말고오", "같아아", "닿아서어", "몰라요오", "만지니까아", "오빠아")을 모두 늘인다.
-  5. 인물 차이 없음: 도발적인 반말 인물과 수줍은 존댓말 인물이 같은 소리 목록(하읏·흐읏·읏·흐으응·아앙)과 같은 구조를 쓴다. 차이는 말 내용에만 있다.
-  6. 이중 서술: 지문도 "자지러지는 교성을 터뜨렸다", "가쁜 신음을 토해냈다"로 같은 소리를 다시 적는다.
-- 현행 3-2가 덮는 것과 남는 빈틈
-  - 3(강도)과 4(말끝 늘임)는 104행이 덮는다. 단, 신음 자체를 길게 끄는 것은 "말끝"으로 읽히지 않을 수 있다.
-  - 5(인물 차이)는 103행 "섞이는 말과 빈도는 인물마다 다르고"가 겨누지만, "말"이라 신음 소리 자체의 차이가 빠진다.
-  - 1(빈도)과 2(배치)를 막는 문장이 없다. 이번 증상의 중심이다.
-  - 6은 4-2(효과에 이름 붙이는 수식어 "자지러지는")와 프리셋 1의 "second rendering" 문장이 일부 덮는다. 이번 범위에서는 손대지 않는다.
-- 재검토안
-  - 103행: 신음 소리도 인물마다 다르다는 것을 밝힌다.
-    - 현행: `섞이는 말과 빈도는 인물마다 다르고, 같은 인물도 장면마다 다르다.`
-    - 수정: `섞이는 말과 소리, 빈도는 인물마다 다르고, 같은 인물도 장면마다 다르다.`
-  - 104행: 빈도와 배치를 원인에 묶고, 신음 늘임을 강도 규칙에 넣는다.
-    - 현행: `발성의 강도는 처음부터 높지 않고, 장면의 진행과 그 인물에 따라 달라진다. 끝까지 크게 오르지 않는 인물도 있다. 말끝을 늘이거나 감탄부호를 반복하는 것은 그 인물이 그 순간 실제로 그럴 때만 쓴다.`
-    - 수정: `신음은 완성된 말의 앞뒤를 꾸미는 장식이 아니다. 그 순간의 자극에 말이 끊기거나 말 대신 소리가 나올 때만 섞이고, 대사마다 붙지 않는다. 발성의 강도는 처음부터 높지 않고, 장면의 진행과 그 인물에 따라 달라진다. 끝까지 크게 오르지 않는 인물도 있다. 소리를 길게 끌거나 말끝을 늘이거나 감탄부호를 반복하는 것은 그 인물이 그 순간 실제로 그럴 때만 쓴다.`
-  - 105행: 의성어는 지문으로 한정한다. 예시의 "찌걱거리는 물소리"류 지문 효과음 제한과 G12의 만화식·외래식 의성어 차단은 유지한다.
-    - 현행: `의성어는 실제로 쓰이는 한국어 의성어만 드물게 쓴다.`
-    - 수정: `지문의 의성어는 실제로 쓰이는 한국어 의성어만 드물게 쓴다.`
-  - 영문 91행
-    - 현행: `What gets mixed in and how often differs by character, and the same character differs from scene to scene.`
-    - 수정: `What words and sounds get mixed in and how often differs by character, and the same character differs from scene to scene.`
-  - 영문 92행
-    - 수정: `A moan is not decoration attached before and after finished speech. It comes in only when the stimulus of the moment breaks the words off or draws a sound in place of words, and not in every line. The intensity of vocalization does not start high; it varies with the scene's progress and the character. Some characters never rise very far. Drag out a sound, stretch word endings or repeat exclamation marks only when that character would actually do so at that moment.`
-  - 영문 93행
-    - 현행: `Use only Korean onomatopoeia that people actually use, and rarely.`
-    - 수정: `In narration, use only Korean onomatopoeia that people actually use, and rarely.`
-- 금지가 아닌 이유: 신음이 나올 원인이 있으면 섞이고, 원인이 반복되면 반복도 된다. 막는 것은 원인 없이 모든 대사에 붙는 것과 완성된 문장을 꾸미는 배치뿐이다. 프리셋 1의 "really repeats"(실제 원인 있는 반복만 유지)와 같은 논리라 충돌이 줄어든다.
-- 선택 사항: 프리셋 2 [Before writing] 앵커
-  - `- In sexual scenes, a moan enters a line only where the moment breaks the words off, not as decoration on every line, as 3-2 sets.`
-  - 권장: 처음에는 넣지 않고 테스트한다. 재발이 이어지면 그때 추가한다. 성인 블록이 이미 3-2를 가리키고 있다.
-- 테스트 관찰: 신음이 대사마다 붙는지, 완성된 문장 앞뒤에 붙는지, 두 인물의 소리가 같은지, 반대로 신음이 지나치게 사라지는지.
+- 방향 전환 (사용자 지적): 압축 전 프롬프트에는 정상 출력이 나오던 지침이 모두 있었다. 새 금지·지시 문장을 하나하나 만들 이유가 없다. 철회한 안: ②안(소리 종류만 정함), 예시문 기준 재검토안("장식이 아니다", "대사마다 붙지 않는다" 등 새 문장 추가).
+- 압축 전 7장과 현행 3-2 대조
+
+| 압축 전 원문 | 현행 3-2 | 상태 |
+|---|---|---|
+| 7-1 `신음의 강도는 7-3의 음절 규격으로만 표기한다.` | 없음 | 손실 |
+| 7-2 다중 발화 (발화 길이와 방식은 성격이 정함) | "성격이 정하는 만큼 말한다" 줄 | 유지 ("최소 2회"는 빠짐) |
+| 7-2 의성어 `제한적으로` | `드물게` | 유지 (표현만 다름) |
+| 7-2 페이싱 (기→승→전→결 단계별 배분, 자율 씬 완화, 입력 우선) | "한 응답에 여러 단계를 몰아 쓰지 않는다" + 예외 | 단계 정의 손실. 현행 "단계"가 무엇의 단계인지 없음 |
+| 7-3 신음의 단계화 ([弱]·[中]·[强] 규격, 인물별 차이, [强]에 이르지 않는 인물) | "처음부터 높지 않고…끝까지 크게 오르지 않는 인물도 있다…말끝을 늘이거나 감탄부호를 반복하는 것은…" | 규격 손실. 추상 요약만 남음 |
+| 7-3 조립 재료 | 103행 | 유지 |
+| 7-3 의사표현 유지, 주도권과 거리감, 종료 후 회복 | 3-2 해당 줄 | 유지 |
+
+- 진단: 정상 출력을 만들던 것은 각 강도에서 신음이 어떤 모양인지 정한 [弱]·[中]·[强] 규격과, 그 단계를 턴에 나눠 싣는 페이싱이다. 현행은 이를 "처음부터 높지 않고", "실제로 그럴 때만" 같은 추상 문장으로 바꿨다. 모델은 낮은 강도의 모양을 받지 못해 장르 기본값(첫 대사부터 최고 강도, 완성된 문장 앞뒤에 신음 덩어리, 모든 인물이 같은 소리)으로 간다. 예시문의 대사는 세 규격 어디에도 맞지 않는다. 문장이 끝까지 이어지면서 [强]의 모음 반복과 감탄부호 반복이 첫 대사부터 붙어 있다.
+- 복원안: 현행 104행과 105행을 원문으로 바꾼다. 새 문장은 만들지 않는다. A4의 "강도"만 페이싱 예외에 더한다.
+  - 103행: 끝 문장 `섞이는 말과 빈도는 인물마다 다르고, 같은 인물도 장면마다 다르다.` → 원문 조립 재료 끝 문장 `같은 인물이라도 장면마다 다르게 조합한다.` (인물별 빈도 차이는 복원 블록의 첫 항목이 맡으므로 겹침 제거)
+  - 104행 전체를 원문 7-3 블록과 7-1 문장으로 바꾼다.
+    ```
+    - 신음의 단계화: 본문에는 대사만 출력한다. 아래는 조건 설명이며 그대로 인용하지 않는다. 단계는 강도만 정한다. 무슨 말이 섞이는지, 얼마나 자주 나오는지는 인물마다 다르며, [强]에 이르지 않는 인물도 있다. 신음의 강도는 이 규격으로만 표기한다.
+      - [弱] 음절 1~2개, 문장 없음, 말줄임표로 끊김. 자음 반복 없음.
+      - [中] 음절 3~6개에 짧은 요구나 제지가 섞임. 문장이 시작되다 끊긴다.
+      - [强] 음절 7개 이상, 모음 반복 표기와 감탄부호 반복, 문장이 끝까지 이어지지 않음. 그 인물의 성격이 허용하는 범위의 능동적 행동, 요구, 더티토크가 섞인다.
+    ```
+  - 105행
+    - 현행: `강도는 수식어가 아니라 접촉, 동작, 속도 같은 구체적 사실로 드러낸다. 의성어는 실제로 쓰이는 한국어 의성어만 드물게 쓴다. 한 응답에 여러 단계를 몰아 쓰지 않는다. {{user}}의 입력이 여러 단계를 담고 있으면 입력을 따르고, NPC끼리의 자율 장면에는 이 단계 제한을 두지 않는다.`
+    - 수정: `강도는 수식어가 아니라 접촉, 동작, 속도 같은 구체적 사실로 드러낸다. 의성어는 실제로 쓰이는 한국어 의성어만 제한적으로 쓴다. 페이싱: 기(전희)→승(삽입)→전(절정 전)→결(사정)을 단계별 1~2턴씩 배분한다. NPC 자율 장면에서는 페이싱 제한만 완화한다. {{user}}의 입력이 강도나 복수 단계를 정하면 입력 소화를 우선한다.`
+    - "강도는 수식어가 아니라…" 문장은 원문 7장에 없지만 G11에서 4-2 쪽 문제로 넣은 것이라 그대로 둔다.
+  - 영문본
+    - 신음 단계화 블록은 한국어 음절·표기 규격이라 3-1처럼 한국어 원문 그대로 넣는다.
+    - 103행 대응(91행) 끝 문장: `The same character combines them differently from scene to scene.`
+    - 105행 대응(93행): `Show intensity through concrete facts such as contact, movement and pace, not through modifiers. Use only Korean onomatopoeia that people actually use, and sparingly. Pacing: spread 기 (foreplay) → 승 (penetration) → 전 (before climax) → 결 (ejaculation) over 1–2 turns per stage. In NPC-autonomous scenes, only the pacing limit is relaxed. If {{user}}'s input sets the intensity or covers several stages, process the input first.`
+- 숫자: 복원하면 음절 수(1~2, 3~6, 7 이상)와 턴 수(1~2턴)가 돌아온다. G11에서 "숫자 기준은 쓰지 않음"으로 뺐던 부분이다. 다만 이 숫자는 할당량이 아니라 각 강도의 모양을 정하는 정의이고, 정상 출력을 만들던 바로 그 부분이다. 원문 그대로 복원을 권장한다.
+- 프리셋 충돌: 페이싱과 신음 단계는 프리셋 1 "no low-to-high curve is assigned in advance"와 정면으로 부딪힌다. A1(프리셋 1 작업)에 추가해 두었다. 그 전까지는 헤더 우선순위로 시스템 프롬프트가 이긴다.
+- 테스트 관찰: 신음이 대사마다 붙는지, 첫 대사부터 [强]인지, 두 인물의 소리가 같은지, 규격 이름([弱] 등)이 본문에 새는지.
 
 ## 현행 유지
 
@@ -181,10 +160,10 @@ A2 재검토(예시문 원문 확인, 철회 권장 — 결정 대기):
 
 ## 반영 순서 (작업 시작 시)
 
-1. A2 철회 여부, B1 문구 확정
-2. 프리셋 2 수정: B2 앵커 (A2 결정 반영)
-3. 한국어 시스템 프롬프트: (A2), A4, B1, B3, B4, C1
-4. 영문본과 paste 파일 동기화 (3-1은 한국어 원문 그대로)
+1. B1 복원안 확정
+2. 프리셋 2 수정: B2 앵커
+3. 한국어 시스템 프롬프트: B1(+A4), B3, B4, C1
+4. 영문본과 paste 파일 동기화 (3-1과 3-2 신음 단계화 블록은 한국어 원문 그대로)
 5. `preset_b4.md` 본문 동기화 (변경 기록 표의 인용문은 건드리지 않음)
 6. 토큰 재계산 후 `test_paste.md` 표 갱신
 7. 가이드 기준 재검수

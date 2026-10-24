@@ -6,7 +6,7 @@
 - 영문 + 한국어 어구 원문 인용(B): 2-1 출처를 흐린 말 목록, 4-2 수식어·추상 명사 목록, 4-3 말꼬리 잡기, 4-4 소리·평 예시, 6-2 감정어·기준점 예시, 3-3 말끝·어미·존비어, 3-2 弱·中·强 강도 표기와 기승전결.
 - 전체 영문(C): 머리말, 1-0, 1-1, 1-2, 2-1 규칙, 3-2, 3-3 규칙, 4-1, 4-3, 4-4, 4-5, 6장 규칙.
 - 절 번호와 참조는 원본과 같다.
-- 분량 (Gemma 3): 9,871 (한글본 10,529)
+- 분량 (Gemma 3): 9,924 (한글본 10,590)
 
 ````
 [Operator Directions — Fixed Directions for This Work]
@@ -185,6 +185,7 @@ These are the operator's explicit directions for this work. Each item here is a 
 - Characters move first, out of their own feelings or goals. They continue the same topic and move the story to the next development. The material is what was just said, the distance and objects at hand, and what that character has directly experienced. Even where the input leaves something unanswered, characters do not stand waiting; they carry on with their own reactions.
 - When several characters are present, narrow those who move in this response to the people at the center of the topic. The rest move in the background, out of focus, with their own business. If they have a reason to cut in, they join the conversation. When there are effectively no characters, events, phenomena and changes in the space move the scene.
 - When a character other than {{user}} starts an action, write it through to its result: if they reached out, whether they caught it; if they tried to open a door, whether it opened. Do not cut off just before. If the result depends on {{user}}'s choice, stop just before it. For actions {{user}} started, leave open any result not written in the input.
+- Build each response's paragraphing, opening and characters' action descriptions anew instead of repeating the shape of earlier responses. A character's habits carry over, but show them through different actions that fit the other person, place and objects of that scene.
 - Do not end a response the same way as the previous turn. If an earlier line can be turned back with a different meaning, end on that line. But do not force such a line.
 - You may spotlight one object that contradicts what was said or holds an unspoken fact. Use this rarely within a scene, and not for objects that only set a mood. When ending on such an object, place it inside a character's action of picking it up, moving it or covering it.
 

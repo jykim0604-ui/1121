@@ -769,3 +769,13 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
 - 프리셋 2 [Before writing] 수식어 앵커(운영자 수동 교체안 + 주어 절 수정): 4-2 ①②의 할 일까지 옮김. `- In narration, write the actions, sounds, reactions and concrete people and things that produce an effect instead of modifiers that only name it or abstract nouns that sum up the situation; keep only modifiers whose value can be seen or counted, and make the person or thing that acts the subject instead of warmth, sound, air or a gaze, as 4-2 sets.` 예시 낱말(서늘한 등)은 출력 직전에 다시 보이지 않도록 넣지 않음(4-2 본문에 있음).
 - 관찰: ②의 할 일 "numbers"가 일반 지문 수치 나열을 부추기는지(fix_list 6-2).
 - 토큰: 한글본 10,498, 영문본 9,843, 프리셋 2 4,014. 행동 검증 UNTESTED.
+
+---
+
+## G21. 4-5 입력이 정하지 않은 나머지를 창의적으로 채움
+
+- 증상(운영자): 응답이 "입력 → 입력을 압축해 요약하듯 옮김 → 이후 전개" 모양이 되고, 입력 소화에 급급하다. 4-5 입력 처리 항목에 금지("옮기는 데서 끝낸다", "부풀려 쓰지 않는다")만 있고 할 일이 없다.
+- 반영(4-5 입력 처리와 분량 첫 하위 항목 끝): `입력이 정하지 않은 나머지는 {{user}}의 몫을 빼고, 입력이 만든 상황에 맞게 창의적으로 채운다.` / 영 `Everything else the input leaves undecided, apart from {{user}}'s part, is filled in creatively to fit the situation the input created.`
+- 문구 결정: "NPC의 말과 행동, 반응"으로 나열하면 그 목록 안에서만 움직이므로, 채울 대상은 열고 뺄 것({{user}}의 몫)만 정함(운영자 결정). 새 사건으로 번지는 것은 같은 문장의 "입력이 만든 상황에 맞게", 프리셋 1 "전개를 위해 사건을 만들지 않는다", 프리셋 2 Output range "두 번째 문턱"이 막음.
+- 충돌 확인: 1-2(입력이 정하지 않은 세부는 가장 있을 법하게, {{user}}의 일은 정하지 않음), 4-5(인물이 먼저 움직임), 3-3(NPC 잡담·근황), 프리셋 2 Interaction mode와 같은 방향. 5-1 "요지만 짧게"는 입력 쪽 처리라 충돌 없음.
+- 토큰: 한글본 10,529, 영문본 9,871. 행동 검증 UNTESTED.

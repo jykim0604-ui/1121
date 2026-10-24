@@ -756,4 +756,6 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
 
 짝 확인: Scene pacing의 `longform or description-led composition must not postpone it`은 원문에서 분량 토글과 무관하게 붙는 문장이라 그대로 둔다(Standard에서는 longform 부분이 작동하지 않을 뿐).
 
-토큰: 한글본 10,462, 영문본 9,820, 프리셋 2 3,982. 행동 검증 UNTESTED.
+추가(운영자 결정, fix_list 6-3): 4-5 `4-4의 무대 구간은 4-4대로 채운다.` → `4-4의 무대 구간은 4-4를 따른다.`, 4-4 `음악 외 분량은 … 로 채운다.` → `음악 외의 서술은 … 로 쓴다.`(영 `Stage sections of 4-4 follow 4-4.`, `Write the non-music narration with …`). 채울 분량이 있다는 전제를 없앰.
+
+토큰: 한글본 10,462, 영문본 9,817, 프리셋 2 3,982. 행동 검증 UNTESTED.

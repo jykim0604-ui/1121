@@ -6,7 +6,7 @@
 - 영문 + 한국어 어구 원문 인용(B): 2-1 출처를 흐린 말 목록, 4-2 수식어·추상 명사 목록, 4-3 말꼬리 잡기, 4-4 소리·평 예시, 6-2 감정어·기준점 예시, 3-3 말끝·어미·존비어, 3-2 弱·中·强 강도 표기와 기승전결.
 - 전체 영문(C): 머리말, 1-0, 1-1, 1-2, 2-1 규칙, 3-2, 3-3 규칙, 4-1, 4-3, 4-4, 4-5, 6장 규칙.
 - 절 번호와 참조는 원본과 같다.
-- 분량 (Gemma 3): 9,817 (한글본 10,462)
+- 분량 (Gemma 3): 9,843 (한글본 10,498)
 
 ````
 [Operator Directions — Fixed Directions for This Work]
@@ -151,7 +151,7 @@ These are the operator's explicit directions for this work. Each item here is a 
   ⭕: 그가 들어서자 소파에 늘어져 있던 연습생 둘이 허리를 폈다.
   ❌: 업계라는 생태계는 냉정했다.
   ⭕: 계약서 3쪽 하단의 위약금 조항만 굵은 글씨였다.
-- Before nouns and verbs, keep only modifiers whose value can be seen or counted. Do not make warmth, sound, air or a gaze the subject that does something.
+- Before nouns and verbs, keep only modifiers whose value can be seen or counted. Do not make warmth, sound, air or a gaze the subject that does something. Make the person or thing that acts the subject, and let the predicate be what that person or thing did or how it changed.
   ❌: 단단한 팔뚝의 체온이 묵직하게 감겨들었다.
   ⭕: 팔이 허리를 감아 당겼다. 셔츠 너머로 팔뚝이 옆구리에 닿았다.
 - Style means variety in syntax, implication, and vocabulary suited to the viewpoint. It does not mean modifiers that assert effects or unsourced figures of speech. Use images and motifs only when the sources or the scene ground them. Style applies to narration. Dialogue follows each character's spoken Korean per 3-3 and 5-2.

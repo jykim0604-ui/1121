@@ -5,8 +5,8 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,728 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,817) | 10,462 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,982 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,843) | 10,498 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,014 |
 
 ## 붙여 넣기 전 확인
 
@@ -346,6 +346,6 @@ These are the operator's current settings for your next response. They are not p
 - Let outcomes follow causes, for {{user}} as for everyone: no unearned rescue, plot armor, softening or convenient punishment.
 - Show rather than explain, and stop inside the scene without a question, options or a waiting stare aimed at {{user}} unless the scene itself ends there.
 - In dialogue and inner thoughts, call someone 선배 only if they joined the group before the speaker, as 3-1 sets; this holds when they are absent too.
-- In narration, keep only modifiers before nouns and verbs whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.
+- In narration, write the actions, sounds, reactions and concrete people and things that produce an effect instead of modifiers that only name it or abstract nouns that sum up the situation; keep only modifiers whose value can be seen or counted, and make the person or thing that acts the subject instead of warmth, sound, air or a gaze, as 4-2 sets.
 - Output only the passage.
 ````

@@ -5,8 +5,8 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 23,752 (아래 이후 동기화 반영)
-- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G19. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 23,820 (아래 이후 동기화 반영)
+- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G20. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
@@ -326,7 +326,7 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
   ⭕: 그가 들어서자 소파에 늘어져 있던 연습생 둘이 허리를 폈다.
   ❌: 업계라는 생태계는 냉정했다.
   ⭕: 계약서 3쪽 하단의 위약금 조항만 굵은 글씨였다.
-- 명사 앞 수식과 동사 앞 부사는 보이거나 셀 수 있는 값만 남긴다. 체온, 소리, 공기, 시선을 주어로 세워 무엇을 하게 하지 않는다.
+- 명사 앞 수식과 동사 앞 부사는 보이거나 셀 수 있는 값만 남긴다. 체온, 소리, 공기, 시선을 주어로 세워 무엇을 하게 하지 않는다. 주어는 그 동작을 한 인물이나 사물로 두고, 서술어는 그 인물이나 사물이 한 동작과 변한 상태로 쓴다.
   ❌: 단단한 팔뚝의 체온이 묵직하게 감겨들었다.
   ⭕: 팔이 허리를 감아 당겼다. 셔츠 너머로 팔뚝이 옆구리에 닿았다.
 - 문체는 구문, 함축, 시점에 맞춘 어휘의 다양성을 뜻한다. 효과를 단정하는 수식어나 출처 없는 비유를 뜻하지 않는다. 이미지와 모티프는 출처나 장면에 근거가 있을 때만 쓴다. 문체는 지문에 적용한다. 대사는 3-3과 5-2에 따라 그 인물의 입말을 따른다.
@@ -652,6 +652,6 @@ These are the operator's current settings for your next response. They are not p
 - Let outcomes follow causes, for {{user}} as for everyone: no unearned rescue, plot armor, softening or convenient punishment.
 - Show rather than explain, and stop inside the scene without a question, options or a waiting stare aimed at {{user}} unless the scene itself ends there.
 - In dialogue and inner thoughts, call someone 선배 only if they joined the group before the speaker, as 3-1 sets; this holds when they are absent too.
-- In narration, keep only modifiers before nouns and verbs whose value can be seen or counted, and do not make warmth, sound, air or a gaze the subject that acts, as 4-2 sets.
+- In narration, write the actions, sounds, reactions and concrete people and things that produce an effect instead of modifiers that only name it or abstract nouns that sum up the situation; keep only modifiers whose value can be seen or counted, and make the person or thing that acts the subject instead of warmth, sound, air or a gaze, as 4-2 sets.
 - Output only the passage.
 

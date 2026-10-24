@@ -759,3 +759,13 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
 추가(운영자 결정, fix_list 6-3): 4-5 `4-4의 무대 구간은 4-4대로 채운다.` → `4-4의 무대 구간은 4-4를 따른다.`, 4-4 `음악 외 분량은 … 로 채운다.` → `음악 외의 서술은 … 로 쓴다.`(영 `Stage sections of 4-4 follow 4-4.`, `Write the non-music narration with …`). 채울 분량이 있다는 전제를 없앰.
 
 토큰: 한글본 10,462, 영문본 9,817, 프리셋 2 3,982. 행동 검증 UNTESTED.
+
+---
+
+## G20. 4-2 주어 규칙에 "할 일" 추가, 프리셋 2 수식어 앵커 확장
+
+- 확인: 4-2 네 규칙 중 ①효과 이름 수식어(대신 행동·소리·반응·사람과 사물), ②추상명사 요약(대신 사람·사물·사건·수), ③-1(보이거나 셀 수 있는 값만), ④문체(시점에 맞는 다양성, 근거 있는 이미지)는 할 일이 있다. ③-2 "체온, 소리, 공기, 시선을 주어로 세워 무엇을 하게 하지 않는다"만 금지뿐이고, 대신 무엇을 주어로 할지는 ⭕ 예시에만 암시돼 있었다.
+- 차용(압축 전 8-1 "지문의 주어는 인물이나 사물로 두고, 서술어는 그 인물이나 사물이 한 동작과 변한 상태로 쓴다."): 4-2 ③번 줄 끝에 `주어는 그 동작을 한 인물이나 사물로 두고, 서술어는 그 인물이나 사물이 한 동작과 변한 상태로 쓴다.` / 영 `Make the person or thing that acts the subject, and let the predicate be what that person or thing did or how it changed.`
+- 프리셋 2 [Before writing] 수식어 앵커(운영자 수동 교체안 + 주어 절 수정): 4-2 ①②의 할 일까지 옮김. `- In narration, write the actions, sounds, reactions and concrete people and things that produce an effect instead of modifiers that only name it or abstract nouns that sum up the situation; keep only modifiers whose value can be seen or counted, and make the person or thing that acts the subject instead of warmth, sound, air or a gaze, as 4-2 sets.` 예시 낱말(서늘한 등)은 출력 직전에 다시 보이지 않도록 넣지 않음(4-2 본문에 있음).
+- 관찰: ②의 할 일 "numbers"가 일반 지문 수치 나열을 부추기는지(fix_list 6-2).
+- 토큰: 한글본 10,498, 영문본 9,843, 프리셋 2 4,014. 행동 검증 UNTESTED.

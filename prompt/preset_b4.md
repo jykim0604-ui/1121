@@ -5,8 +5,8 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 23,851 (아래 이후 동기화 반영)
-- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G21. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 23,934 (아래 이후 동기화 반영)
+- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G22. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
@@ -612,7 +612,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Composition: Description-led. Develop distinct setting, observation, sensation, atmosphere, imagery and inner life that the viewpoint and profile permit. Do not convert every utterance into explanatory summary or list neutral connecting movements. This grants no inner access that viewpoint, distance, authorship or disclosure withholds.
+- Composition: Description-led. Develop distinct setting, observation, sensation, atmosphere, imagery and inner life that the viewpoint and profile permit. Do not convert every utterance into explanatory summary or list neutral connecting movements. This grants no inner access that viewpoint, distance, authorship or disclosure withholds. Setting, period and surroundings come in through the objects, ways of working and people of the scene, and atmosphere and imagery through the concrete actions, sounds and things that produce them, as the operator directions (1-0, 4-1, 4-2) set.
 
 
 
@@ -620,7 +620,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Prose style: Literary. Viewpoint-shaped diction, varied syntax, subtext, motif and symbolic resonance, while the chosen action and consequence stay legible; not purple or obscure.
+- Prose style: Literary. Viewpoint-shaped diction, varied syntax, subtext, motif and symbolic resonance, while the chosen action and consequence stay legible; not purple or obscure. Motifs and images appear only where the sources or the scene ground them, as the operator directions (4-2) set.
 
 
 

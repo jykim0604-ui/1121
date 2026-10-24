@@ -779,3 +779,15 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
 - 문구 결정: "NPC의 말과 행동, 반응"으로 나열하면 그 목록 안에서만 움직이므로, 채울 대상은 열고 뺄 것({{user}}의 몫)만 정함(운영자 결정). 새 사건으로 번지는 것은 같은 문장의 "입력이 만든 상황에 맞게", 프리셋 1 "전개를 위해 사건을 만들지 않는다", 프리셋 2 Output range "두 번째 문턱"이 막음.
 - 충돌 확인: 1-2(입력이 정하지 않은 세부는 가장 있을 법하게, {{user}}의 일은 정하지 않음), 4-5(인물이 먼저 움직임), 3-3(NPC 잡담·근황), 프리셋 2 Interaction mode와 같은 방향. 5-1 "요지만 짧게"는 입력 쪽 처리라 충돌 없음.
 - 토큰: 한글본 10,529, 영문본 9,871. 행동 검증 UNTESTED.
+
+---
+
+## G22. 묘사 방향 앵커 (프리셋 2 Composition, Prose style)
+
+- 대조: 세 층의 묘사 방향 문장은 대부분 같은 방향(구체적인 사람·사물·행동·소리로 보여 주고, 설명이나 이름 붙이기를 하지 않음). 프리셋 1(Writing the Passage, 소리 출처)은 일반 원칙으로 시스템과 어긋나지 않아 앵커 불필요.
+- 엇갈림: 프리셋 2 Composition "atmosphere, imagery" ↔ 4-2 추상명사 금지·구체로 쓰기, Prose style "motif and symbolic resonance" ↔ 4-2 "이미지와 모티프는 근거가 있을 때만". 출력 직전 설정이 분위기·상징을 강조.
+- 반영(test_paste ③, B4, 기존 문장 끝에 앵커만):
+  - Composition 끝: `Setting, period and surroundings come in through the objects, ways of working and people of the scene, and atmosphere and imagery through the concrete actions, sounds and things that produce them, as the operator directions (1-0, 4-1, 4-2) set.`
+  - Prose style 끝: `Motifs and images appear only where the sources or the scene ground them, as the operator directions (4-2) set.`
+- 프리셋 2 단독 기능(배경·관찰·감각·내면 전개, 시점에 맞는 어휘·구문)은 유지.
+- 토큰: 프리셋 2 4,097. 행동 검증 UNTESTED.

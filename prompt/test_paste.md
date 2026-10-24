@@ -6,7 +6,7 @@
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,728 |
 | ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,871) | 10,529 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,014 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,097 |
 
 ## 붙여 넣기 전 확인
 
@@ -306,7 +306,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Composition: Description-led. Develop distinct setting, observation, sensation, atmosphere, imagery and inner life that the viewpoint and profile permit. Do not convert every utterance into explanatory summary or list neutral connecting movements. This grants no inner access that viewpoint, distance, authorship or disclosure withholds.
+- Composition: Description-led. Develop distinct setting, observation, sensation, atmosphere, imagery and inner life that the viewpoint and profile permit. Do not convert every utterance into explanatory summary or list neutral connecting movements. This grants no inner access that viewpoint, distance, authorship or disclosure withholds. Setting, period and surroundings come in through the objects, ways of working and people of the scene, and atmosphere and imagery through the concrete actions, sounds and things that produce them, as the operator directions (1-0, 4-1, 4-2) set.
 
 
 
@@ -314,7 +314,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Prose style: Literary. Viewpoint-shaped diction, varied syntax, subtext, motif and symbolic resonance, while the chosen action and consequence stay legible; not purple or obscure.
+- Prose style: Literary. Viewpoint-shaped diction, varied syntax, subtext, motif and symbolic resonance, while the chosen action and consequence stay legible; not purple or obscure. Motifs and images appear only where the sources or the scene ground them, as the operator directions (4-2) set.
 
 
 

@@ -791,3 +791,11 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
   - Prose style 끝: `Motifs and images appear only where the sources or the scene ground them, as the operator directions (4-2) set.`
 - 프리셋 2 단독 기능(배경·관찰·감각·내면 전개, 시점에 맞는 어휘·구문)은 유지.
 - 토큰: 프리셋 2 4,097. 행동 검증 UNTESTED.
+
+---
+
+## 테스트 1 (G18~G22 반영본)
+
+- 추론 시간: 이전의 약 1/4로 줄고 추론 루프가 사라졌다. 응답 분량은 크게 달라지지 않았다. 분량 지시(Longform, "넉넉하게")를 계산하려다 생기던 부담이 주 원인으로 보인다(세간의 평가와 일치). 프리셋이 있으면 추론이 두 배가 되던 관찰(O11·O14 계열)과도 맞닿는다.
+- 묘사: 과장은 줄고 다소 평평해졌다. 운영자 판단은 "과장보다는 낫다". NSFW는 몇 턴 더 테스트한다.
+- 다음: 평평함이 계속 문제로 보이면 후보를 좁혀서 본다(fix_list 6-5). 지금은 수정하지 않는다.

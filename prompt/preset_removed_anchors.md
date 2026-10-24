@@ -48,7 +48,7 @@
 | C14 | 재현 방식 | `Realization mode: Naturalistic` | `Realization mode: Reader-shaped` / `Realization mode: Source-aligned` |
 | C15 | 성인물 연출 | `Adult presentation: Source-aligned automatic` | `Adult presentation: Direct adult fiction` / `Adult presentation: Hitomi-style vulgar genre grammar, dominant` / `Adult presentation: Hitomi-style erotic narrative` |
 | C16 | 전개 속도 | `Story progression speed: Balanced` | `Story progression speed: Slow burn` / `Story progression speed: Fast` |
-| C17 | 응답 분량 | `Response length: Longform` | `Response length: Focused` / `Response length: Extensive` / `Response length: Standard` |
+| C17 | 응답 분량 | `Response length: Standard` (G19, 거리 3 아닌 분기) | `Response length: Focused` / `Response length: Extensive` / `Response length: Longform` |
 | C18 | 장면 속도 | `Scene pacing: Fast` | `Scene pacing: Slow` / `Scene pacing: Balanced` |
 | C19 | 서술 구성 | `Composition: Description-led` | `Composition: Dialogue-led` / `Composition: Balanced` |
 | C20 | 문체 | `Prose style: Literary` | `Prose style: Light novel` / `Prose style: Light literary` / `Prose style: Source-aligned` |
@@ -72,7 +72,7 @@
 | D8 | (성인물 경계) | `Adult mode boundary: Adult mode acts inside the private …` |
 | D9 | 성인물 연출 | `Adult presentation: Source-aligned automatic. Follow the source's directness …` |
 | D10 | 전개 속도 | `Story progression speed: Balanced. Balance lived continuity …` |
-| D11 | 응답 분량 | `Response length: Longform. Allocate substantial page space …` |
+| D11 | 응답 분량 | `Response length: Standard. Allocate proportionate page space …` (G19) |
 | D12 | 장면 속도 | `Scene pacing: Fast. Compress connecting wording …` |
 | D13 | (문체 뒤) | `In this profile, syntax, association, subtext and imagery …` |
 

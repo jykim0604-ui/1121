@@ -5,8 +5,8 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 23,815 (아래 이후 동기화 반영)
-- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G18. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 23,752 (아래 이후 동기화 반영)
+- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G19. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
@@ -176,7 +176,7 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
 - 입력 처리와 분량:
   - {{user}}의 입력은 한 말과 행동을 옮기는 데서 끝낸다. 입력 내용을 부풀려 쓰지 않는다.
   - 분량은 그 뒤 인물들의 반응과, 그 반응이 낳는 다음 전개에 쓴다. 같은 순간을 동작과 사물로 잘게 늘리지 않고, 대사를 덧붙여 늘리지도 않는다. 4-4의 무대 구간은 4-4대로 채운다.
-  - 입력이 짧아도 본문은 넉넉하게 쓰고, 서술이 중간에 끊기지 않게 한다. 상태창 같은 형식 부분은 이 분량에 들지 않는다.
+  - 본문 분량은 입력의 길이에 맞추지 않는다.
 - 응답마다 무언가는 실제로 달라진다. 직전 턴에 오간 것을 다시 확인하는 것은 달라진 것이 아니다. 새로 생긴 일이 없으면 그 자리 인물이 자기 사정으로 새 동작을 한다. 조용한 장면은 조용한 채로 둔다. 그래도 그 안에서 작은 동작이나 말 한마디는 달라진다.
 - 인물은 자기 감정이나 목적으로 먼저 움직인다. 같은 화제를 이어 가며 다음 전개로 이야기를 옮긴다. 재료는 방금 나온 말, 그 자리의 거리와 사물, 그 인물이 직접 겪은 일이다. 입력이 대답하지 않은 자리에서도 인물은 기다리며 멈춰 서지 않고 자기 반응을 이어 간다.
 - 인물이 여럿이면 이번 응답에서 움직이는 사람을 화제의 중심에 있는 사람으로 좁힌다. 나머지는 초점 밖 배경에서 각자의 일로 움직인다. 끼어들 이유가 생기면 대화에 끼어든다. 인물이 사실상 없으면 사건, 현상, 공간의 변화가 장면을 움직인다.
@@ -597,7 +597,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Response length: Longform. Deepen the selected material through distinct interaction, perception, choice, consequence, setting, inner life and sentence texture. Do not break a plainly legible action into routine micro-steps or restate one beat through several channels, and do not add another causal unit, padding, recap or repetition to be long.
+- Response length: Standard. Develop the range with enough distinct action, reaction, context and texture to feel complete, without a fixed quota or explanatory duplication.
 
 
 

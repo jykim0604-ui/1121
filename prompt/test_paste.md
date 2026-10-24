@@ -5,8 +5,8 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,728 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,840) | 10,488 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,019 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,820) | 10,462 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 3,982 |
 
 ## 붙여 넣기 전 확인
 
@@ -291,7 +291,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Response length: Longform. Deepen the selected material through distinct interaction, perception, choice, consequence, setting, inner life and sentence texture. Do not break a plainly legible action into routine micro-steps or restate one beat through several channels, and do not add another causal unit, padding, recap or repetition to be long.
+- Response length: Standard. Develop the range with enough distinct action, reaction, context and texture to feel complete, without a fixed quota or explanatory duplication.
 
 
 

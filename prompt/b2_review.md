@@ -741,3 +741,19 @@ U(복원 안 됨) 없음. 결과물에만 있는 것(규칙 3의 띄어쓰기·�
 - 남은 관찰: 4-2 "보이거나 셀 수 있는 값"이 일반 장면에서 수치 나열을 부추기는지.
 
 토큰: 한글본 10,488, 영문본 9,840. 행동 검증 UNTESTED.
+
+---
+
+## G19. 분량 지시 정리: 프리셋 2 Standard, 4-5 분량 줄
+
+배경(운영자 실험): 프리셋은 분량 지시를 제대로 계산하지 못한다. 분량 지시가 없어도 분량이 적은 문제는 생기지 않는다. 출력 토큰 설정으로 조절할 수 있다.
+
+반영:
+- 프리셋 2(test_paste ③, B4): `Response length: Longform. Deepen…` → 원문 Standard 분기 중 거리 3이 아닌 쪽 `Response length: Standard. Develop the range with enough distinct action, reaction, context and texture to feel complete, without a fixed quota or explanatory duplication.` 토글 기록 C17·D11 갱신.
+- 시스템 4-5 입력 처리와 분량 셋째 항목: `입력이 짧아도 본문은 넉넉하게 쓰고, 서술이 중간에 끊기지 않게 한다. 상태창 같은 형식 부분은 이 분량에 들지 않는다.` → `본문 분량은 입력의 길이에 맞추지 않는다.` (영 `The length of the body does not follow the length of the input.`) 구체적·추상적 분량 지시 없음. 중간 끊김, 상태창 제외 문구는 출력 토큰으로 조절 가능해 삭제(운영자 결정).
+
+Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel complete"는 완결성 기준이고 "without a fixed quota"로 할당량을 명시적으로 배제한다. 분량 지시로 볼 부분 없음.
+
+짝 확인: Scene pacing의 `longform or description-led composition must not postpone it`은 원문에서 분량 토글과 무관하게 붙는 문장이라 그대로 둔다(Standard에서는 longform 부분이 작동하지 않을 뿐).
+
+토큰: 한글본 10,462, 영문본 9,820, 프리셋 2 3,982. 행동 검증 UNTESTED.

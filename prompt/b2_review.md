@@ -876,3 +876,13 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
 - 추가 반영(운영자 결정): 공적 상황 줄 `공적 상황, 직장, 업무 현장, 제3자 앞에서는 직급·역할·선후배가 나이보다 우선한다. 연상이라도 하급자면 상급자에게 존댓말을 쓴다.` → `나이가 많다는 이유로 나중에 들어온 사람을 선배라고 부르지 않는다. 직장이나 제3자 앞이라는 이유만으로 이미 쓰던 호칭과 존비어를 선배·직함과 존댓말로 바꾸지 않는다.` 이 줄의 목적은 맞는 호칭을 정해 주는 것이 아니라 틀린 호칭을 막는 것(운영자). 프리셋 2 [Before writing] 선배 앵커 → `Keep each pair's established address and speech level, including what the records and settings show, as 3-1 sets; use 선배 only for someone who joined the group before the speaker, absent people included.`
 - 다음: 3-1 전체를 금지(잘못된 호칭 예시) → 방향(예시) 구조로 재조립(운영자 지시).
 - 토큰: 한글본 10,732, 영문본 10,048. 행동 검증 UNTESTED.
+
+---
+
+## G28. 프리셋 2 선배 앵커를 오류 금지형으로
+
+- 증상(Gemini 피드백): 프롬프트 맨 끝 [Before writing]이 선후배 계산 규칙을 다시 강조해 로어북 설정을 무시하게 만든다. 인용된 문장은 G27 이전 앵커(`call someone 선배 only if they joined the group before the speaker`)로, 테스트 환경에 옛 앵커가 남아 있었던 것으로 보인다.
+- 판단(운영자): 앵커의 목적은 나중에 들어온 사람을 선배라고 부르는 오류를 바로잡는 것이지, 매 턴 다시 계산해 설정과 올바른 호칭을 바꾸는 것이 아니다. G27 앵커의 뒷부분 `use 선배 only for someone who joined… before the speaker`도 "선배를 쓸 때마다 순서를 따져라"는 기준으로 읽힌다.
+- 반영(test_paste ③, B4): `- Keep the address and speech level each pair already uses, including what the settings and records show, as 3-1 sets; do not call someone 선배 who joined after the speaker, even when they are absent.` 뒷부분을 기준형에서 오류 금지형으로 바꿈. 수정본 3-1 "쓰지 않는다" 둘째 줄과 같은 말.
+- 미반영(테스트 후 일괄): 시스템 프롬프트의 수정본 3-1 전체, 1-2 "입력을 가장 자연스러운 뜻으로 읽는다", 3-3 "입력이 준 말투와 호칭 유지". 테스트 환경에는 수동으로 들어가 있음.
+- 토큰: 프리셋 2 4,136. 행동 검증 UNTESTED.

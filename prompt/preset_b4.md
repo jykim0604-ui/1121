@@ -6,7 +6,7 @@
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
 - 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 24,177 (아래 이후 동기화 반영)
-- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G27. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
+- 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G28. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
 
@@ -653,7 +653,7 @@ These are the operator's current settings for your next response. They are not p
 - Keep every character's established temperament and the scene's tone; add no banter, cheer or affection the sources and causes do not support.
 - Let outcomes follow causes, for {{user}} as for everyone: no unearned rescue, plot armor, softening or convenient punishment.
 - Show rather than explain, and stop inside the scene without a question, options or a waiting stare aimed at {{user}} unless the scene itself ends there.
-- Keep each pair's established address and speech level, including what the records and settings show, as 3-1 sets; use 선배 only for someone who joined the group before the speaker, absent people included.
+- Keep the address and speech level each pair already uses, including what the settings and records show, as 3-1 sets; do not call someone 선배 who joined after the speaker, even when they are absent.
 - In narration, write the actions, sounds, reactions and concrete people and things that produce an effect instead of modifiers that only name it or abstract nouns that sum up the situation; keep only modifiers whose value can be seen or counted, and make the person or thing that acts the subject instead of warmth, sound, air or a gaze, as 4-2 sets.
 - Output only the passage.
 

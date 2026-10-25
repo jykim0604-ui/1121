@@ -5,7 +5,7 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,728 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 10,011) | 10,695 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 10,048) | 10,732 |
 | ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,127 |
 
 ## 붙여 넣기 전 확인

@@ -1,36 +1,118 @@
-# 프리셋(토글 고정판) ↔ v5 충돌 8건 반영 방향
+# 프리셋 수정 방향 (테스트용 프리셋 ↔ 원본 프리셋 비교 기준)
 
-- 대상: `preset_toggle_only.md`(① 프리셋 1, ③ 프리셋 2), `system_prompt_v5_ko.md` / `_en.md`
-- 상태: 반영 방향만 정리했다. 아직 반영하지 않았다.
-- 적용 기준
-  - 가이드 §10.1: 같은 결정을 같은 범위에서 두 문장이 서로 다르게 정할 때만 실제 충돌로 본다. 범위가 다르면 두 문장 모두 남기고 범위만 밝힌다.
-  - 프리셋 Charter "Applicability and conflicts": 명시된 우선순위와 범위 예외를 먼저 적용한다. 영향을 받지 않는 문장은 그대로 둔다.
-  - §8.3: 고칠 때는 가장 작은 표현만 더하거나 덜어낸다.
-- 결정 주체 (사용자 결정)
-  - 구조(입력 처리, 대사 블록, 착지, 표기, 호칭): v5
-  - 묘사와 문체: 프리셋
-- 공통 방식
-  - 프리셋 쪽 문장은 바꿔 쓰지 않는다. 부딪히는 구절만 범위에서 빼거나, "In this work, … follow(s) the operator directions (v5 절)" 형식의 범위 예외 한 문장만 붙인다.
-  - v5 쪽은 범위를 밝히는 구절만 더한다.
-  - 프리셋이 가리키는 절 번호는 v5 번호로 쓴다.
+- 비교 대상
+  - 원본: `preset_toggle_only.md` (원본 프리셋, 테스트 토글값만 고정)
+  - 테스트판: `test_paste.md` ①·③ (일전에 쓰던 테스트용 프리셋)
+- 원칙 (사용자 지시)
+  - 삭제보다 우선순위와 예외 조항을 추가하는 방향으로 고친다.
+  - 테스트판에 이미 반영된 수정이 있으면 그대로 가져온다. 테스트판이 삭제로 처리한 경우도 그 판을 가져온다.
+  - 1, 2, 3, 6: 시스템 프롬프트(v5)가 우선이다. 프리셋에 그 사실을 적고, 충돌 지점은 v5 절로 앵커링한다.
+  - 4, 5, 7: 양쪽을 모두 반영한다.
+  - 8: 보류 (NSFW는 직접 테스트하며 다시 수정).
+- 번호: 테스트판의 앵커는 v1/v2 번호를 가리키므로 가져올 때 v5 번호로 바꾼다.
+
+  | 테스트판 | v5 |
+  |---|---|
+  | 1-0 | 2-1 |
+  | 3-1 | 7-2 |
+  | 3-2 | 6-2·6-3 |
+  | 3-3 | 2-1·5-x |
+  | 4-1 | 2-4 |
+  | 4-2 | 2-6 |
+  | 4-3 | 1-1 |
+  | 4-5 | 9-1 (+2-3, 1-1) |
+
+- 상태: 방향만 정리했다. 아직 반영하지 않았다.
 
 ---
 
-| # | 충돌 | 판정 | 결정 주체 | 반영 위치 | 반영 방향 |
+## 0. 공통: 프리셋에 v5 우선 명시 (신규)
+
+| 위치 | 원본 | 테스트판 | 방향 |
+|---|---|---|---|
+| ③ [Response controls] 첫머리 | "These are the operator's current settings for your next response…" | 없음. v1/v2 쪽 제목 `[Operator Directions — …]`과 개별 앵커로만 연결했음 | 신규 한 문장. 시스템 프롬프트 `[이 작품의 고정 지시]`가 Charter ②의 operator directions이며, 구조(입력 처리, 대사 블록, 표기, 호칭, 착지)는 아래 응답 설정보다 이 지시가 우선한다. 프리셋 안의 "operator directions (○-○)"는 이 블록의 절 번호를 가리킨다. |
+
+## 1. 입력 처리와 인용 (v5 우선)
+
+| # | 위치 | 원본 | 테스트판 | 방향 | 앵커 |
 |---|---|---|---|---|---|
-| 1-a | Continuation point "완료된 입력은 이미 보여 준 것으로 보고 첫 새 결과부터" ↔ v5 2-2 "입력 처리는 본문 맨 앞", 2-3 "입력한 일이 어떻게 이뤄졌는지 채운다" | 실제 충돌 (본문 첫머리에서 입력을 다시 쓰는가) | v5 | 프리셋 ③ Continuation point | 문장 끝에 범위 예외를 붙인다. 입력은 2-2대로 본문 맨 앞에서 먼저 처리하고, "첫 새 결과부터"는 그 처리 뒤에 적용한다. |
-| 1-b | Collaborative RP "{{user}}에게는 입력 밖의 저관여 미세 반응만 허용" ↔ v5 2-2·2-3 "입력한 행동은 구체적으로 그린다", 2-5 노래하는 {{user}}의 몸 묘사 | 범위가 다름. v5는 입력에 적힌 행동의 세부, 프리셋은 입력 밖의 새 행동 | 두 문장 모두 유지 | v5 2-2 | 2-2 머리말의 "입력에 적힌 행동을 구체적으로 그리는 것은 반영이다"에 "입력 밖의 {{user}} 행동은 더하지 않는다"는 범위를 밝힌다. 프리셋 문장은 그대로 둔다. |
-| 1-c | 입력 대사 전문 유지(Input status) ↔ v5 2-2 "첫 문장만 인용, 나머지는 요지로" | 실제 충돌 (입력 대사를 어떤 형식으로 옮기는가) | v5 | 프리셋 ③ Input status | 범위 예외를 붙인다. 입력 대사의 인용 형식은 2-2를 따른다. 입력 내용을 사실로 확정하는 부분(assertion/mode)은 그대로 둔다. |
-| 2 | [Writing the Passage] "질문 연발은 기본이 아님, 빠른 리듬은 필요할 때만", "connected thought" ↔ v5 1-1 대사 블록 분리, 짧게 오가는 구간 | 실제 충돌 (대화 구간의 블록 배치와 리듬) | v5 | 프리셋 ① [Writing the Passage] | 제한 문구는 지우지 않는다. 문장 끝에 범위 예외만 붙인다. 대사 블록 형식과 짧게 오가는 구간은 1-1·6-1을 따른다. "connected thought"는 그대로 둔다. |
-| 3 | [Characters, Tone and Focus] "Do not default to banter" ↔ WORLD CARTRIDGE WC-2·WC-4(백스테이지 대화는 가벼운 농담이 기본), #Comedy 태그, v5 1-1 받는 방식 목록 | 실제 충돌은 프리셋 ↔ 월드 카트리지. v5 1-1은 "성격과 관계가 정한다", "놀림은 그런 관계에서만"이라 기본값을 정하지 않는다 | 작품 설정 (v5 머리말: 설정이 가장 먼저) | 프리셋 ① [Characters, Tone and Focus] / 월드 카트리지(외부 로어북) | 프리셋 문장 끝에 범위를 붙인다. 소스가 특정 장소나 상황의 기본 어조로 정한 것은 그 장면이 원래 가진 어조로 본다. 월드 카트리지 문구는 외부 파일이라 이 저장소 밖에서 확인한다. |
-| 4 | Viewpoint 초점 인물 고정, 타인 내면 금지 ↔ v5 1-3 카메라 연출, 5-4 NPC 속마음 ' ' | 토글 고정판의 Viewpoint는 Omniscient ensemble("several minds" 허용)이라 초점 인물 문장이 없다. 남은 관련 문장은 Narrator person "close third person around the focal character"와 Narrative distance "Keep interior access sparse" | 시점: 프리셋 / 속마음 표기 형식: v5 | 프리셋 ③ Narrator person | Narrator person의 "around the focal character"는 소스에 인칭이 없을 때의 기본값이다. 여기에 Omniscient ensemble 아래에서의 범위를 밝힌다. 5-4 "드물게"와 Narrative distance "sparse"는 같은 방향이므로 둘 다 유지한다. 1-3 카메라 연출은 무엇을 보여 주고 얼마나 둘지만 정한다(1-3 머리말)는 범위를 유지한다. |
-| 5 | Prose style: Literary "subtext, motif, symbolic resonance" ↔ v5 2-6 수식어·추상명사·비유 억제 | 범위가 다름. 2-6은 효과에 이름만 붙이는 수식어, 상황을 요약하는 추상명사, **출처 없는** 비유. Literary는 어휘, 통사, 함축, **근거 있는** 모티프 | 두 문장 모두 유지 | v5 2-6 마지막 줄 | 2-6 "문체는 구문, 함축, 시점에 맞춘 어휘의 다양성을 뜻한다"에 프리셋 문체 설정을 가리키는 구절을 되살린다. B2판 "문체 설정(문학적, 라이트 문예 등)과 웹소설 관습은" 형식이다. |
-| 6 | Numeric notation "개수까지 아라비아 숫자(3개)" ↔ v5 6-1 "아홉까지 고유어 수는 한글(세 번, 두 명)" | 실제 충돌 (한국어 작은 수의 표기) | v5 (6-1 [CRITICAL], "문체나 표현 관습 설정과 관계없이") | 프리셋 ① [Language and Voice] Numeric notation | 문단은 그대로 두고 범위 예외 한 문장을 붙인다. 한국어 표기는 6-1을 따른다. |
-| 7 | Output range: Interaction handoff "첫 반응을 끝내고 멈춤, 다음 대화 시작은 두 번째 문턱" (+ Longform) ↔ v5 2-3 "잘게 늘리지 않음", 9-1 "진전시키고 진행 중인 자리에서 끊음" | 응답 분량은 토글 고정판에서 Standard이므로 Longform 문장은 없다. 실제 충돌은 Output range ↔ 9-1 (응답이 어디서 멈추는가) | v5 | 프리셋 ③ Output range | 두 번째 문턱 목록 가운데 9-1과 부딪히는 구절("starting the next exchange")만 범위에서 뺀다. 멈추는 자리는 9-1을 따른다는 범위 예외를 붙인다. 계속 쓰라는 새 문장은 넣지 않는다. |
-| 8 | Adult presentation, 성인 장면 기준 "해부, 동작, 국소 감각, 리듬, 반응을 끝까지 구체적으로" ↔ v5 6-2 단계 분리, 수치 나열 금지, 2-6 수식어, Patch Note | 범위가 다름. 프리셋은 묘사의 직접성과 밀도, 6-2는 페이싱, 강도 변화, 수치 나열, 2-6은 수식어 | 밀도: 프리셋 / 페이싱·수치·수식어: v5 | v5 6-2 / Patch Note(외부) | 6-2 머리에 범위를 밝힌다. 묘사의 직접성과 밀도는 프리셋 성인 장면 기준을 따르고, 이 항목은 페이싱, 강도, 수치, 표현 관습만 정한다. 프리셋 문장은 그대로 둔다. Patch Note는 외부 파일이라 이 저장소 밖에서 확인한다. |
+| 1-a | ③ Continuation point | "When the input states that something is complete or gives a result, treat it as already shown and begin with the first new outcome…" | 이 문장 삭제 | **테스트판 차용 (삭제)** | — |
+| 1-b | ③ Collaborative RP (micro-action 문단) | 문장 끝에서 "leave that move to the operator." | 끝에 "In a scene with only {{user}} and one NPC, {{user}}'s responses follow the operator directions (4-5)." | **테스트판 차용**, 번호만 바꿈 | 4-5 → 1-1, 2-2, 9-1 |
+| 1-c | ③ Input status | 입력의 각 진술을 그대로 확정 | 변경 없음 | **신규 예외 한 문장**: 입력 대사를 어떻게 인용하고 옮기는지는 operator directions를 따른다 | 2-2 |
+
+## 2. 대사 블록과 빠른 주고받기 (v5 우선)
+
+| 위치 | 원본 | 테스트판 | 방향 | 앵커 |
+|---|---|---|---|---|
+| ① [Writing the Passage] Speech 문단 | "…Volleys of short questions … are not the default …; use a rapid rhythm only where the work or the moment calls for it." | 뒷구절 삭제 + "The quick back-and-forth stretch that the operator directions (4-3) allow is not such a volley." | **테스트판 차용**, 번호만 바꿈 | 4-3 → 1-1 |
+| 같은 문단 | 대사 블록 배치(산문 통합형)에 대한 별도 문장 없음 | 없음 | **신규 예외 한 문장**: 대사 블록의 배치와 형식은 operator directions를 따른다 | 1-1, 6-1 |
+
+## 3. 농담·입담의 기본값 (v5 우선)
+
+| 위치 | 원본 | 테스트판 | 방향 | 앵커 |
+|---|---|---|---|---|
+| ① [Characters, Tone and Focus] | "Teasing, quips, comic reactions and rapid back-and-forth belong to characters and scenes that are actually comic." | "Teasing, quips and comic reactions belong to …" ("rapid back-and-forth" 삭제) | **테스트판 차용** | — |
+| 같은 줄 | 받는 방식에 대한 위임 없음 | 없음 | **신규 예외 한 문장**: 후속 발화를 받는 방식(반박, 정정, 놀림, 맞장구, 말꼬리 잡기)은 operator directions를 따르고, 장소나 상황의 기본 어조는 설정이 정한 대로 따른다 | 1-1, 머리말(설정 우선) |
+| 외부 | WORLD CARTRIDGE WC-2·WC-4, #Comedy 태그 | — | 이 저장소 밖. 수정하지 않는다 | — |
+
+## 4. 시점·내면 ↔ 카메라 연출 (둘 다 반영)
+
+| 위치 | 원본 (토글 고정판) | 테스트판 | 방향 | 앵커 |
+|---|---|---|---|---|
+| ③ Viewpoint | Omniscient ensemble (여러 인물의 마음과 동시 진행 허용) | 같음 | 유지 | — |
+| ③ Narrator person | "…close third person around the focal character" | 같음 | 유지 + **신규 예외 한 문장**: 이 작품에서 장면은 카메라에 담기는 장면으로 보여 주고, 인물의 속마음은 operator directions가 정한 형식과 빈도로만 드러낸다 | 1-3, 2-4 화면, 5-4 |
+| ③ Narrative distance | "Keep interior access sparse…" | 같음 | 유지 (5-4 "드물게"와 같은 방향) | — |
+
+## 5. 문학적 문체 ↔ 수식어 억제 (둘 다 반영: 효과를 단정하는 수식어를 뺀 문학적 산문, 카메라 서술)
+
+| 위치 | 원본 | 테스트판 | 방향 | 앵커 |
+|---|---|---|---|---|
+| ③ Prose style: Literary | "Viewpoint-shaped diction, varied syntax, subtext, motif and symbolic resonance…; not purple or obscure." | 끝에 "Motifs and images appear only where the sources or the scene ground them, as the operator directions (4-2) set." | **테스트판 차용**, 번호만 바꿈 | 4-2 → 2-6 |
+| ③ Composition: Description-led | 원문 분기 | 끝에 "Setting, period and surroundings come in through the objects…, and atmosphere and imagery through the concrete actions, sounds and things that produce them, as the operator directions (1-0, 4-1, 4-2) set." | **테스트판 차용**, 번호만 바꿈 | 1-0, 4-1, 4-2 → 2-1, 2-4, 2-6 |
+| ③ [Before writing] | 없음 | "In narration, write the actions, sounds, reactions and concrete people and things … instead of modifiers …; keep only modifiers whose value can be seen or counted, and make the person or thing that acts the subject …, as 4-2 sets." | **테스트판 차용**, 번호만 바꿈 | 4-2 → 2-6 |
+| v5 2-6 문체 줄 | — | B2판 "문체 설정(문학적, 라이트 문예 등)과 웹소설 관습은 …" | **신규** (v5 쪽): 문체 줄 앞에 프리셋 문체 설정을 가리키는 구절을 되살린다. 문학적 문체의 함축과 문장 결은 이 항목과 함께 적용된다 | — |
+
+참고 (기록): 표본 4(v5 + 원본 프리셋)에서는 위 세 앵커 없이도 수식어가 다시 나오지 않았다.
+
+## 6. 숫자 표기 (v5 우선)
+
+| 위치 | 원본 | 테스트판 | 방향 |
+|---|---|---|---|
+| ① [Language and Voice] Numeric notation 문단 | 개수까지 아라비아 숫자(3개) | 문단 삭제 (S2, 시스템 프롬프트 6-1로 넘김) | **테스트판 차용 (삭제)** |
+
+## 7. 분량·멈춤 지점 ↔ 착지 (둘 다 반영)
+
+방향: 새 사건이나 다음 단계가 없어도 지금 순간의 지각, 내면, 상호작용, 문장 결을 깊게 쓴 뒤, 시스템 프롬프트 착지 지침대로 착지한다. 분량("길게")에 관한 부분은 뺀다.
+
+| 위치 | 원본 | 테스트판 | 방향 | 앵커 |
+|---|---|---|---|---|
+| ③ Output range | "Complete the first reaction that leaves a meaningful choice, then stop … starting the next exchange or carrying out its consequence is a second threshold …" | "Continue through the reactions the input causes and the development that follows, then stop at the point where {{user}}'s next speech, decision or action is needed. … changing location beyond where the input is already heading … An action a character other than {{user}} has already started is carried to its result as the operator directions (4-5) set. The response does not end where the input ends; what follows the input runs as the operator directions (4-5) set." | **테스트판 차용**, 번호만 바꿈 | 4-5 → 9-1 (+2-3) |
+| 같은 줄 (추가) | Longform 분기(토글 고정판에는 없음): "Deepen the selected material through distinct interaction, perception, choice, consequence, setting, inner life and sentence texture." | 없음 (G19에서 Standard로 교체) | **신규 한 문장**: Longform의 심화 문장을 분량 말 없이 가져온다. 새 사건이나 다음 단계가 없어도 지금 순간의 지각, 내면, 상호작용, 문장 결을 깊게 쓰고, 착지는 operator directions를 따른다 | 9-1 |
+| ③ Response length | Standard | Standard | 유지 (분량 문장은 더하지 않음) | — |
+| ① [Pacing and Events] | "A quiet scene may stay quiet." | 삭제 (B1 착지 3 결정: 뜻을 착지로 합침) | **원본 유지** (둘 다 반영: v5 9-1 "조용한 장면은 조용한 채로 둔다. 그래도 … 달라진다"와 같은 방향) | — |
+| ① [Characters, Tone and Focus] | "Silence, stillness and restraint are content." | 삭제 (B3 A6 결정: 착지 쪽) | **원본 유지 + 신규 예외 한 문장**: 응답마다의 진전과 착지는 operator directions를 따른다 (둘 다 반영) | 9-1 |
+
+## 8. NSFW (보류)
+
+- 원본 그대로 둔다. 테스트판의 성인 장면 위임(성인 장면 기준, Prose style·표현 관습 boundary, 소리, Scene pacing, 자아 유지 앵커)은 가져오지 않는다.
+- 직접 테스트한 뒤 다시 정한다.
+
+---
+
+## 9. 1~8 밖의 테스트판 변경 (구조 관련은 차용)
+
+| 변경 | 테스트판 | 방향 | 앵커 |
+|---|---|---|---|
+| 존비어 (A8) | [Language and Voice] "Unfamiliarity alone does not override same-age peer usage or require service politeness and -ssi." 삭제 | 차용 (v5 우선, 호칭) | — |
+| 존비어 (G15, G27) | 같은 블록에 "In this work, address and speech level between characters are set by the operator directions (3-1)." / "…each direction inherits the state 3-1 sets; an utterance that departs from it … is the uncaused switch to correct…" | 차용, 번호만 바꿈 | 3-1 → 7-2 |
+| 선배 (G10, G28) | [Before writing] "Keep the address and speech level each pair already uses … as 3-1 sets; do not call someone 선배 who joined after the speaker, even when they are absent." | 차용, 번호만 바꿈 | 3-1 → 7-2 |
+| NPC 잡담 (A10) | [Writing the Passage] "…except a character's own small talk, recent news, schedule and minor experiences as 3-3 allows." | 차용, 번호만 바꿈 | 3-3 → 2-1 |
+| 인물 지칭 (A12) | [Sources and Continuity] "…and in a limited viewpoint an unknown person stays described, not named, until learned." 삭제 | 차용 (삭제) | — |
+| 번역 병기 (F1) | 출력 언어 "Add no parallel translation or translation notes unless asked." 삭제 | 차용 (삭제, v5 6-1 외국어 줄이 맡음) | — |
 
 ## 반영 순서
-1. v5 쪽 범위 구절: 1-b, 5, 8
-2. 프리셋 쪽 범위 예외: 1-a, 1-c, 2, 3, 4, 6, 7. 원문은 바꾸지 않고, 덧붙이거나 구절만 뺀다.
-3. 외부 파일 확인 목록: 3(월드 카트리지 WC-2·WC-4), 8(Patch Note)
-4. 반영 뒤 §10.1 양방향 검토를 한다. 프리셋 원문에서 범위 예외로 덮인 구절만 바뀌었는지, 묘사와 문체 문장이 하나도 바뀌지 않았는지 확인한다.
+
+1. 0 (v5 우선 명시)
+2. 1·2·3·6·9 (테스트판 차용과 번호 교체, 신규 예외 문장)
+3. 4·5·7 (양쪽 반영. 5의 v5 2-6 구절 포함)
+4. §10.1 양방향 검토: 원본 대비 바뀐 문장 목록이 이 표와 일치하는지, 8(NSFW) 문장이 그대로인지 확인

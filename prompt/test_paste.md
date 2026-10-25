@@ -5,8 +5,8 @@
 | 부분 | 붙여 넣을 자리 | 분량 (Gemma 3) |
 |---|---|---|
 | ① 프리셋 1 | 기존 프리셋 1 (Charter ~ Output) 대체 | 6,728 |
-| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,924) | 10,590 |
-| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,097 |
+| ② 시스템 프롬프트 | 기존 시스템 프롬프트 대체 → `system_prompt_v1.md` (영문본 `system_prompt_v1_en.md` 9,988) | 10,664 |
+| ③ 프리셋 2 | 기존 프리셋 2 (Response controls, Before writing) 대체 | 4,127 |
 
 ## 붙여 넣기 전 확인
 
@@ -224,7 +224,7 @@ These are the operator's current settings for your next response. They are not p
 
 
 
-- Output range: Interaction handoff. Continue through the reactions the input causes and the development that follows within the current topic, then stop at the point where {{user}}'s next speech, decision or action is needed. Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request. An action a character other than {{user}} has already started is carried to its result as the operator directions (4-5) set. In autonomous-novel mode, stop at a dramatic choice point without asking a question.
+- Output range: Interaction handoff. Continue through the reactions the input causes and the development that follows, then stop at the point where {{user}}'s next speech, decision or action is needed. Do not cross a second information or action threshold: opening something closed, revealing a clue, changing location beyond where the input is already heading, or carrying out its consequence is a second threshold unless that threshold itself was the operator's explicit immediate request. An action a character other than {{user}} has already started is carried to its result as the operator directions (4-5) set. The response does not end where the input ends; what follows the input runs as the operator directions (4-5) set. In autonomous-novel mode, stop at a dramatic choice point without asking a question.
 
 
 

@@ -809,3 +809,31 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
 - 원문의 "최근 5턴"은 숫자라 "앞선 응답"으로 열었다. "이전 대화를 다시 화제로 올리지 않음"은 한 사건이 여러 턴 이어질 수 있어 압축 때 뺀 이유가 유효해 넣지 않았다.
 - 충돌 확인: 4-5 끝맺음 줄, 3-3 "말투는 장면이 바뀌어도 이어진다"(말투 유지, 습관을 드러내는 동작만 바꿈), 프리셋 1 "같은 순간을 두 번 그리면 새 것이 있어야 한다"와 같은 방향.
 - 토큰: 한글본 10,590, 영문본 9,924. 행동 검증 UNTESTED.
+
+---
+
+## G24. 입력이 끝난 자리에서 응답이 끝나는 문제 (4-5, 프리셋 2 Output range)
+
+증상(운영자 비교): 입력이 "운전해 줌, 즐겁게 이야기함, 내려 줌, 혼자 올라가는 엘리베이터에서 혼잣말"로 끝날 때, 현행 환경(프리셋 1+시스템+프리셋 2)은 입력만 늘여 옮기고 혼잣말에서 끝난다. 압축 전 단독 시스템 프롬프트는 입력을 옮긴 뒤 숙소의 인물(연희)과 일로 다음 상황을 이어 간다.
+
+원인:
+- 4-5 "{{user}}가 시작한 동작에서 입력에 적히지 않은 결과는 열어 둔다" → 엘리베이터 이후(도착)까지 {{user}}의 결과로 보고 쓰지 않음.
+- 4-5 "그 자리 인물들이 반응…" → 입력이 {{user}} 혼자 있는 자리에서 끝나면 반응할 인물이 없어 끝남.
+- 프리셋 2 Output range "within the current topic"(화제가 끝나면 범위도 끝난다로 읽힘), "changing location"(다음 장소로 못 넘어감).
+- 압축 전에 이를 막던 원문 3-3 "입력 처리는 {{user}}가 한 것을 옮기면 끝난다. 그 뒤부터 본문이고, NPC가 움직인다."와 10-2 "착지 지점은 언제나 진행 중인 상태여야 한다."가 압축 때 빠짐.
+
+반영:
+- 시스템 4-5(한글본·영문본·paste 두 개·B4)
+  - 첫 줄 끝: `응답은 언제나 무언가가 진행 중인 상태에서 끝난다.`(원문 10-2) / 영 `A response always ends with something still in progress.`
+  - 입력 처리 첫 하위 항목: `그 뒤부터가 본문이다.`(원문 3-3) / 영 `The body begins after that.`
+  - "인물이 사실상 없으면…" 끝: `입력이 {{user}} 혼자 있는 자리에서 끝나도, {{user}}의 몫은 그대로 둔 채 그 자리의 변화와 {{user}}가 향하던 곳에서 자기 일상을 사는 인물이 장면을 이어 간다.`(원문 10-2 인물 없는 장면, 원문 5-1 NPC 자율 일상) / 영 `Even if the input ends with {{user}} alone, the scene carries on through changes in that place and the people living their own day where {{user}} was headed, while {{user}}'s part stays with {{user}}.`
+  - `입력에 적히지 않은 결과는 열어 둔다` → `입력에 적히지 않은 성패는 열어 둔다` / 영 `success or failure`
+- 프리셋 2 Output range(test_paste ③, B4): `within the current topic` 삭제, `changing location` → `changing location beyond where the input is already heading`, 앵커 `The response does not end where the input ends; what follows the input runs as the operator directions (4-5) set.` 추가.
+
+검수 과정 결정:
+- 처음 안의 "입력이 끝난 자리는 응답이 끝나는 자리가 아니며"는 원문이 아니라 원문 3-3·10-2 두 문장으로 대체.
+- "{{user}}가 향하는 곳의 인물과 일이 이어서 움직인다"는 {{user}}를 그곳까지 걷게 쓸 위험(프리셋 2 Interaction mode와 충돌, 예시 2번이 실제로 {{user}}의 행동·대사를 대신 씀) → "{{user}}의 몫은 그대로 둔 채", "자기 일상을 사는 인물"로 수정.
+- `changing location` 삭제는 프리셋 2가 맡던 "장면이 제멋대로 장소를 옮기지 않음"에 빈 곳을 만듦 → 삭제 대신 "입력이 이미 향하던 곳 너머"로 범위 한정.
+- `within the current topic`은 범위의 끝을 화제로 정해 멈춤을 만들고, 기능(화제 튀지 않기, 의제 여러 개 벌이지 않기)은 시스템 4-5 "같은 화제를 이어 가며", 프리셋 2 Story drive "Do not multiply developments", Balanced, 프리셋 1 "A new arrival… needs a present cause"가 맡아 삭제(운영자 확인). 화제 전환은 금지가 아니라 원인이 있을 때만.
+
+토큰: 한글본 10,664, 영문본 9,988, 프리셋 2 4,127. 행동 검증 UNTESTED.

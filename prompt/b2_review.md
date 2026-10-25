@@ -837,3 +837,17 @@ Standard 문장 재확인: 수치나 분량 하한이 없다. "enough… to feel
 - `within the current topic`은 범위의 끝을 화제로 정해 멈춤을 만들고, 기능(화제 튀지 않기, 의제 여러 개 벌이지 않기)은 시스템 4-5 "같은 화제를 이어 가며", 프리셋 2 Story drive "Do not multiply developments", Balanced, 프리셋 1 "A new arrival… needs a present cause"가 맡아 삭제(운영자 확인). 화제 전환은 금지가 아니라 원인이 있을 때만.
 
 토큰: 한글본 10,664, 영문본 9,988, 프리셋 2 4,127. 행동 검증 UNTESTED.
+
+---
+
+## G25. G24 전제 정정: 자율 전개 지시 턴 (4-5)
+
+- 정정(운영자): {{user}} = 정수(운전자), 지연 = NPC. 입력은 NPC의 자율 전개 방향만 준 것이었다. G24는 입력을 "{{user}}가 혼자 남은 상황"으로 잘못 읽고 고쳤다.
+- 실제 원인: 압축 전 5-2 "{{user}}가 NPC 간 자율 대화를 지시한 턴에는 … 입력에 적힌 대사와 행동을 소화한 뒤 그 인물들이 이어서 움직이는 데까지 쓰고, 입력 소화로 본문을 닫지 않는다."가 압축 때 5-1의 표기 부분("{{user}} 화자 블록을 만들지 않는다")만 남고 빠졌다. 현행 환경은 방향 지시를 대본처럼 옮기고 그 끝에서 멈췄다.
+- 반영(한글본·영문본·paste 두 개·B4):
+  - 4-5 입력 처리와 분량에 하위 항목 추가(압축 전 5-2): `{{user}}가 NPC의 자율 전개를 지시한 턴에는, 입력에 적힌 말과 행동을 옮긴 뒤 그 인물들이 이어서 움직이는 데까지 쓴다. 입력을 옮기는 것으로 본문을 닫지 않는다.` / 영 `In a turn where {{user}} directs the NPCs' own development, render the words and actions written in the input, then write on as those characters carry on moving. Do not close the body by rendering the input.`
+  - G24의 "입력이 {{user}} 혼자 있는 자리에서 끝나도…" 문장 삭제(잘못된 전제).
+  - G24의 "성패" → 원래 "결과"로 되돌림(근거 소멸, 가이드 §8.2 부모 유지).
+- 유지: G24의 진행 중 착지(원문 10-2), "그 뒤부터가 본문이다"(원문 3-3), 프리셋 2 Output range(화제 삭제, 장소 범위 한정, 4-5 앵커). 앵커가 새 하위 항목을 그대로 받는다.
+- 충돌 확인: 5-1 자율 대화 턴 화자 블록, 3-2 NPC 자율 장면 페이싱 해제, 프리셋 1 "운영자 입력은 때로 작가에게 주는 지시", 프리셋 2 Interaction mode "shared staging"과 같은 방향.
+- 토큰: 한글본 10,671, 영문본 9,987. 행동 검증 UNTESTED.

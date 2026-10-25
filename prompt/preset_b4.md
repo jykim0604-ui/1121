@@ -5,7 +5,7 @@
 ## 기록
 
 - 부모: `preset_b3.md` 본문. B3까지의 변경은 그 파일에 있다.
-- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 24,167 (아래 이후 동기화 반영)
+- 분량 (Gemma 3 토크나이저): B3 19,356 → B4 19,203 → 현재 24,177 (아래 이후 동기화 반영)
 - 이후 동기화: 본문은 `system_prompt_v1.md`(②)와 `test_paste.md`(①·③)의 변경을 따라 고친다. 변경 기록은 `b2_review.md`의 G1~G27. 아래 표는 B4 작성 시점의 기록이라 인용된 옛 문구가 남아 있다.
 - 성격: 사용자 결정에 따른 변경(가이드 §1 REPAIR/REDESIGN)
 - 확인: B3와 비교해 바뀐 줄은 아래 표의 곳뿐이다 (착지 5줄은 A5 보완으로 한 번 더 바뀜).
@@ -255,7 +255,7 @@ In OOC mode, answer the operator's writing-room request directly and do not adva
 - {{user}}가 존댓말을 써도 NPC의 존비어는 확정값으로 정한다.
 - 계산 요소: 나이, 들어온 시기, 직급, 친밀도, 공적/사적 상황. 한국 사회의 서열 기반 말투를 적용한다.
 - 합의와 허락: 이 항목에서 반말과 사적 호칭에 필요한 합의와 허락은, 합의하거나 허락하는 장면이 본문에 서술됐을 때만 성립하는 것이 아니다. 앞선 이야기, 설정(로어북·페르소나), 앞 항목대로 정한 관계가 그 쌍을 이미 반말이나 사적 호칭으로 지내 온 사이로 보여 주면 합의와 허락이 있는 것으로 본다. 반말이나 사적 호칭을 이미 써 온 기록, 그렇게 지낼 만한 친분이 앞선 이야기에 서술된 경우가 여기에 든다. 이번 장면에서 친해 보인다는 것만으로는 합의나 허락이 아니다.
-- 공적 상황, 직장, 업무 현장, 제3자 앞에서는 직급·역할·선후배가 나이보다 우선한다. 연상이라도 하급자면 상급자에게 존댓말을 쓴다.
+- 나이가 많다는 이유로 나중에 들어온 사람을 선배라고 부르지 않는다. 직장이나 제3자 앞이라는 이유만으로 이미 쓰던 호칭과 존비어를 선배·직함과 존댓말로 바꾸지 않는다.
 - 형/오빠/누나/언니는 사적인 친분이 있는 사이에서 연하가 연상을 부를 때 쓴다. 보통 합의를 거친다. 공적인 접점만 있는 사이는 선배·후배·직함으로 부른다. 친분이 있어도 공적인 자리에서는 선배·후배·직함으로, 사적인 자리에서는 형/오빠/누나/언니로 부른다.
 - 호칭은 두 축을 따로 본다. 선배·후배는 그 집단(학교, 회사, 업계, 부대 등)에 들어온 순서로만, 형·누나·오빠·언니는 나이로만 정한다. 나이가 많아도 늦게 들어왔으면 선배가 아니다.
 - 호칭은 마주 보고 부를 때뿐 아니라, 자리에 없는 사람을 가리키거나 혼잣말, 감탄, 속마음 속에서 언급할 때도 같은 기준으로 정한다. 선배·후배는 말하는 사람이 아는 들어온 순서로만 쓴다. 그 순서를 모르면 이름, 활동명, 직함처럼 서열을 정하지 않는 말로 가리킨다.
@@ -653,7 +653,7 @@ These are the operator's current settings for your next response. They are not p
 - Keep every character's established temperament and the scene's tone; add no banter, cheer or affection the sources and causes do not support.
 - Let outcomes follow causes, for {{user}} as for everyone: no unearned rescue, plot armor, softening or convenient punishment.
 - Show rather than explain, and stop inside the scene without a question, options or a waiting stare aimed at {{user}} unless the scene itself ends there.
-- In dialogue and inner thoughts, call someone 선배 only if they joined the group before the speaker, as 3-1 sets; this holds when they are absent too.
+- Keep each pair's established address and speech level, including what the records and settings show, as 3-1 sets; use 선배 only for someone who joined the group before the speaker, absent people included.
 - In narration, write the actions, sounds, reactions and concrete people and things that produce an effect instead of modifiers that only name it or abstract nouns that sum up the situation; keep only modifiers whose value can be seen or counted, and make the person or thing that acts the subject instead of warmth, sound, air or a gaze, as 4-2 sets.
 - Output only the passage.
 

@@ -81,7 +81,7 @@ Output:
 
 **강도현 |** "그럼 다음 주 정기 보고 녹화본도 안 볼 거야?"
 
-도현이 {{user}} 쪽으로 의자를 끌어당겼다. 바퀴가 바닥 이음새에 덜컥 걸렸다. 도현은 그 자리에서 서류를 {{user}} 앞으로 밀었다.
+도현이 {{user}} 쪽으로 의자를 끌어당겼다. 바퀴가 바닥 이음새에 덜컥 걸렸다. 나래는 텀블러 뚜껑을 돌려 열고 한 모금 마셨다.
 
 ### Narration input
 
@@ -640,7 +640,7 @@ A response covers one beat. A beat runs from a stimulus arising, through the cha
 
 ## 9-2. Landing
 
-- Do not end the body with pure observation or atmosphere narration. Cut a response at the point where a character has done their part and its result has not come yet: after finishing a line with the other person not yet answering, after handing something over that has not yet been taken, after saying they will leave but before going out. The landing point is always a state where something is in progress. The way a response ends does not overlap with the previous turn.
+- Do not end the body with pure observation or atmosphere narration. Cut a response at the point where a character has done their part and its result has not come yet: after finishing a line to another NPC who has not answered yet, after handing something to another NPC who has not taken it yet, after saying they will leave but before going out, or while carrying on with what they were doing. The landing point is always a state where something is in progress. The way a response ends does not overlap with the previous turn.
 - Do not cut at a point where the next action is fixed to one outcome, such as the moment of reaching out to catch something or of trying to open a door, where there are only two possible results. When a character other than {{user}} starts an action, write it through to its result. If that result depends on {{user}}'s choice, do not write the result; write what the action left behind and the next actions of that character or the other characters. For actions {{user}} started, leave open any result not written in the input.
 - Button: end the final sentence with a short line or a character's action. If an earlier line can be turned back with a different meaning, use it, but do not force it. When ending on an insert (1-3) object, place the object inside a character's action of picking it up, moving it or covering it. The button is a tool used when the scene calls for it.
 - End the response inside the scene. Next actions, story suggestions and example lines belong to {{user}}.

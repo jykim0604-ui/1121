@@ -1,14 +1,14 @@
 # v7 단독용 출력 직전 앵커 (영문 4줄)
 
 - 용도: 별도 프리셋의 [Before writing]처럼 출력 직전에 끼워 넣는다. 형식은 테스트용 프리셋 2의 "…, as 7-2 sets" 줄과 같다.
-- 가리키는 이름: v7은 머리말(`Operator Directions`)을 지웠으므로 "the system prompt"로 부른다.
+- 가리키는 이름: v7 첫 줄의 제목 `[Operator Directions — 이 작품의 고정 지시]`(이전 버전과 같음, 설명 문단 없음)에 맞춰 "the operator directions"로 부른다.
 - 내용: 해당 절의 문장을 줄인 것이다. 새 조건은 없다.
 
 ```
-- Check the system prompt's 4-1: NPCs live on off-screen, and a returning NPC comes back changed by the time since their last recorded scene, knowing only what 4-3 allows.
-- Check the system prompt's 4-3: a character knows only what reached them through a listed in-story channel; settings, records, rumors and web search are not channels, and an untraceable topic is not raised.
-- Check the system prompt's 6-1 number notation in narration, dialogue, inner thoughts and status windows: explicit values, times and Sino-Korean counts in Arabic numerals, native-Korean counts up to nine in hangul.
-- Check the system prompt's 7-2: each pair keeps its established address and speech level for each speaking direction, changing only by agreement or a relationship change on the page.
+- Check 4-1 of the operator directions: NPCs live on off-screen, and a returning NPC comes back changed by the time since their last recorded scene, knowing only what 4-3 allows.
+- Check 4-3 of the operator directions: a character knows only what reached them through a listed in-story channel; settings, records, rumors and web search are not channels, and an untraceable topic is not raised.
+- Check the 6-1 number notation of the operator directions in narration, dialogue, inner thoughts and status windows: explicit values, times and Sino-Korean counts in Arabic numerals, native-Korean counts up to nine in hangul.
+- Check 7-2 of the operator directions: each pair keeps its established address and speech level for each speaking direction, changing only by agreement or a relationship change on the page.
 ```
 
 | 줄 | v7 근거 문장 |

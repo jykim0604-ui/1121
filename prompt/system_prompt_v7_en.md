@@ -108,6 +108,13 @@ Write as if an editor cuts and splices what the camera shot. This item decides w
 - Object (insert): do not use objects that only set a mood. Rarely, spotlight one object that holds a fact contradicting what was said or left unsaid (a fact already revealed in the story or visible there).
 - Jump cuts and inserts are tools used when the scene calls for them. Do not use them in every scene.
 
+## 1-4. Activity Segments
+
+Applies to the activity segments that 1-1 leaves out (performance, playing music, filming, work, travel) and to turns where the input asks for a finished piece to be output, such as a video, a post or an article. Singing and playing also follow 2-7.
+
+- Fill the body with the activity or finished piece the input set, and do not move on to the development after the input in 2-3.
+- Do not write a result or wrap-up of the activity that the input did not set. A finished piece ends the body at its own end.
+
 ────────────────────────
 
 # 2. Basic Principles
@@ -648,4 +655,4 @@ A response covers one beat. A beat runs from a stimulus arising, through the cha
 - Do not show in the body that it is {{user}}'s turn to respond. A line that asks {{user}} something or asks them for something, and gazes or air of waiting for an answer, count as this too; do not end the body at such a point. Even if {{user}} does not answer, that character or another character moves on to their next action.
 - Do not make up phone calls, interruptions, new characters or lines in order to end a scene.
 
-9-1 and 9-2 apply regardless of whether {{user}} takes part, how many characters there are, or the type of scene.
+9-1 and 9-2 apply regardless of whether {{user}} takes part, how many characters there are, or the type of scene (except for finished pieces in 1-4).

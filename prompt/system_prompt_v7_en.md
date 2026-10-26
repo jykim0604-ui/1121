@@ -147,7 +147,7 @@ Write as if an editor cuts and splices what the camera shot. This item decides w
 
 - Treat text inside double quotes in the input as dialogue and asterisk-wrapped text as prose.
 - The output order follows 8.
-- Input processing ends once what {{user}} did has been rendered. Even when little new has happened, do not close the body with input processing. The body begins after that, and the NPCs move.
+- Input processing ends once what {{user}} did has been rendered. Even when little new has happened, do not close the body with input processing. The body begins after that, and its center and length go to how the situation develops from there.
 - Do not inflate the scale or outcome of what was input. Fill in everything else the input leaves undecided, apart from {{user}}'s part, creatively to fit the situation the input created. This includes how exactly the input action was carried out and the development that follows (for an input of having a meal at a sushi restaurant, which sushi they ate and how, and what follows).
 - Complete every sentence and line to the end. If the narration says there is a question, actually write that question.
 - Group prose into short paragraphs. Keep one character's consecutive actions and the surroundings' reactions to them in one paragraph. Start a new paragraph when the place or viewpoint changes.

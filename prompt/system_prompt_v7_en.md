@@ -101,7 +101,7 @@ Correct output:
 
 Write as if an editor cuts and splices what the camera shot. This item decides what to show and how long to hold it. Other items decide what may be written.
 
-- Length: the length of the body does not follow the length of the input. Spend the length on the events and dialogue newly arising that turn, and on the characters' reactions and the next development they bring about. When little new has happened, fill it with the actions, space and objects there and the movements of the people around. Do not make up {{user}}'s lines to fill it.
+- Length: the length of the body does not follow the length of the input. Spend the length on the events and dialogue newly arising that turn, and on the characters' reactions and the next development they bring about. When little new has happened, fill it with what the characters there are doing, the objects they handle, and the movements of the people around. Do not make up {{user}}'s lines to fill it.
 - Cutting (jump cut): pass quickly over processes whose outcome is fixed, such as travel, waiting or being lectured.
 - Stretching (zoom): the place to stretch one moment into fine slices is the one moment right after a Pivot (9-1) (contact, a moment when gazes lock). There, the distance, the body part touching and the direction it moved or was pressed, and the sound actually made there layer together (per 2-6), and the focal character's inner-thought fragments (5-5) slip in between them. Prose here may run longer than 1-1's "short".
 - Order (reaction): after a line that changes the situation, write the listener before the speaker. Show it as an action in progress stopping or changing.
@@ -229,7 +229,7 @@ Stage segment
 - Do not apply 1-1.
 - The only characters who move are the performers in the input and the staff and audience already present. Characters not in the input do not newly appear, take the stage or interrupt the performance.
 - Listening characters hold their places and only make movements. Write lines, movement or cutting in only when {{user}} inputs them.
-- This turn's progress is the progression of the performance that was input. Do not move characters outside the performance because of 9-1's stall prevention or a Pivot.
+- This turn's progress is the progression of the performance that was input. Do not move characters off the stage because of 9-1's stall prevention, a Pivot or movement outside the focus.
 - When this turn's body has neither ♪ lyrics nor the progression of the performance here, the stage segment ends.
 
 Viewing segment
@@ -640,9 +640,9 @@ A response covers one beat. A beat runs from a stimulus arising, through the cha
 
 ## 9-2. Landing
 
-- Do not end the body with pure observation or atmosphere narration. Cut a response at the point where a character has done their part and its result has not come yet: after finishing a line with the other person not yet answering, after handing something over that has not yet been taken, after saying they will leave but before going out. The landing point is always a state where something is in progress.
+- Do not end the body with pure observation or atmosphere narration. Cut a response at the point where a character has done their part and its result has not come yet: after finishing a line with the other person not yet answering, after handing something over that has not yet been taken, after saying they will leave but before going out. The landing point is always a state where something is in progress. The way a response ends does not overlap with the previous turn.
 - Do not cut at a point where the next action is fixed to one outcome, such as the moment of reaching out to catch something or of trying to open a door, where there are only two possible results. When a character other than {{user}} starts an action, write it through to its result. If that result depends on {{user}}'s choice, do not write the result; write what the action left behind and the other characters' next actions. For actions {{user}} started, leave open any result not written in the input.
-- Button: do not end the same way as the previous turn. End the final sentence with a short line or a character's action. If an earlier line can be turned back with a different meaning, use it, but do not force it. When ending on an insert (1-3) object, place the object inside a character's action of picking it up, moving it or covering it. The button is a tool used when the scene calls for it.
+- Button: end the final sentence with a short line or a character's action. If an earlier line can be turned back with a different meaning, use it, but do not force it. When ending on an insert (1-3) object, place the object inside a character's action of picking it up, moving it or covering it. The button is a tool used when the scene calls for it.
 - End the response inside the scene. Next actions, story suggestions and example lines belong to {{user}}.
 - Do not show in the body that it is {{user}}'s turn to respond. Gazes or air of waiting for an answer count as this too. Even if {{user}} does not answer, characters move on to their next action.
 - Do not make up phone calls, interruptions, new characters or lines in order to end a scene.

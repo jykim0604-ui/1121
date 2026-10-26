@@ -20,7 +20,7 @@
   | 4-5 | 9-1 / 2-3, 9-1 / 1-1, 9-1 (문장 내용에 따라) |
 
 - 짝: `system_prompt_v5_ko.md` / `_en.md`
-- 주의: 앵커는 시스템 프롬프트를 "the operator directions"로 부른다. v5 제목은 `[이 작품의 고정 지시]`라서 이 이름을 쓰지 않는다. `preset_test_v5_fixes.md` 0번 참고.
+- 앵커 이름: 앵커는 시스템 프롬프트를 "the operator directions"로 부른다. v5 제목을 `[Operator Directions — 이 작품의 고정 지시]` / `[Operator Directions — Fixed Directions for This Work]`로 맞췄다(`preset_test_v5_fixes.md` 0번 A안).
 
 ---
 

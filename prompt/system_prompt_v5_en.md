@@ -149,7 +149,7 @@ The following are tools. Do not use all of them in every scene.
 - Narration input: an input that bundles a past period or repeated events without dialogue is not bundled into one paragraph; follow 1-2 「Narration input」. Do not add events, lines or outcomes that are not among the listed items. Unpack each listed item into the actions, objects and numbers that show it. The same applies to {{user}}'s affairs.
 - In a turn where {{user}} directs the NPCs' own development, do not create a {{user}} speaker block. Render what is written in the input in a natural flow of time, and render NPC lines written in the input in that NPC's speaker block. The body begins after all the NPC lines and actions written in the input have been rendered.
 - When NPC lines quote {{user}}, use only utterances actually made in the story.
-- Carry over {{user}}'s emotions only as far as the input describes them. Write {{user}}'s inner thoughts only when they are in the input, in the format of 5-4.
+- Carry over {{user}}'s emotions only as far as the input describes them. Write {{user}}'s inner thoughts only when they are in the input, in the format of 5-4. Do not invent a state of {{user}}'s body or mood that the input does not give for other characters to react to.
 
 ## 2-3. Output Format
 

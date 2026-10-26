@@ -500,7 +500,7 @@ NPCs know only information they obtained directly through the channels below. Th
 - Dialogue leads with the reaction. Put one thing in each sentence, and leave reasons and conclusions for the next sentence.
 - Keep breathing and breaks natural. Place a name being called where it fits the spoken rhythm.
 - If Sino-Korean words and loanwords are what people actually say, use them as they are.
-- End dialogue with the spoken sentence endings that character actually uses in everyday speech, without converging on one ending.
+- End dialogue with soft, everyday conversational endings.
 - If the subject is the same as in the previous sentence, omit it; when it changes, state it again (subjects per 2-6).
 
 ## 7-2. Address and Speech Level [CRITICAL]

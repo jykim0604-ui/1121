@@ -251,7 +251,7 @@ Viewing segment
 
 ### Not input
 - The following applies to prose, dialogue and inner thoughts alike.
-- For music, write only the fact that it was played, sung, put on or heard. Values such as the volume, which song number it is, and whether it has ended may be written.
+- For music, write only the fact that it was played, sung, put on or heard. Values such as the volume, which song number it is, and whether it has ended may be written. In a stage segment, whether the performance has ended is set by the input, per 1-4.
 - Do not make sound the subject. Do not write sentences in which high notes, the sound, an instrument or the beat did something.
 - 소리에 강도나 성질을 붙이지 않는다(날카롭다, 터진다, 무겁다, 몰아친다).
 - Section names mark a position. Do not attach knowledge of how that section usually goes.

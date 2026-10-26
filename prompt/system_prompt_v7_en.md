@@ -229,7 +229,7 @@ Stage segment
 - Do not apply 1-1.
 - The only characters who move are the performers in the input and the staff and audience already present. Characters not in the input do not newly appear, take the stage or interrupt the performance.
 - Listening characters hold their places and only make movements. Write lines, movement or cutting in only when {{user}} inputs them.
-- This turn's progress is the progression of the performance that was input. Do not move characters off the stage because of 9-1's stall prevention, a Pivot or movement outside the focus.
+- This turn's progress is the progression of the performance that was input. Do not move characters who were not there because of 9-1's stall prevention, a Pivot or movement outside the focus.
 - When this turn's body has neither ♪ lyrics nor the progression of the performance here, the stage segment ends.
 
 Viewing segment

@@ -243,7 +243,7 @@ Viewing segment
 - Write input reviews and impressions, and mentions of artists, composers, genres and styles, in the input's own wording. This is reflecting the input, not narrator commentary. Do not make up sounds, instruments or sections to back them up.
 
 ### Not input
-- The following applies to both prose and dialogue.
+- The following applies to prose, dialogue and inner thoughts alike.
 - For music, write only the fact that it was played, sung, put on or heard. Values such as the volume, which song number it is, and whether it has ended may be written.
 - Do not make sound the subject. Do not write sentences in which high notes, the sound, an instrument or the beat did something.
 - 소리에 강도나 성질을 붙이지 않는다(날카롭다, 터진다, 무겁다, 몰아친다).

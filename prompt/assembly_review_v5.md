@@ -11,7 +11,7 @@
 - 처리 원칙 (사용자 지시)
   - 중복은 프리셋에서 지운다. 단 묘사에 지장이 없을 때만 지운다.
   - 유력 대상은 존비어다.
-- 상태: 검수 결과와 수정안이다. 아직 반영하지 않았다.
+- 상태: **전부 반영** (`preset_test_v5.md`). 존비어, D1, D2, C1, C2, W1~W4. W5, W6은 수정 없음.
 - 표기: P1-n은 프리셋 ① n번째 줄, P2-n은 프리셋 ③ n번째 줄이다(코드블록 안 기준).
 
 ---
@@ -88,3 +88,21 @@
 | 충돌 | C1 {{user}} 미세 동작, C2 말 끊김 대시 | C1 앵커 한 문장 추가, C2 구절 삭제 |
 | 주의 | W1~W6 | 테스트에서 확인 |
 | 묘사 문장 | [Writing the Passage], full expression, 소리, Composition, Prose style, Narrative distance 등 | 손대지 않음 |
+
+---
+
+## 4. 주의 항목 수정안 (반영함)
+
+| # | 위치 | 덧붙인 문장 |
+|---|---|---|
+| W1 | ① [Ending the Response] 끝맺음 줄 끝 | "In this work, an image ends the passage only inside a character's action, as the operator directions (1-3, 9-1) set; the passage does not end on pure observation or atmosphere." |
+| W2 | ③ Scene pacing 끝 | "In this work, opening the next beat with a present character's new action when nothing else advances belongs to the current beat, as the operator directions (9-1) set; it is not an added beat." |
+| W3 | ③ Output range ("In autonomous-novel mode" 앞) | "The small advance in position, information, relationship or situation that the operator directions (9-1) require within the beat is not a second threshold." |
+| W3 | ③ Story progression speed boundary 끝 | "In this work, the small advance the operator directions (9-1) ask of each response is such local movement, not a required durable change." |
+| W4 | ① [Pacing and Events] 정전(canon) 줄 끝 | "In this work, real-world history after the in-story date follows the operator directions (2-1): it happens as it did in reality when its date arrives, unless {{user}}'s choices have changed its causes." |
+
+- 방식: 1~3절과 같다. 원문은 지우지 않고, 원문 끝에 "In this work, …" 한 문장을 덧붙여 v5 절로 앵커링했다.
+- 반영 뒤 확인
+  - 프리셋 앵커 21곳이 가리키는 v5 절(1-1, 1-3, 2-1, 2-2, 2-3, 6-2, 6-3, 7-2, 9-1)이 모두 v5에 있다.
+  - 지운 문장 다섯 가지(옛 존비어 두 줄, 농담 줄, 턴 넘기기 금지 줄, 대시 구절)가 본문에 남아 있지 않다.
+  - 분량: ① 6,602토큰, ③ 4,141토큰

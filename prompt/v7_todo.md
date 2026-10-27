@@ -7,6 +7,7 @@
 - 플러그인 확인 완료(Chunk #92): `<event>`·`<facts>` 저장, `말투: "…"` 줄의 대사 칸 저장, `[기억]`/`[사실]` 이름표, `시간:` 날짜
 - [ ] 관찰: 대사로 드러난 내용(레몬청 실토 같은 것)이 평문으로 `내용` 안에 순서대로 남는지, facts가 원안처럼 생성되는지
 - [ ] 관찰: 말투 줄 화자가 NPC만 나오는지({{user}}는 대상으로만)
+- [ ] 반영 여부 판단: 성적 장면에서 육하원칙 '어떻게'가 신체 묘사로 과하게 나오면 `hypaminus_summary_prompt_v2_nsfw_how.txt`(5번 항목에 "In these scenes, the progression above covers the how of the Five Ws; do not add physical detail for it." 한 줄 추가본)로 교체. 기본은 `hypaminus_summary_prompt_v2.txt`로 테스트
 
 ## 2. v7 확정
 - 확정 범위: `system_prompt_v7_en.md` + `v7_anchor_lines.md`(앵커 5줄: 4-1, 4-3, 6-1, 7-2, 9-2). `system_prompt_v7_ko.md`는 같은 내용의 참고본

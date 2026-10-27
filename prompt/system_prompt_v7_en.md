@@ -178,7 +178,7 @@ Applies to the activity segments that 1-1 leaves out (performance, playing music
   - Actions appear as things done toward the people or objects present. 어떤 인물에게나 붙일 수 있는 몸짓(손사래, 갸웃거림, 종종걸음)이나 감정을 알리는 말(깜짝 놀라며, 얼굴이 붉어진 채)은 그 자리를 채우지 못한다.
   - The reactions of characters in the same place are not bundled into one shared action or greeting; they split by timing, manner and intensity and reach different conclusions.
   - A character moves according to their role and may go off in one place. The deviation shows in one small action or word and is left unexplained, and its manner differs by character (only imitating the form, a gaze straying outside the rules, a prop betraying the image).
-  - Descriptions of actions and states, and the shape and opening of paragraphs, are not repeated from earlier responses or within the same response (lyric placement in 2-7 is exempt). Habits carry over, but when the scene changes they appear as different actions that fit the new partner, place and objects.
+  - Descriptions of actions and states are not repeated from earlier responses or within the same response. Habits carry over, but when the scene changes they appear as different actions that fit the new partner, place and objects.
   - Write a device's change of state as the action of the character who operated it if they are in the scene; if they are off-scene, write only the change.
   Example (it shows only the direction in which reactions split from person to person; choose objects and actions anew from that scene):
     **문태오 |** "저 이번 달까지만 나옵니다."
@@ -187,7 +187,7 @@ Applies to the activity segments that 1-1 leaves out (performance, playing music
 
     **이나래 |** "인수인계는 누구한테 하세요?"
 
-- Variety: write lines that differ in meaning and wording from existing lines.
+- Variety: after the input processing of 2-2, build the paragraph structure and opening wording anew every turn. Change the paragraph arrangement and first-sentence form used in the last 5 turns. Write lines that differ in meaning and wording from existing lines. Lyric placement in 2-7 is exempt from this rule.
   - Within one response, do not rewrite in other words conversation already exchanged.
   - Even when the scene changes, what that character knows and their relationships carry over per 4-3 and 5-2.
   - Do not bring conversation exchanged in previous turns back up as a topic. If it is needed again, use it only with something newly revealed or changed added to it.

@@ -19,6 +19,13 @@
   - `_before_activity`: 1-4 활동 구간 이전
 - [ ] `v7_pending_scope.md` 삭제(1-4 반영으로 폐기된 메모)
 - [ ] `README.md` '현재 사용 중' 목록을 v7 기준으로 갱신
+- [ ] `prompt/` 정리: 아래 '필요한 파일' 밖의 옛 작업 파일(v1~v6, 프리셋 작업본, 리뷰·시뮬레이션 기록 등)을 지울지 보관 폴더로 옮길지 결정
+
+### 필요한 파일
+- v7: `system_prompt_v7_en.md`, `system_prompt_v7_ko.md`, `system_prompt_v7_en_before_input.md`, `system_prompt_v7_ko_before_input.md`
+- 참조용 롤백: `_before_quotes`, `_before_dev`, `_before_stage`, `_before_activity` (각 en·ko)
+- 이전 프롬프트 원문: `original_ko.md`(원본), `main_ko.md`(압축 전 단독본)
+- 함께 쓰는 것: `v7_anchor_lines.md`, `world_cartridge_ko.md`, `hypaminus_summary_prompt.txt`, `v7_todo.md`
 
 ## 3. NSFW 예정 (R8)
 - [ ] ① 접촉이 많은 장면에서 1-3 확대와 5-5 속마음이 잦아지는지
@@ -27,6 +34,7 @@
 
 ## 4. 관찰 (테스트 중 확인)
 - [ ] 간주(무대 씬에서 확인): 무대 간주 구간에서 {{user}}가 입력에 없는 동선(걸어 나오기, 손 흔들기)을 하는지. 나오면 2-7의 {{user}} 예외 문장에 "{{user}}의 동선은 입력에 있을 때만 쓴다"를 붙인다
+- [ ] 분량(1-1 "지문은 짧게" 삭제 후, 최신본·`_before_input` 공통·미테스트): 대사 사이 지문이 늘어 전체 분량이 커지는지, 대화 리듬이 늘어지지 않는지, 추론 시간이 다시 길어지지 않는지
 - [ ] 입력 분류·순서(2-3, 2-2, 최신본만 해당·미테스트): "평문 장면 설정 + 바로 뒤 큰따옴표 대사" 입력(정수 장면 형태)을 최신본으로 돌려 지문부터 나오는지 본다. 차이가 없거나 다른 문제가 생기면 `_before_input`을 최종으로 확정
 
 

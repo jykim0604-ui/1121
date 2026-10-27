@@ -9,6 +9,7 @@
 | `v7_anchor_lines.md` | 출력 직전 앵커 5줄 (4-1, 4-3, 6-1, 7-2, 9-2) |
 | `world_cartridge_ko.md` | 월드 카트리지 |
 | `hypaminus_summary_prompt.txt` | HypaMinus 요약 프롬프트 |
+| `hypaminus_summary_prompt_original.txt` | 이전에 쓰던 HypaMinus 요약 프롬프트 원본 (대조용) |
 | `v7_todo.md` | 남은 작업 목록 |
 | `RISUAI_PRESET_AUTHORING_SYSTEM_GUIDE.txt` | 검수 기준 가이드 (프리셋 정제·압축 가이드) |
 

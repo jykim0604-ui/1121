@@ -46,8 +46,7 @@ Detailed Event Guidelines:
  - Extract MAX 5 plot-critical dialogues per event.
  - Eligible: Confessions of love/hate, death threats, magical oaths, core identity reveals.
  - IGNORE: Greetings, jokes, casual reactions. Add none if none qualify.
- - Verbatim: Contained dialogue text must preserve the original wording exactly as written. Do not paraphrase, shorten, summarize, or alter dialogue in any way. Only deleting is permitted.
- - Plain Text: Do not put them under `--- 대사 ---`. Add them at the end of `내용` as plain text without quotation marks, in the form 화자: 대사, separated by " / ".
+ - Plain Text: Do not quote the lines. Rewrite each one as a plain past-tense sentence of who said what to whom, keeping its point, and add them at the end of `내용`, separated by " / ". Do not put them under `--- 대사 ---`. (e.g., NOT 서도윤: "나 사실 그 시험 안 봤어." BUT 서도윤이 한소율에게 그 시험을 보지 않았다고 털어놓았다)
 
 4. Speech Register (under `--- 대사 ---`):
  - These lines anchor how NPCs speak. {{user}} never comes before the arrow, only after it as a target.

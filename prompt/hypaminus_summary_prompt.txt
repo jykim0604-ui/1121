@@ -50,6 +50,12 @@ Detailed Event Guidelines:
  - Group one speaker's targets into a single line. (e.g., 말투: 백지안→서도윤 반말, 호칭 "형" / →한소율 존댓말, 호칭 "소율 씨")
  - Leave it empty if no pair qualifies.
 
+4. Physical Contact & Sexual Scenes:
+ - Record the progression in order: who led, what changed along the way, and anything that happened only in this scene.
+ - Do not write descriptions. Write only enough to tell this scene apart from others.
+ - Record these scenes even if they do not affect later scenes.
+ - Also record what was decided or revealed through what was said there, how the relationship changed, and what the characters did afterward.
+
 ---
 
 # Revealed Facts Rules

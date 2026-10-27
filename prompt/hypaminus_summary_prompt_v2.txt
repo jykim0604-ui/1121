@@ -26,6 +26,7 @@ Output Schema:
 인물: characters directly involved in the event, comma separated.
 내용: Core plot action and its direct narrative consequence. (past tense ~했다/하였다)
 --- 대사 ---
+{{user}}: "Exact core dialogue"
 말투: "NPC→대상 존댓말/반말, 호칭 '…'"
 </event>
 
@@ -47,7 +48,8 @@ Detailed Event Guidelines:
  - Extract MAX 5 plot-critical dialogues per event.
  - Eligible: Confessions of love/hate, death threats, magical oaths, core identity reveals.
  - IGNORE: Greetings, jokes, casual reactions. Add nothing to `내용` if none qualify.
- - Plain Text: Do not quote the line. Write what was said as a plain sentence of who said what to whom, inside `내용` in the order it happened. (e.g., NOT NPC1: "나 사실 그 시험 안 봤어." BUT NPC1이 NPC2에게 그 시험을 보지 않았다고 털어놓았다.)
+ - Verbatim: Keep {{user}}'s lines under `--- 대사 ---`. Contained dialogue text must preserve the original wording exactly as written. Do not paraphrase, shorten, summarize, or alter dialogue in any way. Only deleting is permitted.
+ - Plain Text: Do not quote NPC lines. Write what was said as a plain sentence of who said what to whom, inside `내용` in the order it happened. (e.g., NOT NPC1: "나 사실 그 시험 안 봤어." BUT NPC1이 NPC2에게 그 시험을 보지 않았다고 털어놓았다.)
 
 4. Speech Register (under `--- 대사 ---`):
  - These lines anchor how NPCs speak, to {{user}} and to each other. {{user}} never comes before the arrow, only after it as a target.

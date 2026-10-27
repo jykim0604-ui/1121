@@ -39,7 +39,7 @@ Detailed Event Guidelines:
  - Focus strictly on: What critical action happened, and what the major consequence or outcome was.
  - Emotional & Psychological Shifts: DO NOT include minor emotional reactions (e.g., sighing, slight embarrassment). ONLY include psychological shifts if they significantly alter character relationships or motives (e.g., realizing romantic feelings, forming deep trust, growing heavy suspicion, or deep betrayal).
  - Keep it highly compressed within few sentences.
- - Five Ws without Why: Write who, when, where, what, and how as concretely as the log states them.
+ - Five Ws without Why: Write who, when, where, what, and how. Copy proper nouns and numbers exactly as written; never replace them with "해당 곡", "그 회사" and the like.
  - Strict Past Tense: Use ONLY declarative past tense ending in "~했다." or "~하였다." (NEVER ~함, ~했음).
  - Explicit Proper Nouns: ABSOLUTELY NO PRONOUNS (그, 그녀, 이곳 등). Always use explicit character names and exact locations.
 
@@ -52,7 +52,7 @@ Detailed Event Guidelines:
 4. Speech Register (under `--- 대사 ---`):
  - These lines anchor how NPCs speak. {{user}} never comes before the arrow, only after it as a target.
  - Write a `말투:` line only for an NPC who spoke to someone for the first time in this log, or who set or changed their form of address or speech level (존댓말/반말) toward someone in this log.
- - Write each line in the `Speaker: "text"` form the dialogue field stores: `말투` as the speaker, everything else inside one pair of double quotes, single quotes for the address term. Group one NPC's targets into a single line. (e.g., 말투: "백지안→서도윤 반말, 호칭 '형' / →한소율 존댓말, 호칭 '소율 씨'")
+ - Write each line in the `Speaker: "text"` form: `말투` as the speaker, everything else inside one pair of double quotes, single quotes for the address term. Group one NPC's targets into a single line. (e.g., 말투: "백지안→서도윤 반말, 호칭 '형' / →한소율 존댓말, 호칭 '소율 씨'")
  - Write no `말투:` line if no NPC qualifies.
 
 5. Physical Contact & Sexual Scenes:

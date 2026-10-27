@@ -26,6 +26,9 @@ Output Schema:
 인물: characters directly involved in the event, comma separated.
 내용: Core plot action and its direct narrative consequence. (past tense ~했다/하였다)
 --- 대사 ---
+Speaker1: "Plain-text core dialogue 1"
+Speaker2: "Plain-text core dialogue 2"
+(and so on)
 말투: "NPC→대상 존댓말/반말, 호칭 '…'"
 </event>
 
@@ -45,14 +48,14 @@ Detailed Event Guidelines:
 3. Dialogue Extraction:
  - Extract MAX 5 plot-critical dialogues per event.
  - Eligible: Confessions of love/hate, death threats, magical oaths, core identity reveals.
- - IGNORE: Greetings, jokes, casual reactions. Add none if none qualify.
- - Plain Text: Do not quote the lines. Rewrite each one as a plain past-tense sentence of who said what to whom, keeping its point, and add them at the end of `내용`, separated by " / ". Do not put them under `--- 대사 ---`. (e.g., NOT 서도윤: "나 사실 그 시험 안 봤어." BUT 서도윤이 한소율에게 그 시험을 보지 않았다고 털어놓았다)
+ - IGNORE: Greetings, jokes, casual reactions. Leave empty if none qualify.
+ - Plain Text: Do not quote the line. Write what the speaker said as a plain sentence of what was said to whom. (e.g., NOT 서도윤: "나 사실 그 시험 안 봤어." BUT 서도윤: "한소율에게 그 시험을 보지 않았다고 털어놓았다")
 
-4. Speech Register (under `--- 대사 ---`):
+4. Speech Register (under `--- 대사 ---`, after the dialogue lines):
  - These lines anchor how NPCs speak. {{user}} never comes before the arrow, only after it as a target.
  - Write a `말투:` line only for an NPC who spoke to someone for the first time in this log, or who set or changed their form of address or speech level (존댓말/반말) toward someone in this log.
  - Write each line in the `Speaker: "text"` form the dialogue field stores: `말투` as the speaker, everything else inside one pair of double quotes, single quotes for the address term. Group one NPC's targets into a single line. (e.g., 말투: "백지안→서도윤 반말, 호칭 '형' / →한소율 존댓말, 호칭 '소율 씨'")
- - Leave `--- 대사 ---` empty if no NPC qualifies.
+ - Write no `말투:` line if no NPC qualifies.
 
 ---
 

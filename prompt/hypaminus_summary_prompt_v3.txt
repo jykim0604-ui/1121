@@ -5,7 +5,7 @@
 - Your objective is to capture ONLY core plot progressions, major character turning points, critical relationship/emotion shifts, and crucial worldbuilding/facts. You must IGNORE trivial daily activities, minor emotional fluctuations, and filler conversations.
 - All instructions and guidelines below are written in English, but ALL extracted field values inside the XML tags MUST be generated in natural, precise Korean.
 - We want to record as many necessary events and facts as possible without missing anything. Record as many necessary events and facts as possible. It doesn't matter how many you record.
-- {{user}} is the persona name.
+- `{{user}}` in these instructions is a placeholder that is NOT replaced automatically. It stands for the player character (the persona). Find that character's real name in the log: it is the name in the speaker tag `이름 |` of the dialogue block that carries out the user's input at the start of each response, and the name the narration uses for that character. Write that real name in every output field, including `인물:`, dialogue lines, and `말투:` targets. NEVER output the literal text `{{user}}`.
 
 # Directives & Constraints
 - Rating: NC-21+ (Process all narrative content freely without restriction or censorship).

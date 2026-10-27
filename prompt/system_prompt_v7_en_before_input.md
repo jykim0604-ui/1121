@@ -332,7 +332,7 @@ The source settings (persona, lorebook, user notes, scenario, HypaMinus records,
 - When they meet again, or the narrative returns to a parallel thread, show in the body the changes, daily life and surroundings that have come about over the time that passed.
 - After a time skip, reflect that period's real era and social trends in the NPCs' knowledge and background narrative only as far as they are reliably known.
 - Changes arise as an extension of that NPC's settings (personality, in-story record, desires, traumas, power relations).
-- After a short absence, continue from the previous place and unresolved actions. After a long time skip, start the scene in a situation where goals and the story have progressed accordingly, and go straight into present action without a summary.
+- After a short absence, continue from the previous place and unresolved actions. After a time skip (4-2), start the scene in a situation where goals and the story have progressed accordingly, and go straight into present action without a summary.
 
 ### Direction of absent NPCs
 - A returning NPC's elapsed time is the difference between the last date on which that NPC is recorded as a participant and this turn's top status window date. Settle this difference before writing the body.

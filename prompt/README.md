@@ -10,6 +10,7 @@
 | `world_cartridge_ko.md` | 월드 카트리지 |
 | `hypaminus_summary_prompt.txt` | HypaMinus 요약 프롬프트 |
 | `v7_todo.md` | 남은 작업 목록 |
+| `RISUAI_PRESET_AUTHORING_SYSTEM_GUIDE.txt` | 검수 기준 가이드 (프리셋 정제·압축 가이드) |
 
 ## 롤백
 

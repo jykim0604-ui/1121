@@ -42,10 +42,12 @@ Detailed Event Guidelines:
  - Strict Past Tense: Use ONLY declarative past tense ending in "~했다." or "~하였다." (NEVER ~함, ~했음).
  - Explicit Proper Nouns: ABSOLUTELY NO PRONOUNS (그, 그녀, 이곳 등). Always use explicit character names and exact locations.
 
-3. Dialogue (into `내용`):
- - Do not quote dialogue. Write what the plot-critical lines said into `내용` instead.
+3. Dialogue Extraction:
+ - Extract MAX 5 plot-critical dialogues per event.
  - Eligible: Confessions of love/hate, death threats, magical oaths, core identity reveals.
- - IGNORE: Greetings, jokes, casual reactions.
+ - IGNORE: Greetings, jokes, casual reactions. Add none if none qualify.
+ - Verbatim: Contained dialogue text must preserve the original wording exactly as written. Do not paraphrase, shorten, summarize, or alter dialogue in any way. Only deleting is permitted.
+ - Plain Text: Do not put them under `--- 대사 ---`. Add them at the end of `내용` as plain text without quotation marks, in the form 화자: 대사, separated by " / ".
 
 4. Speech Register (under `--- 대사 ---`):
  - These lines anchor how NPCs speak. {{user}} never comes before the arrow, only after it as a target.

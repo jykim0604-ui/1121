@@ -38,6 +38,7 @@ Detailed Event Guidelines:
 2. Writing Style for `내용` (Content):
  - Focus strictly on: What critical action happened, and what the major consequence or outcome was.
  - Six Ws for Decisions: For every decision, plan, agreement, or promise, record who, when, where, what, and HOW (the method and means) as concretely as the log states them. Agreed methods, means, and conditions are part of the outcome, not discussion to be dropped. (e.g., NOT "한소율이 이사를 돕기로 했다." BUT "한소율이 토요일 오전 1톤 트럭을 빌려 짐 운반을 맡기로 했다.")
+ - Read the dialogue for what it reveals. If a line shows that an earlier claim or appearance was false, write what is actually true, not the claim, and also record the truth in `<facts>` with the characters who know it.
  - Stated Purpose: If a character states a purpose that will drive later actions, add it to `내용` as `목적:` followed by the character's original words.
  - Emotional & Psychological Shifts: DO NOT include minor emotional reactions (e.g., sighing, slight embarrassment). ONLY include psychological shifts if they significantly alter character relationships or motives (e.g., realizing romantic feelings, forming deep trust, growing heavy suspicion, or deep betrayal).
  - Keep it compressed within a few sentences, but never drop who, when, what, or how to save space.
@@ -77,7 +78,7 @@ Detailed Fact Guidelines:
 
 1. Strict Plot-Relevance Filtering:
  - DO NOT extract trivial preferences, minor inventory changes, or temporary status effects.
- - Record only the part that changes the story or a relationship. Drop background details mentioned along with it, such as shares, salaries, ages, or career history.
+ - Drop background specs mentioned in passing, such as shares, salaries, ages, or career history.
  - Extract ONLY:
   1) Core Secrets & Documents: Hidden identities, major crime evidence, secret notes/letters (쪽지/편지), newly discovered magic rules, or faction secrets.
      *CRITICAL RULE FOR DOCUMENTS:* If a letter, note, or document is long, DO NOT copy the full text. Summarize ONLY the sender, recipient, and the core intent/clues.

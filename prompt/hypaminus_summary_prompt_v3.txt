@@ -40,8 +40,8 @@ Detailed Event Guidelines:
 2. Writing Style for `내용` (Content):
  - Focus strictly on: What critical action happened, and what the major consequence or outcome was.
  - Emotional & Psychological Shifts: DO NOT include minor emotional reactions (e.g., sighing, slight embarrassment). ONLY include psychological shifts if they significantly alter character relationships or motives (e.g., realizing romantic feelings, forming deep trust, growing heavy suspicion, or deep betrayal).
- - Keep it highly compressed within few sentences.
- - Five Ws without Why: Write who, when, where, what, and how. Copy proper nouns and numbers exactly as written; never replace them with "해당 곡", "그 회사" and the like.
+ - Keep it compressed within a few sentences, but never drop who, when, where, what, or how to save space.
+ - Five Ws without Why: For every action and decision you record, including plans, agreements, and promises, write who, when, where, what, and how as concretely as the log states them. How means the agreed method, means, roles, order, and conditions (e.g., what is used, who takes which part, in what order, by when). These are part of the outcome, not discussion to drop. (e.g., NOT "한서진과 오태윤이 이삿짐을 함께 옮기기로 했다." BUT "한서진과 오태윤이 4월 6일 오전 9시에 망원동 원룸 이삿짐을 1톤 트럭으로 옮기기로 하고, 운전은 오태윤이, 포장은 한서진이 맡기로 했다.") If any of these was left undecided in the log, write it as undecided (e.g., "비용 분담은 정하지 않았다."). Copy proper nouns and numbers exactly as written; never replace them with "해당 곡", "그 회사" and the like.
  - Strict Past Tense: Use ONLY declarative past tense ending in "~했다." or "~하였다." (NEVER ~함, ~했음).
  - Explicit Proper Nouns: ABSOLUTELY NO PRONOUNS (그, 그녀, 이곳 등). Always use explicit character names and exact locations.
 

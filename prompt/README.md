@@ -9,7 +9,7 @@
 | `v7_anchor_lines.md` | 출력 직전 앵커 5줄 (4-1, 4-3, 6-1, 7-2, 9-2) |
 | `world_cartridge_ko.md` | 월드 카트리지 |
 | `hypaminus_summary_prompt_v2.txt` | HypaMinus 요약 프롬프트 (원안 + 육하원칙·대사 평문·말투·NSFW, facts는 원안 그대로) |
-| `hypaminus_summary_prompt_v2_nsfw_how.txt` | 위 파일 + 성적 장면에서 육하원칙 '어떻게'를 진행 과정으로 한정하는 한 줄 (반영 여부 테스트 후 결정) |
+| `hypaminus_summary_prompt_v2_nsfw_how.txt` | 테스트본. 5번(NSFW)에서 '영향 없어도 남김'·'오간 말·관계·이후 행동' 줄을 빼고, 육하원칙 '어떻게'를 진행 과정으로 한정하는 줄 추가 |
 | `hypaminus_summary_prompt_original.txt` | 이전에 쓰던 HypaMinus 요약 프롬프트 원본 (대조용) |
 | `v7_todo.md` | 남은 작업 목록 |
 | `RISUAI_PRESET_AUTHORING_SYSTEM_GUIDE.txt` | 검수 기준 가이드 (프리셋 정제·압축 가이드) |

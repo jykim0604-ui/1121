@@ -38,14 +38,15 @@ Detailed Event Guidelines:
 2. Writing Style for `내용` (Content):
  - Focus strictly on: What critical action happened, and what the major consequence or outcome was.
  - Emotional & Psychological Shifts: DO NOT include minor emotional reactions (e.g., sighing, slight embarrassment). ONLY include psychological shifts if they significantly alter character relationships or motives (e.g., realizing romantic feelings, forming deep trust, growing heavy suspicion, or deep betrayal).
- - Five Ws without Why: Write who, when, where, what, and how as concretely as the log states them. Keep it compressed within a few sentences, but never drop any of these five.
+ - Keep it highly compressed within few sentences.
+ - Five Ws without Why: Write who, when, where, what, and how as concretely as the log states them.
  - Strict Past Tense: Use ONLY declarative past tense ending in "~했다." or "~하였다." (NEVER ~함, ~했음).
  - Explicit Proper Nouns: ABSOLUTELY NO PRONOUNS (그, 그녀, 이곳 등). Always use explicit character names and exact locations.
 
 3. Dialogue Extraction:
  - Extract MAX 5 plot-critical dialogues per event.
  - Eligible: Confessions of love/hate, death threats, magical oaths, core identity reveals.
- - IGNORE: Greetings, jokes, casual reactions. Leave empty if none qualify.
+ - IGNORE: Greetings, jokes, casual reactions. Add nothing to `내용` if none qualify.
  - Plain Text: Do not quote the line. Write what was said as a plain sentence of who said what to whom, inside `내용` in the order it happened. (e.g., NOT 서도윤: "나 사실 그 시험 안 봤어." BUT 서도윤이 한소율에게 그 시험을 보지 않았다고 털어놓았다.)
 
 4. Speech Register (under `--- 대사 ---`):

@@ -1,66 +1,33 @@
-# RisuAI 프롬프트
+# RisuAI 프롬프트 (v7)
 
-## 현재 사용 중 (프리셋 1 + 시스템 프롬프트 v1 + 프리셋 2)
-
-| 파일 | 내용 |
-|---|---|
-| `test_paste.md` | 붙여 넣기용. ① 프리셋 1, ③ 프리셋 2 본문과 분량 표 |
-| `system_prompt_v1.md` | ② 시스템 프롬프트 한글본 |
-| `system_prompt_v1_ko_paste.txt` | ② 한글본 붙여 넣기 전용 |
-| `system_prompt_v1_en.md` / `system_prompt_v1_en_paste.txt` | ② 영문본 / 붙여 넣기 전용 |
-| `headline_ko_v2.md` | 헤드라인 별도 칸 (실제 역사 범위 2026.09.30) |
-| `preset_b4.md` | ①②③ 합본 참조본 (본문은 위 파일과 동기화) |
-| `b2_review.md` | 변경 기록 G1~G28, 원인·결정·관찰 |
-| `fix_list.md` | 통합 수정 목록 (남은 항목·테스트·보류) |
-| `preset2_system_list.md` / `preset1_hold.md` | NSFW 기준 대조 목록 / 프리셋 1 보류 목록 (모두 반영 완료) |
-
-## 이전 판본
-
+## 현재 사용 중
 
 | 파일 | 내용 |
 |---|---|
-| `original_ko.md` | 원본 (한국어) |
-| `compressed_en.md` | 영어 압축본 (RisuAI에 넣을 것) |
-| `main_en.md` | 메인 프롬프트 최신본 (영어) |
-| `main_ko.md` | 메인 프롬프트 최신본 (한국어, main_en.md와 내용 동일) |
-| `main_ko_compact.md` | main_ko.md 압축본 — 규칙 전부 유지, 중복 병합·문장 축약 (8-2, 10-1 프리필, 예시는 원문 그대로) |
-| `main_v2_ko.md` | 단독용 v2 — 프리셋 내부 구조(원칙→역할→원리→고유 규칙→출력→응답 설정)로 재구성, 프리필 제거 |
-| `ultralight_ko.md` | 초경량 버전 — 외부 프리셋과 함께 쓰는 운영자 지시(팩션·정보 격리·인용·표기·대화 리듬·음악·호칭·상태창) |
-| `hardlock_lite_ko.md` | 경량화용 하드락 |
-| `headline_ko.md` | 헤드라인 별도 프롬프트 (연예계 거시 동향, 장소 조건부, 검색 없음) |
-| `headline_search_ko.md` | 헤드라인 검색형 (매 턴 출력 + 날짜·장소 기준 웹 검색) — 보관용 |
-| `hardlock_ko.md` | 하드락 재작성본 (main_ko_compact.md 기준, 유저노트 최상단용) |
-| `partial_ko.md` | 한국어 부분 축약본 — 원문 그대로, 마크다운 구조(#, -, **, ```, >)만 원본 형식에 맞춤 |
-| `risupot_speech_original.md` / `risupot_speech_revised.md` | 리수폿 관계·말투 판단 프롬프트 원문 / 8-2 정렬 수정본 |
-| `risupot_speech_changes.md` | 수정본 변경 내역·사례 검증 |
-| `speech_8-2_ko.md` | 반대 방향 규칙을 넣은 8-2 (메인 프롬프트에 반영할 것) |
-| `speech_consistency_check.md` | 8-2 ↔ 플러그인 일치 검증 |
+| `system_prompt_v7_en.md` | 시스템 프롬프트 v7 영문본 (실사용) |
+| `system_prompt_v7_ko.md` | 같은 내용의 한글본 (참고·검수용) |
+| `v7_anchor_lines.md` | 출력 직전 앵커 5줄 (4-1, 4-3, 6-1, 7-2, 9-2) |
+| `world_cartridge_ko.md` | 월드 카트리지 |
+| `hypaminus_summary_prompt.txt` | HypaMinus 요약 프롬프트 |
+| `v7_todo.md` | 남은 작업 목록 |
 
-## 한글 유지 범위
-- 8-2 호칭 및 존비어 본문 전체
-- 10-1 프리필 섹션 전체 (프리필 표본 + 적용 규약)
-- 모든 예시: 2-2 출력 예시, 3-4 ❌/⭕, 3-5 예시, 5-3 `예)`·❌/⭕, 7-1 형식 예시, 9-1 상단 상태창 템플릿, 9-2 하단 상태창 예시
-- 규칙 속 한국어 표현: "소문 들었다"·"~라더라", 날카롭다·터진다…, 좋았다·별로였다…, [弱]/[中]/[强], (추정), 기준점 예시(데뷔·입사…), **이름 |** "대사" 형식
-- 외부 참조명: 하드락, 헤드라인, '검색 채팅', 유저노트 → 원문 그대로 (수동 수정 예정)
+## 롤백
 
-## 추가한 것
-- 맨 위 `# OUTPUT LANGUAGE = Korean` 1줄 (승인 사항)
+| 파일 | 되돌리는 수정 |
+|---|---|
+| `system_prompt_v7_*_before_input.md` | **최우선.** 입력 분류(2-3)와 입력 순서(2-2) 수정 이전 |
+| `system_prompt_v7_*_before_activity.md` | 1-4 활동 구간 이전 |
+| `system_prompt_v7_*_before_stage.md` | 2-7 '속마음도 음악 제한에 포함' 이전 |
+| `system_prompt_v7_*_before_dev.md` | 2-3 '이후 상황 전개' 이전 |
+| `system_prompt_v7_*_before_quotes.md` | 속마음 ' ' 복원 이전 |
 
-## 검증 결과
-- 한글 유지 블록(8-2, 10-1, 9-1 템플릿, 9-2 예시): 원본과 바이트 단위 동일
-- 예시·서식 줄 65개: 압축본에 원문 그대로 존재
-- 섹션별 불릿·번호 항목 수: 전 섹션 원본과 일치
-- 숫자: 전부 유지 ("1회당 1씩" → "+1 per input" 표기 차이만 있음)
-- `{{user}}` 매크로: 사용 줄 수 동일, 그 밖의 `{{ }}` 매크로 새로 생기지 않음
-- 하위 항목 참조 7종(「Narration input」, 「Stage segment」, 「Input given」, 「Not input」, 「Fillers」, 「Absent NPC progression」, 「Topic selection」): 모두 같은 이름의 헤더와 1:1 대응
-- 섹션 번호·순서·CRITICAL_OVERRIDE 구조: 원본 그대로
+## 이전 프롬프트 원문
 
-## 토큰 (Gemma 3 토크나이저 기준 근사치)
-Gemini 3.x Flash의 실제 토크나이저는 공개되지 않아, 같은 계열인 Gemma 3 토크나이저(262k)로 측정한 값입니다.
+| 파일 | 내용 |
+|---|---|
+| `original_ko.md` | 원본 |
+| `main_ko.md` | 압축 전 단독본 (10-1 프리필 포함) |
 
-| 범위 | 원본 | 압축본 | 변화 |
-|---|---|---|---|
-| 전체 | 18,366 | 15,584 | 약 -15% |
-| 규칙 문장만 (한글 유지분·예시 제외) | 12,155 | 9,396 | 약 -23% |
+## 보관
 
-Gemini 토크나이저는 한국어를 효율적으로 처리하는 편이고, 전체의 약 40%가 승인에 따라 한글로 남아 있어서 전체 절감 폭이 크지 않습니다.
+`archive/`: v1~v6 프롬프트, 프리셋 작업본, 리뷰·시뮬레이션 기록, 플러그인 프롬프트(`archive/plugin/`) 등 옛 작업 파일.

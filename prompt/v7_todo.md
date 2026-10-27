@@ -17,9 +17,7 @@
   - `_before_dev`: 2-3 '이후 상황 전개' 이전
   - `_before_stage`: 2-7 '속마음도 음악 제한에 포함' 이전
   - `_before_activity`: 1-4 활동 구간 이전
-- [ ] `v7_pending_scope.md` 삭제(1-4 반영으로 폐기된 메모)
-- [ ] `README.md` '현재 사용 중' 목록을 v7 기준으로 갱신
-- [ ] `prompt/` 정리: 아래 '필요한 파일' 밖의 옛 작업 파일(v1~v6, 프리셋 작업본, 리뷰·시뮬레이션 기록 등)을 지울지 보관 폴더로 옮길지 결정
+- [x] `v7_pending_scope.md` 삭제, `README.md` 갱신, 옛 작업 파일 `archive/`로 이동
 
 ### 필요한 파일
 - v7: `system_prompt_v7_en.md`, `system_prompt_v7_ko.md`, `system_prompt_v7_en_before_input.md`, `system_prompt_v7_ko_before_input.md`

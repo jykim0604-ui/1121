@@ -2,10 +2,10 @@
 
 ## 1. 현재 사용 구성
 - 시스템 프롬프트: `system_prompt_v7_en.md` + 출력 직전 앵커만 붙는 자작 프리셋(`v7_anchor_lines.md`의 5줄)
-- 장기기억: HypaMinus + `hypaminus_summary_prompt.txt`
+- 장기기억: HypaMinus + `hypaminus_summary_prompt_v2.txt` (원안 + 육하원칙·대사 평문·말투·NSFW)
   - 세팅값: 청크 크기 10 / 자동 요약 임계값 20 / 최대 토큰 용량 25000 (5턴 요약)
 - 플러그인 확인 완료(Chunk #92): `<event>`·`<facts>` 저장, `말투: "…"` 줄의 대사 칸 저장, `[기억]`/`[사실]` 이름표, `시간:` 날짜
-- [ ] 관찰: facts에서 변화에 딸린 배경 설명(지분, 연봉, 나이, 경력)이 빠지는지. 독립·직함처럼 서사상 처음 나온 변화는 남아야 함
+- [ ] 관찰: 대사로 드러난 내용(레몬청 실토 같은 것)이 평문으로 `내용` 안에 순서대로 남는지, facts가 원안처럼 생성되는지
 - [ ] 관찰: 말투 줄 화자가 NPC만 나오는지({{user}}는 대상으로만)
 
 ## 2. v7 확정
@@ -23,7 +23,7 @@
 - v7: `system_prompt_v7_en.md`, `system_prompt_v7_ko.md`, `system_prompt_v7_en_before_input.md`, `system_prompt_v7_ko_before_input.md`
 - 참조용 롤백: `_before_quotes`, `_before_dev`, `_before_stage`, `_before_activity` (각 en·ko)
 - 이전 프롬프트 원문: `original_ko.md`(원본), `main_ko.md`(압축 전 단독본)
-- 함께 쓰는 것: `v7_anchor_lines.md`, `world_cartridge_ko.md`, `hypaminus_summary_prompt.txt`, `v7_todo.md`
+- 함께 쓰는 것: `v7_anchor_lines.md`, `world_cartridge_ko.md`, `hypaminus_summary_prompt_v2.txt`, `v7_todo.md`
 
 ## 3. NSFW 예정 (R8)
 - [ ] ① 접촉이 많은 장면에서 1-3 확대와 5-5 속마음이 잦아지는지
@@ -45,4 +45,4 @@
 - [x] F2({{user}} 블록 조건): 미반영. {{user}} 대사는 큰따옴표로만 쓰고, {{user}}의 작은따옴표는 속마음으로 처리됨
 - [x] K1(활동 중 대화 마무리), K2(1-3 {{user}} 행동): 미반영. 현재 출력이 허용 범위
 - [x] HypaMinus 말투 줄: 큰따옴표 없는 형식은 대사 칸에 빈칸으로 저장됨 → `말투: "화자→대상 …, 호칭 '…'"`로 변경해 해결
-- [x] HypaMinus facts: 변화에 딸린 배경 설명(지분 수치 등 로어북 정보) 제외 줄 추가
+- [x] HypaMinus 요약: 원안에서 다시 빌드해 `hypaminus_summary_prompt_v2.txt`로 교체. facts는 원안 그대로

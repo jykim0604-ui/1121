@@ -76,6 +76,7 @@ Detailed Fact Guidelines:
 
 1. Strict Plot-Relevance Filtering:
  - DO NOT extract trivial preferences, minor inventory changes, or temporary status effects.
+ - Record only the part that changes the story or a relationship. Drop background details mentioned along with it, such as shares, salaries, ages, or career history.
  - Extract ONLY:
   1) Core Secrets & Documents: Hidden identities, major crime evidence, secret notes/letters (쪽지/편지), newly discovered magic rules, or faction secrets.
      *CRITICAL RULE FOR DOCUMENTS:* If a letter, note, or document is long, DO NOT copy the full text. Summarize ONLY the sender, recipient, and the core intent/clues.

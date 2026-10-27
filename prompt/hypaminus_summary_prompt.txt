@@ -26,7 +26,7 @@ Output Schema:
 인물: characters directly involved in the event, comma separated.
 내용: Core plot action and its direct narrative consequence. (past tense ~했다/하였다)
 --- 대사 ---
-말투: 화자→대상 존댓말/반말, 호칭 "…"
+말투: "화자→대상 존댓말/반말, 호칭 '…'"
 </event>
 
 Detailed Event Guidelines:
@@ -49,7 +49,7 @@ Detailed Event Guidelines:
 3. Speech Register (under `--- 대사 ---`):
  - Do NOT copy dialogue lines.
  - Write a `말투:` line only for pairs who spoke to each other for the first time in this log, or who set or changed their form of address or speech level (존댓말/반말) in this log.
- - Group one speaker's targets into a single line. (e.g., 말투: 백지안→서도윤 반말, 호칭 "형" / →한소율 존댓말, 호칭 "소율 씨")
+ - Write each line in the same `Speaker: "text"` form the dialogue field stores: `말투` as the speaker, everything else inside one pair of double quotes, single quotes for the address term. Group one speaker's targets into a single line. (e.g., 말투: "백지안→서도윤 반말, 호칭 '형' / →한소율 존댓말, 호칭 '소율 씨'")
  - Leave it empty if no pair qualifies.
 
 4. Physical Contact & Sexual Scenes:

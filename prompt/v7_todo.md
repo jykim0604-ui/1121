@@ -47,3 +47,4 @@
 - [x] K1(활동 중 대화 마무리), K2(1-3 {{user}} 행동): 미반영. 현재 출력이 허용 범위
 - [x] HypaMinus 말투 줄: 큰따옴표 없는 형식은 대사 칸에 빈칸으로 저장됨 → `말투: "화자→대상 …, 호칭 '…'"`로 변경해 해결
 - [x] HypaMinus 요약: 원안에서 다시 빌드해 `hypaminus_summary_prompt_v3.txt`로 교체. facts는 원안 그대로
+- [x] HypaMinus 요약 v3: `{{user}}`가 요약 프롬프트 안에서 치환되지 않아 대사 칸·말투 줄에 글자 그대로 찍히고 NPC 대사가 원문 인용됨 → System Role에 "{{user}} is the persona name." 한 줄 추가로 해결

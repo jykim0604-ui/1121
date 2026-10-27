@@ -38,7 +38,6 @@ Detailed Event Guidelines:
 2. Writing Style for `내용` (Content):
  - Focus strictly on: What critical action happened, and what the major consequence or outcome was.
  - Six Ws for Decisions: For every decision, plan, agreement, or promise, record who, when, where, what, and HOW (the method and means) as concretely as the log states them. Agreed methods, means, and conditions are part of the outcome, not discussion to be dropped. (e.g., NOT "한소율이 이사를 돕기로 했다." BUT "한소율이 토요일 오전 1톤 트럭을 빌려 짐 운반을 맡기로 했다.")
- - In `내용`, also write what the dialogue reveals: confessions, threats, oaths, secrets, true intentions, and claims shown to be false. Write what is actually true, not the claim, and also record the truth in `<facts>` with the characters who know it.
  - Stated Purpose: If a character states a purpose that will drive later actions, add it to `내용` as `목적:` followed by the character's original words.
  - Emotional & Psychological Shifts: DO NOT include minor emotional reactions (e.g., sighing, slight embarrassment). ONLY include psychological shifts if they significantly alter character relationships or motives (e.g., realizing romantic feelings, forming deep trust, growing heavy suspicion, or deep betrayal).
  - Keep it compressed within a few sentences, but never drop who, when, what, or how to save space.
@@ -48,7 +47,7 @@ Detailed Event Guidelines:
  - Explicit Proper Nouns: ABSOLUTELY NO PRONOUNS (그, 그녀, 이곳 등). Always use explicit character names and exact locations.
 
 3. Speech Register (under `--- 대사 ---`):
- - These lines anchor how NPCs speak, separately from what the dialogue reveals in `내용` and `<facts>`. {{user}} never comes before the arrow, only after it as a target.
+ - These lines anchor how NPCs speak. {{user}} never comes before the arrow, only after it as a target.
  - Do NOT copy dialogue lines.
  - Write a `말투:` line only for an NPC who spoke to someone for the first time in this log, or who set or changed their form of address or speech level (존댓말/반말) toward someone in this log.
  - Write each line in the same `Speaker: "text"` form the dialogue field stores: `말투` as the speaker, everything else inside one pair of double quotes, single quotes for the address term. Group one NPC's targets into a single line. (e.g., 말투: "백지안→서도윤 반말, 호칭 '형' / →한소율 존댓말, 호칭 '소율 씨'")
@@ -78,7 +77,6 @@ Detailed Fact Guidelines:
 
 1. Strict Plot-Relevance Filtering:
  - DO NOT extract trivial preferences, minor inventory changes, or temporary status effects.
- - Drop background specs mentioned in passing, such as shares, salaries, ages, or career history.
  - Extract ONLY:
   1) Core Secrets & Documents: Hidden identities, major crime evidence, secret notes/letters (쪽지/편지), newly discovered magic rules, or faction secrets.
      *CRITICAL RULE FOR DOCUMENTS:* If a letter, note, or document is long, DO NOT copy the full text. Summarize ONLY the sender, recipient, and the core intent/clues.
@@ -95,7 +93,7 @@ Detailed Fact Guidelines:
      * it can be reasonably inferred from the scene that the characters newly learned it.
 
 3. Prevent information duplication:
- - Record only information that has not been recorded in the events block, except truths revealed through dialogue (Event rule 2), which go in both.
+ - Record only information that has not been recorded in the events block.
 
 4. Consolidation: Combine multiple facts learned by the same character in the same scene into a single `<facts>` block.
 

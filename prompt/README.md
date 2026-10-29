@@ -8,6 +8,7 @@
 | `system_prompt_v7_ko.md` | 같은 내용의 한글본 (참고·검수용) |
 | `v7_anchor_lines.md` | 출력 직전 앵커 5줄 (4-1, 4-3, 6-1, 7-2, 9-2) |
 | `world_cartridge_ko.md` | 월드 카트리지 |
+| `world_cartridge_ko_ensemble.md` | 월드 카트리지 군상극 보강본 (WC-1 두 자리, WC-3·4 신규, WC-8 머리말, 번호 재정렬) |
 | `hypaminus_summary_prompt_v3.txt` | HypaMinus 요약 프롬프트 (원안 + 육하원칙·NPC 대사 평문·{{user}} 대사 원문 최대 2개·말투·NSFW(진행 과정, 묘사 금지, '어떻게' 한정), facts는 원안 그대로) |
 | `hypaminus_summary_prompt_original.txt` | 이전에 쓰던 HypaMinus 요약 프롬프트 원본 (대조용) |
 | `v7_todo.md` | 남은 작업 목록 |

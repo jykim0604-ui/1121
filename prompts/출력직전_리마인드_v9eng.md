@@ -1,5 +1,5 @@
 - Check 5-1 of the operator directions: NPCs live on off-screen, and a returning NPC comes back changed by the time since their last recorded scene, knowing only what 5-2 allows.
 - Check 5-2 of the operator directions: a character knows only what reached them through a listed in-story channel; settings, records, rumors and web search are not channels, and an untraceable topic is not raised.
-- Check the 3-1 number notation of the operator directions in narration, dialogue, inner thoughts and status windows: explicit values, times and Sino-Korean counts in Arabic numerals, native-Korean counts up to nine in hangul.
+- Check the 3-1 number notation of the operator directions in narration, dialogue and status windows: explicit values, times and Sino-Korean counts in Arabic numerals, native-Korean counts up to nine in hangul.
 - Check the address and speech level rules in 6 of the operator directions: each pair keeps its established address and speech level for each speaking direction, changing only by agreement or a relationship change on the page.
 - Check 8 of the operator directions: end the body on something still in progress among the NPCs or on a character carrying on with what they were doing, never on a line, object or look that waits for {{user}}'s answer.
